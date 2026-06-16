@@ -371,18 +371,7 @@
     font-weight: 600;
     color: var(--accent);
   }
-  .visit-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-    transition: color .2s;
-  }
-  .visit-link:hover { color: var(--accent); }
-  .visit-link svg { width: 13px; height: 13px; }
+  article.card { cursor: pointer; }
 
   /* Section headers */
   .section-header {
@@ -547,7 +536,7 @@
           <div class="card-tags"><span class="tag">#추천</span><span class="tag">글쓰기</span><span class="tag">코딩</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://chat.openai.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://chat.openai.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -564,7 +553,7 @@
           <div class="card-tags"><span class="tag">장문</span><span class="tag">코딩</span><span class="tag">분석</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://claude.ai" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://claude.ai" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -581,7 +570,7 @@
           <div class="card-tags"><span class="tag">검색</span><span class="tag">구글</span><span class="tag">문서</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://gemini.google.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://gemini.google.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -598,7 +587,7 @@
           <div class="card-tags"><span class="tag">#추천</span><span class="tag">추론</span><span class="tag">무제한</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://chat.deepseek.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://chat.deepseek.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -615,7 +604,7 @@
           <div class="card-tags"><span class="tag">이미지</span><span class="tag">검색</span><span class="tag">GPT-4</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://copilot.microsoft.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://copilot.microsoft.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -632,7 +621,7 @@
           <div class="card-tags"><span class="tag">트위터</span><span class="tag">실시간</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://grok.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://grok.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -649,7 +638,7 @@
           <div class="card-tags"><span class="tag">빠름</span><span class="tag">오픈소스</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://chat.mistral.ai" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://chat.mistral.ai" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -667,7 +656,7 @@
           <div class="card-tags"><span class="tag">디자인</span><span class="tag">SNS</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://www.canva.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://www.canva.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -684,7 +673,7 @@
           <div class="card-tags"><span class="tag">텍스트</span><span class="tag">로고</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://ideogram.ai" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://ideogram.ai" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -702,7 +691,7 @@
           <div class="card-tags"><span class="tag">코딩</span><span class="tag">VS Code</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://github.com/features/copilot" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://github.com/features/copilot" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -719,7 +708,7 @@
           <div class="card-tags"><span class="tag">코딩</span><span class="tag">에디터</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://codeium.com/windsurf" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://codeium.com/windsurf" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -737,7 +726,7 @@
           <div class="card-tags"><span class="tag">#추천</span><span class="tag">검색</span><span class="tag">리서치</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://www.perplexity.ai" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://www.perplexity.ai" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -755,7 +744,7 @@
           <div class="card-tags"><span class="tag">영상</span><span class="tag">크레딧</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://klingai.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://klingai.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -772,7 +761,7 @@
           <div class="card-tags"><span class="tag">영상</span><span class="tag">편집</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://runwayml.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://runwayml.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -789,7 +778,7 @@
           <div class="card-tags"><span class="tag">음악</span><span class="tag">크레딧</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://suno.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://suno.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -806,7 +795,7 @@
           <div class="card-tags"><span class="tag">음성</span><span class="tag">TTS</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://elevenlabs.io" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://elevenlabs.io" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -823,7 +812,7 @@
           <div class="card-tags"><span class="tag">한국어</span><span class="tag">자막</span><span class="tag">편집</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://vrew.voyagerx.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://vrew.voyagerx.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -841,7 +830,7 @@
           <div class="card-tags"><span class="tag">#추천</span><span class="tag">한국어</span><span class="tag">올인원</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://wrtn.ai" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://wrtn.ai" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -858,7 +847,7 @@
           <div class="card-tags"><span class="tag">한국어</span><span class="tag">네이버</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://clova-x.naver.com" target="_blank" rel="noopener" class="visit-link" onclick="event.stopPropagation()">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://clova-x.naver.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
 
@@ -876,7 +865,7 @@
           <div class="card-tags"><span class="tag">이미지</span><span class="tag">DALL-E</span></div>
           <div class="card-footer">
             <span class="free-badge">&#9670; 무료</span>
-            <a href="https://chat.openai.com" target="_blank" rel="noopener" class="visit-link">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <a href="https://chat.openai.com" target="_blank" rel="noopener" class="visit-link" style="display:none">방문하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
           </div>
         </article>
       </div>
@@ -990,6 +979,15 @@ function filterBy(category) {
   const btn = document.querySelector(`.filter-btn[data-filter="${category}"]`);
   if (btn) btn.click();
 }
+
+// Card click - open URL
+document.addEventListener('click', e => {
+  const card = e.target.closest('.card');
+  if (card) {
+    const link = card.querySelector('.visit-link');
+    if (link) window.open(link.href, '_blank');
+  }
+});
 
 // Search
 function filterCards() {
