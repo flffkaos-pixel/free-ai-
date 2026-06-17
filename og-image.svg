@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#111118" stroke="#2a2a3e" stroke-width="2"/>
+  <rect x="100" y="100" width="60" height="60" rx="12" fill="#76b900"/>
+  <text x="130" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="44" font-weight="800" fill="#0a0a0f">F</text>
+  <text x="180" y="142" font-family="Arial,sans-serif" font-size="44" font-weight="700" fill="#e8e8f0">Free AI</text>
+  <text x="100" y="280" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#e8e8f0">무료 AI 서비스</text>
+  <text x="100" y="350" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#76b900">총정리 2026</text>
+  <text x="100" y="420" font-family="Arial,sans-serif" font-size="22" fill="#8888a0">ChatGPT · Claude · Gemini · DeepSeek · Perplexity</text>
+  <text x="100" y="460" font-family="Arial,sans-serif" font-size="22" fill="#8888a0">Copilot · Groq · 뤼튼 · GitHub Copilot · Cursor 외 14개</text>
+  <rect x="100" y="500" width="180" height="44" rx="22" fill="#76b900"/>
+  <text x="190" y="528" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="600" fill="#0a0a0f">100% 무료 정보</text>
+</svg>
