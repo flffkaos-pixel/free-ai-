@@ -7,7 +7,7 @@
   <text x="100" y="280" font-family="Malgun Gothic,Arial,sans-serif" font-size="52" font-weight="800" fill="#e8e8f0">무료 AI 서비스</text>
   <text x="100" y="350" font-family="Malgun Gothic,Arial,sans-serif" font-size="52" font-weight="800" fill="#76b900">총정리 2026</text>
   <text x="100" y="420" font-family="Malgun Gothic,Arial,sans-serif" font-size="22" fill="#8888a0">ChatGPT · Claude · Gemini · DeepSeek · Perplexity</text>
-  <text x="100" y="460" font-family="Malgun Gothic,Arial,sans-serif" font-size="22" fill="#8888a0">Copilot · Groq · 뤼튼 · GitHub Copilot · Cursor 외 14개</text>
+  <text x="100" y="460" font-family="Malgun Gothic,Arial,sans-serif" font-size="22" fill="#8888a0">Copilot · Groq · Poe · NotebookLM · Descript 외 20개</text>
   <rect x="100" y="500" width="180" height="44" rx="22" fill="#76b900"/>
   <text x="190" y="528" text-anchor="middle" font-family="Malgun Gothic,Arial,sans-serif" font-size="18" font-weight="600" fill="#0a0a0f">100% 무료 정보</text>
 </svg>
