@@ -312,9 +312,9 @@
     "category": "AI/ML"
   },
   {
-    "name": "huggingface.co",
+    "name": "허깅페이스",
     "url": "https://huggingface.co",
-    "description": "Build, train, and deploy NLP models for Pytorch, TensorFlow, and JAX. Free up to 30k input characters/mo.",
+    "description": "50만 개 이상의 오픈소스 AI 모델을 무료로 체험. Stable Diffusion, FLUX, Llama, Whisper 등 브라우저에서 즉시 사용 가능",
     "category": "AI/ML"
   },
   {
