@@ -1,0 +1,3173 @@
+[
+  {
+    "name": "ChatGPT",
+    "category": "챗봇",
+    "description": "세계에서 가장 널리 쓰이는 AI 챗봇. GPT-5 모델을 무료로 제한적 사용 가능하며, 이미지 업로드·분석, 웹 검색, 코드 실행 기능을 무료로 제공합니다.",
+    "freeDetail": "GPT-5 (4~5시간마다 한도 리셋) · GPT-5 mini 무제한 · 이미지 생성 · 웹 검색",
+    "tags": [
+      "#추천",
+      "글쓰기",
+      "코딩"
+    ],
+    "url": "https://chat.openai.com",
+    "source": "original",
+    "features": [
+      "대화형 AI",
+      "텍스트 분석",
+      "검색",
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Claude",
+    "category": "챗봇",
+    "description": "Anthropic의 AI. 200K 토큰의 초장문 컨텍스트로 문서 분석·코드 리뷰에 강력합니다. 한국어 문장 결이 차분하고 논리적이어서 진지한 글쓰기에 적합합니다.",
+    "freeDetail": "Claude Sonnet 4 · 일일 메시지 제한 · 200K 컨텍스트",
+    "tags": [
+      "장문",
+      "코딩",
+      "분석"
+    ],
+    "url": "https://claude.ai",
+    "source": "original",
+    "features": [
+      "텍스트 분석",
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Google Gemini",
+    "category": "챗봇",
+    "description": "Google의 AI. Gmail, Docs, YouTube 등 Google 생태계와 완벽 연동됩니다. 실시간 웹 검색과 이미지 분석도 무료로 가능하며, 안드로이드 기본 음성 비서로도 사용됩니다.",
+    "freeDetail": "Gemini 2.0 Pro · 실시간 검색 · 구글 서비스 연동",
+    "tags": [
+      "검색",
+      "구글",
+      "문서"
+    ],
+    "url": "https://gemini.google.com",
+    "source": "original",
+    "features": [
+      "텍스트 분석",
+      "음성/TTS",
+      "검색",
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "category": "챗봇",
+    "description": "중국 DeepSeek의 오픈소스 모델. 무료 한도가 매우 넉넉해 거의 무제한에 가깝게 사용 가능합니다. 수학·논리 추론에 특히 강점이 있으며, 한국어도 자연스럽게 지원합니다.",
+    "freeDetail": "DeepSeek V3 · 매우 넉넉한 무료 한도 · 한국어 지원",
+    "tags": [
+      "#추천",
+      "추론",
+      "무제한"
+    ],
+    "url": "https://chat.deepseek.com",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Microsoft Copilot",
+    "category": "챗봇",
+    "description": "Microsoft의 AI 어시스턴트. GPT-4 기반 대화와 DALL-E 3 이미지 생성, 웹 검색을 하나의 서비스에서 모두 무료로 사용할 수 있습니다. Edge 브라우저와 완벽하게 통합됩니다.",
+    "freeDetail": "GPT-4 · DALL-E 3 (일 15장) · 웹 검색",
+    "tags": [
+      "이미지",
+      "검색",
+      "GPT-4"
+    ],
+    "url": "https://copilot.microsoft.com",
+    "source": "original",
+    "features": [
+      "대화형 AI",
+      "검색"
+    ]
+  },
+  {
+    "name": "Grok",
+    "category": "챗봇",
+    "description": "xAI의 AI 챗봇. 실시간 트위터/X 정보 접근이 가능하며 무료 플랜에서 제한적으로 사용할 수 있습니다. 위트있고 직설적인 답변이 특징이며, 최신 트렌드 파악에 유용합니다.",
+    "freeDetail": "무료 플랜 제한적 사용 · X 데이터 접근",
+    "tags": [
+      "트위터",
+      "실시간"
+    ],
+    "url": "https://grok.com",
+    "source": "original",
+    "features": [
+      "대화형 AI"
+    ]
+  },
+  {
+    "name": "Mistral AI",
+    "category": "챗봇",
+    "description": "프랑스 AI 스타트업 Mistral의 챗봇 Le Chat. 무료로 제공되며 한국어도 지원합니다. 응답 속도가 매우 빠르고 성능이 우수하며, 오픈소스 모델을 기반으로 합니다.",
+    "freeDetail": "Mistral Large 무료 · 빠른 응답 속도 · 한국어 지원",
+    "tags": [
+      "빠름",
+      "오픈소스"
+    ],
+    "url": "https://chat.mistral.ai",
+    "source": "original",
+    "features": [
+      "대화형 AI"
+    ]
+  },
+  {
+    "name": "Canva AI",
+    "category": "이미지 생성",
+    "description": "디자인 플랫폼 Canva의 AI 기능. Magic Media로 AI 이미지 생성, 배경 제거, 이미지 확장 등 디자인 작업을 무료로 할 수 있습니다. SNS 콘텐츠 제작에 특히 유용합니다.",
+    "freeDetail": "AI 이미지 생성 (크레딧) · 배경 제거 · 디자인 템플릿",
+    "tags": [
+      "디자인",
+      "SNS"
+    ],
+    "url": "https://www.canva.com",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Ideogram",
+    "category": "이미지 생성",
+    "description": "텍스트가 깔끔하게 들어간 이미지 생성에 특화된 AI. 로고, 포스터, 썸네일 등 텍스트 렌더링이 중요한 작업에 강점을 보입니다. 하루에 무료 이미지를 생성할 수 있습니다.",
+    "freeDetail": "일 5회 무료 생성 · 텍스트 렌더링 특화",
+    "tags": [
+      "텍스트",
+      "로고"
+    ],
+    "url": "https://ideogram.ai",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "GitHub Copilot",
+    "category": "코딩",
+    "description": "GitHub가 제공하는 AI 코드 어시스턴트. VS Code 등 주요 IDE에서 코드 자동완성과 채팅을 무료로 사용할 수 있습니다. 개인 개발자에게 특히 유용한 티어입니다.",
+    "freeDetail": "월 2,000회 자동완성 · 50회 채팅",
+    "tags": [
+      "코딩",
+      "VS Code"
+    ],
+    "url": "https://github.com/features/copilot",
+    "source": "original",
+    "features": [
+      "코드生成"
+    ]
+  },
+  {
+    "name": "Windsurf",
+    "category": "코딩",
+    "description": "AI 기반 코딩 에디터. Cascade 에이전트 기능이 무료로 제공되며, 코드 자동완성과 리팩토링 추천도 기본 지원됩니다. 복잡한 코딩 작업을 AI의 도움으로 빠르게 처리할 수 있습니다.",
+    "freeDetail": "Cascade 에이전트 · 코드 자동완성 · 기본 기능 무제한",
+    "tags": [
+      "코딩",
+      "에디터"
+    ],
+    "url": "https://codeium.com/windsurf",
+    "source": "original",
+    "features": [
+      "코드生成",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Perplexity",
+    "category": "검색",
+    "description": "AI 기반 검색 엔진. 각 답변마다 5~10개의 출처를 함께 제시해 정보 신뢰도를 확인할 수 있습니다. 보고서 작성, 논문 자료 수집, 팩트체크에 최적화된 도구입니다.",
+    "freeDetail": "무제한 기본 검색 · 출처 링크 제공 · Pro 검색 일 5회",
+    "tags": [
+      "#추천",
+      "검색",
+      "리서치"
+    ],
+    "url": "https://www.perplexity.ai",
+    "source": "original",
+    "features": [
+      "검색"
+    ]
+  },
+  {
+    "name": "Kling",
+    "category": "영상",
+    "description": "AI 영상 생성 서비스. 가입 시 무료 크레딧을 제공하며, 텍스트나 이미지로 짧은 영상 클립을 생성할 수 있습니다. 영상 퀄리티가 매우 인상적이며, 5초 클립도 전문가 수준입니다.",
+    "freeDetail": "가입 시 무료 크레딧 · 텍스트·이미지 → 영상",
+    "tags": [
+      "영상",
+      "크레딧"
+    ],
+    "url": "https://klingai.com",
+    "source": "original",
+    "features": [
+      "영상 생성"
+    ]
+  },
+  {
+    "name": "Runway",
+    "category": "영상",
+    "description": "AI 영상 편집 및 생성 플랫폼. Gen 시리즈 모델로 텍스트나 이미지에서 영상을 생성합니다. 무료 크레딧으로 체험 가능하며, 영상 편집 기능도 기본 제공됩니다.",
+    "freeDetail": "무료 크레딧 제공 · 영상 생성 · 영상 편집",
+    "tags": [
+      "영상",
+      "편집"
+    ],
+    "url": "https://runwayml.com",
+    "source": "original",
+    "features": [
+      "이미지 생성",
+      "영상 생성"
+    ]
+  },
+  {
+    "name": "Suno",
+    "category": "영상",
+    "description": "AI 음악 생성 서비스. 가사나 장르, 분위기를 입력하면 놀라운 퀄리티의 음악을 만들어줍니다. 무료 크레딧으로 매일 곡을 생성할 수 있어 크리에이터에게 유용합니다.",
+    "freeDetail": "일 5곡 무료 생성 · 가사·장르 지정",
+    "tags": [
+      "음악",
+      "크레딧"
+    ],
+    "url": "https://suno.com",
+    "source": "original",
+    "features": [
+      "음악 생성"
+    ]
+  },
+  {
+    "name": "ElevenLabs",
+    "category": "영상",
+    "description": "AI 음성 합성 서비스. 자연스러운 음성으로 텍스트를 읽어주며, 음성 클로닝도 가능합니다. 다양한 언어와 음색을 지원하여 콘텐츠 제작에 활용하기 좋습니다.",
+    "freeDetail": "월 30분 무료 · 텍스트 → 음성 · 음성 클로닝",
+    "tags": [
+      "음성",
+      "TTS"
+    ],
+    "url": "https://elevenlabs.io",
+    "source": "original",
+    "features": [
+      "음성/TTS"
+    ]
+  },
+  {
+    "name": "Vrew",
+    "category": "영상",
+    "description": "한국 AI 영상 편집 도구. AI 자막 생성, 음성 인식, 더빙 기능을 무료로 제공합니다. 초보자도 쉽게 영상을 편집할 수 있으며, 한국어 인식률이 매우 높습니다.",
+    "freeDetail": "AI 자막 생성 · 음성 인식 · 기본 편집 무료",
+    "tags": [
+      "한국어",
+      "자막",
+      "편집"
+    ],
+    "url": "https://vrew.voyagerx.com",
+    "source": "original",
+    "features": [
+      "음성/TTS",
+      "영상 생성"
+    ]
+  },
+  {
+    "name": "뤼튼 (Wrtn)",
+    "category": "한국 AI",
+    "description": "한국 대표 AI 플랫폼. GPT·Claude 계열 모델과 이미지 생성까지 하나의 서비스에서 모두 무료로 사용 가능합니다. 한국어에 최적화되어 있으며, 매우 넉넉한 무료 한도를 제공합니다.",
+    "freeDetail": "GPT/Claude 모델 · 이미지 생성 · 매우 넉넉한 한도",
+    "tags": [
+      "#추천",
+      "한국어",
+      "올인원"
+    ],
+    "url": "https://wrtn.ai",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Groq",
+    "category": "챗봇",
+    "description": "세계에서 가장 빠른 AI 추론 엔진. LPU(Language Processing Unit) 기술로 Llama 3.3 70B 등 최신 모델을 초고속으로 실행합니다. 무료 티어에서 30 RPM, 일 14,400회 요청을 제공하며 카드 등록이 필요 없습니다.",
+    "freeDetail": "30 RPM · 일 14,400회 · Llama 3.3 70B · 카드 불필요",
+    "tags": [
+      "#추천",
+      "초고속",
+      "무제한"
+    ],
+    "url": "https://console.groq.com",
+    "source": "original",
+    "features": [
+      "자연어 처리"
+    ]
+  },
+  {
+    "name": "Adobe Firefly",
+    "category": "이미지 생성",
+    "description": "Adobe의 AI 이미지 생성 엔진. 텍스트-이미지 생성, 생성형 채우기, 텍스트 효과 등 다양한 기능을 무료로 제공합니다. Adobe 계정만 있으면 즉시 사용 가능하며, 상업적 사용도 가능합니다.",
+    "freeDetail": "텍스트→이미지 · 생성형 채우기 · 월 25크레딧 무료",
+    "tags": [
+      "이미지",
+      "Adobe"
+    ],
+    "url": "https://firefly.adobe.com",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Leonardo AI",
+    "category": "이미지 생성",
+    "description": "게임 에셋 및 창작 이미지 생성에 특화된 AI. 무료 플랜에서 일일 크레딧을 제공하며, 다양한 사전 학습 모델을 선택할 수 있습니다. 커뮤니티 갤러리에서 다른 사용자의 프롬프트도 참고 가능합니다.",
+    "freeDetail": "일일 무료 크레딧 · 다양한 모델 · 커뮤니티 갤러리",
+    "tags": [
+      "이미지",
+      "게임"
+    ],
+    "url": "https://leonardo.ai",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Cursor",
+    "category": "코딩",
+    "description": "AI 기반 코드 에디터. VS Code 기반에 Claude/GPT 모델을 통합하여 코드 작성, 리팩토링, 디버깅을 AI와 대화하며 수행할 수 있습니다. 무료 플랜에서 월 2,000회 completions와 50회 프리미엄 요청을 제공합니다.",
+    "freeDetail": "월 2,000회 completions · 50회 프리미엄 요청",
+    "tags": [
+      "코딩",
+      "에디터"
+    ],
+    "url": "https://www.cursor.com",
+    "source": "original",
+    "features": [
+      "코드生成",
+      "대화형 AI"
+    ]
+  },
+  {
+    "name": "Gamma AI",
+    "category": "이미지 생성",
+    "description": "AI 기반 프레젠테이션 및 문서 제작 도구. 주제를 입력하면 AI가 자동으로 PPT, 문서, 웹페이지를 생성합니다. 무료 플랜에서 AI 크레딧을 제공하며, 다양한 템플릿을 무료로 사용할 수 있습니다.",
+    "freeDetail": "AI 크레딧 · PPT/문서/웹페이지 자동 생성",
+    "tags": [
+      "PPT",
+      "문서"
+    ],
+    "url": "https://gamma.app",
+    "source": "original",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "category": "챗봇",
+    "description": "AI 기반 영작문 어시스턴트. 문법, 맞춤법, 문체, 톤을 실시간으로 교정하고 AI 글쓰기 생성 기능도 무료로 제공합니다. 브라우저 확장 프로그램으로 어디서나 사용 가능하며, 한국어 사용자도 영작 시 유용합니다.",
+    "freeDetail": "문법/맞춤법 교정 · AI 글쓰기 · 브라우저 확장",
+    "tags": [
+      "영작",
+      "문법"
+    ],
+    "url": "https://grammarly.com",
+    "source": "original",
+    "features": [
+      "모니터링"
+    ]
+  },
+  {
+    "name": "NotebookLM",
+    "category": "검색",
+    "description": "Google의 AI 리서치 어시스턴트. PDF, 웹페이지, YouTube 영상 등 최대 50개 출처를 업로드하면 해당 내용만 기반으로 답변합니다. 출처를 정확히 인용해 환각(hallucination)이 없으며, Audio Overviews로 문서를 팟캐스트로 변환해 들을 수 있습니다.",
+    "freeDetail": "100개 노트북 · 노트북당 50개 출처 · 일 50회 채팅 · Audio Overviews 무료",
+    "tags": [
+      "#추천",
+      "리서치",
+      "팟캐스트"
+    ],
+    "url": "https://notebooklm.google.com",
+    "source": "original",
+    "features": [
+      "음악 생성",
+      "영상 생성",
+      "파일 변환",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Poe",
+    "category": "챗봇",
+    "description": "Quora의 올인원 AI 플랫폼. GPT-5.5, Claude 4.5, Gemini 3.1, Grok, DeepSeek 등 최신 모델을 한 곳에서 모두 사용할 수 있습니다. FLUX 이미지 생성, Sora 영상 생성 등 멀티모달 기능도 포함되어 있어 여러 AI를 비교하며 작업할 수 있습니다.",
+    "freeDetail": "일 3,000 포인트 (약 150회) · GPT-4/Claude/Gemini 접근 · 이미지 생성",
+    "tags": [
+      "올인원",
+      "멀티모델",
+      "비교"
+    ],
+    "url": "https://poe.com",
+    "source": "original",
+    "features": [
+      "영상 생성"
+    ]
+  },
+  {
+    "name": "Hugging Face Spaces",
+    "category": "이미지 생성",
+    "description": "500,000개 이상의 오픈소스 AI 모델을 무료로 체험하는 플랫폼. 이미지 생성(Stable Diffusion, FLUX), 영상 생성, 음성 합성, 챗봇 등 모든 종류의 AI 데모를 브라우저에서 바로 테스트할 수 있습니다. 회원가입 없이도 대부분 이용 가능합니다.",
+    "freeDetail": "50만+ 모델 무료 체험 · ZeroGPU 지원 · 회원가입 불필요",
+    "tags": [
+      "오픈소스",
+      "실험실",
+      "모든AI"
+    ],
+    "url": "https://huggingface.co/spaces",
+    "source": "original",
+    "features": [
+      "대화형 AI",
+      "음성/TTS",
+      "영상 생성"
+    ]
+  },
+  {
+    "name": "Goblin Tools",
+    "category": "챗봇",
+    "description": "막막한 할 일을 구체적인 단계로 자동 분해해주는 AI. \"웹사이트 런칭 준비\" 같은 모호한 작업을 세부 액션 아이템으로 나눠줍니다. 매운맛(복잡도) 조절, 작업 시간 추정, 격식체 변환 등 기능이 포함되어 있으며 회원가입이 필요 없습니다.",
+    "freeDetail": "완전 무료 · 회원가입 불필요 · 작업 분해 · 시간 추정",
+    "tags": [
+      "생산성",
+      "할일",
+      "무료"
+    ],
+    "url": "https://goblin.tools",
+    "source": "original",
+    "features": [
+      "파일 변환"
+    ]
+  },
+  {
+    "name": "Descript",
+    "category": "영상",
+    "description": "AI 기반 영상/음성 편집 도구. 영상 음성을 자동으로 텍스트 변환하고, 텍스트를 수정하면 영상도 함께 수정됩니다(타임라인 불필요). Overdub 음성 클로닝, 화면 녹화, AI 더빙 기능으로 초보자도 프로 수준의 영상을 제작할 수 있습니다.",
+    "freeDetail": "무료 플랜 · 텍스트 기반 편집 · Overdub 음성 클로닝 · 화면 녹화",
+    "tags": [
+      "영상편집",
+      "음성",
+      "자막"
+    ],
+    "url": "https://www.descript.com",
+    "source": "original",
+    "features": [
+      "코드生成",
+      "음성/TTS",
+      "영상 생성",
+      "파일 변환"
+    ]
+  },
+  {
+    "name": "Cerebras",
+    "category": "코딩",
+    "description": "Groq과 함께 가장 빠른 AI 추론 속도를 자랑하는 플랫폼. Wafer-Scale Engine(WSE) 기술로 Llama 3.1 70B 등 최신 오픈소스 모델을 밀리초 단위로 실행합니다. 무료 API 키를 즉시 발급받아 사용할 수 있으며 신용카드가 필요 없습니다.",
+    "freeDetail": "초고속 추론 · Llama 모델 · 무료 API · 카드 불필요",
+    "tags": [
+      "초고속",
+      "API",
+      "오픈소스"
+    ],
+    "url": "https://cerebras.ai",
+    "source": "original",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "ChatGPT 이미지 생성",
+    "category": "이미지 생성",
+    "description": "ChatGPT 무료 플랜에서도 DALL-E 3 기반 이미지 생성이 가능합니다. 하루에 제한된 수량이지만, 간단한 썸네일이나 블로그 이미지를 만들기에 충분합니다.",
+    "freeDetail": "DALL-E 3 · 일일 제한 · ChatGPT 무료 포함",
+    "tags": [
+      "이미지",
+      "DALL-E"
+    ],
+    "url": "https://chat.openai.com",
+    "source": "original",
+    "features": [
+      "대화형 AI",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Abstract API",
+    "category": "API 유틸리티",
+    "description": "IP 지리적 위치, 전화번호 검증, 이메일 검증 등 다양한 API 모음",
+    "freeDetail": "www.abstractapi.com",
+    "tags": [
+      "#AI",
+      "API 유틸리티"
+    ],
+    "url": "https://www.abstractapi.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Apify",
+    "category": "웹 스크래핑",
+    "description": "웹 스크래핑 및 자동화 플랫폼. 모든 웹사이트에서 API 생성 및 데이터 추출. 월 5달러 크레딧 무료",
+    "freeDetail": "www.apify.com/",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://www.apify.com/",
+    "source": "free-for-dev",
+    "limit": "Free plan with $5 platform credits included every month",
+    "features": [
+      "데이터 분석",
+      "API",
+      "웹 스크래핑",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "APITemplate.io",
+    "category": "문서 생성",
+    "description": "간단한 API로 이미지 및 PDF 자동 생성. 월 50개 이미지 무료",
+    "freeDetail": "apitemplate.io",
+    "tags": [
+      "#AI",
+      "문서 생성"
+    ],
+    "url": "https://apitemplate.io",
+    "source": "free-for-dev",
+    "limit": "free plan comes with 50 images/month and three templates",
+    "features": [
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "APIVerve",
+    "category": "API 유틸리티",
+    "description": "120개 이상의 API에 무제한 접근. 월 50 API 토큰 무료",
+    "freeDetail": "apiverve.com",
+    "tags": [
+      "#AI",
+      "API 유틸리티"
+    ],
+    "url": "https://apiverve.com",
+    "source": "free-for-dev",
+    "limit": "free plan covers up to 50 API Tokens per month",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Arize AI",
+    "category": "MLOps",
+    "description": "ML 모델 모니터링 및 Root-Cause 분석. 데이터 드리프트 감지, 모델 성능 추적",
+    "freeDetail": "arize.com/",
+    "tags": [
+      "#AI",
+      "MLOps"
+    ],
+    "url": "https://arize.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "텍스트 분석",
+      "데이터 분석",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Beeceptor",
+    "category": "API 목킹",
+    "description": "REST, SOAP, gRPC, GraphQL API 목킹 및 디버깅. 하루 50회 요청 무료",
+    "freeDetail": "beeceptor.com",
+    "tags": [
+      "#AI",
+      "API 목킹"
+    ],
+    "url": "https://beeceptor.com",
+    "source": "free-for-dev",
+    "limit": "50 requests per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "BigDataCloud",
+    "category": "IP/지리 정보",
+    "description": "IP 지리적 위치, 역지오코딩, 이메일/전화번호 검증 API. 월 1만~5만 회 호출 무료",
+    "freeDetail": "www.bigdatacloud.com/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://www.bigdatacloud.com/",
+    "source": "free-for-dev",
+    "limit": "Unlimited",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Browse AI",
+    "category": "웹 스크래핑",
+    "description": "웹 데이터 추출 및 모니터링. 월 1000 크레딧 무료",
+    "freeDetail": "www.browse.ai",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://www.browse.ai",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "BrowserCat",
+    "category": "브라우저 자동화",
+    "description": "헤드리스 브라우저 API. 자동화, 스크래핑, AI 에이전트 웹 접근. 월 1000회 요청 무료",
+    "freeDetail": "www.browsercat.com",
+    "tags": [
+      "#AI",
+      "브라우저 자동화"
+    ],
+    "url": "https://www.browsercat.com",
+    "source": "free-for-dev",
+    "limit": "Free plan with 1k requests per month",
+    "features": [
+      "API",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Calendarific",
+    "category": "기타 API",
+    "description": "200개 이상의 국가 공휴일 API. 월 500회 호출 무료",
+    "freeDetail": "calendarific.com",
+    "tags": [
+      "#AI",
+      "기타 API"
+    ],
+    "url": "https://calendarific.com",
+    "source": "free-for-dev",
+    "limit": "500 calls per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Canopy",
+    "category": "전자상거래",
+    "description": "Amazon.com 제품, 검색, 카테고리 GraphQL API. 월 100회 호출 무료",
+    "freeDetail": "www.canopyapi.co/",
+    "tags": [
+      "#AI",
+      "전자상거래"
+    ],
+    "url": "https://www.canopyapi.co/",
+    "source": "free-for-dev",
+    "limit": "100 calls per",
+    "features": [
+      "검색",
+      "API"
+    ]
+  },
+  {
+    "name": "CarAPI.dev",
+    "category": "자동차 데이터",
+    "description": "차대번호 해독, 도난 차량 확인, 차량 가치 평가 API. 월 100회 요청 무료",
+    "freeDetail": "carapi.dev",
+    "tags": [
+      "#AI",
+      "자동차 데이터"
+    ],
+    "url": "https://carapi.dev",
+    "source": "free-for-dev",
+    "limit": "Free tier includes 100 requests/month across all 9 endpoints",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "CatchDoms",
+    "category": "도메인/SEO",
+    "description": "16개 마켓플레이스의 만료/삭제 도메인 목록 수집. SEO 인사이트 제공",
+    "freeDetail": "catchdoms.com",
+    "tags": [
+      "#AI",
+      "도메인/SEO"
+    ],
+    "url": "https://catchdoms.com",
+    "source": "free-for-dev",
+    "limit": "Free plan: 10 unlocked listings",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Cloudmersive",
+    "category": "API 유틸리티",
+    "description": "문서 변환, 바이러스 검사 등 유틸리티 API. 월 600회 호출 무료",
+    "freeDetail": "cloudmersive.com/",
+    "tags": [
+      "#AI",
+      "API 유틸리티"
+    ],
+    "url": "https://cloudmersive.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API",
+      "파일 변환"
+    ]
+  },
+  {
+    "name": "Colaboratory",
+    "category": "데이터 사이언스",
+    "description": "무료 웹 기반 Python 노트북 환경. Nvidia Tesla K80 GPU 포함",
+    "freeDetail": "colab.research.google.com",
+    "tags": [
+      "#AI",
+      "데이터 사이언스"
+    ],
+    "url": "https://colab.research.google.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "CometML",
+    "category": "MLOps",
+    "description": "MLOps 실험 추적 플랫폼. 실험 비교, 모델 레지스트리, 데이터 계보 추적",
+    "freeDetail": "www.comet.com/site/",
+    "tags": [
+      "#AI",
+      "MLOps"
+    ],
+    "url": "https://www.comet.com/site/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Commerce Layer",
+    "category": "전자상거래",
+    "description": "주문 관리, 결제 통합 API. 개발자 플랜: 월 100개 주문, 1000개 SKU 무료",
+    "freeDetail": "commercelayer.io",
+    "tags": [
+      "#AI",
+      "전자상거래"
+    ],
+    "url": "https://commercelayer.io",
+    "source": "free-for-dev",
+    "limit": "100 orders per",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Composio",
+    "category": "AI 에이전트",
+    "description": "AI 에이전트 및 LLM 통합 플랫폼. 200개 이상의 도구 통합",
+    "freeDetail": "composio.dev/",
+    "tags": [
+      "#AI",
+      "AI 에이전트"
+    ],
+    "url": "https://composio.dev/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "대화형 AI",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Conversion Tools",
+    "category": "파일 변환",
+    "description": "Online File Converter for documents, images, video, audio, and eBooks. REST API is available. Libraries for Node.js, PHP, Python. Support files up to 50 GB (for paid plans). The free tier is limited by file size (20MB) and number of conversions (30/Day, 300/Month).",
+    "freeDetail": "conversiontools.io/",
+    "tags": [
+      "#AI",
+      "파일 변환"
+    ],
+    "url": "https://conversiontools.io/",
+    "source": "free-for-dev",
+    "limit": "free tier is limited by file size (20MB) and number of co...",
+    "features": [
+      "이미지 생성",
+      "음악 생성",
+      "영상 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Country-State-City API",
+    "category": "AI/ML",
+    "description": "국가, 지역, 도시, 우편번호 정보 API. 하루 100회 무료",
+    "freeDetail": "country-state-city.rebuscando.info/",
+    "tags": [
+      "#AI",
+      "AI/ML"
+    ],
+    "url": "https://country-state-city.rebuscando.info/",
+    "source": "free-for-dev",
+    "limit": "country-state-city.rebuscando.info/",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Coupler",
+    "category": "데이터 동기화",
+    "description": "앱 간 데이터 동기화 및 실시간 대시보드. 1개 데이터 연결 무료",
+    "freeDetail": "www.coupler.io/",
+    "tags": [
+      "#AI",
+      "데이터 동기화"
+    ],
+    "url": "https://www.coupler.io/",
+    "source": "free-for-dev",
+    "limit": "free plan is limited to one user",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "CraftMyPDF",
+    "category": "문서 생성",
+    "description": "템플릿 기반 PDF 문서 자동 생성 API. 월 100개 PDF 무료",
+    "freeDetail": "craftmypdf.com",
+    "tags": [
+      "#AI",
+      "문서 생성"
+    ],
+    "url": "https://craftmypdf.com",
+    "source": "free-for-dev",
+    "limit": "free plan comes with 100 PDFs/month and three templates",
+    "features": [
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Cube",
+    "category": "데이터 플랫폼",
+    "description": "데이터 엔지니어용 데이터 플랫폼. 일 1000쿼리 무료",
+    "freeDetail": "cube.dev/",
+    "tags": [
+      "#AI",
+      "데이터 플랫폼"
+    ],
+    "url": "https://cube.dev/",
+    "source": "free-for-dev",
+    "limit": "1,000 queries per",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "CurlHub",
+    "category": "API 테스트",
+    "description": "API 검사 및 디버깅 프록시 서비스. 월 1만 회 요청 무료",
+    "freeDetail": "curlhub.io",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://curlhub.io",
+    "source": "free-for-dev",
+    "limit": "10,000 requests per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "CurrencyScoop",
+    "category": "금융 데이터",
+    "description": "실시간 환율 데이터 API. 월 5000회 호출 무료",
+    "freeDetail": "currencyscoop.com",
+    "tags": [
+      "#AI",
+      "금융 데이터"
+    ],
+    "url": "https://currencyscoop.com",
+    "source": "free-for-dev",
+    "limit": "5,000 calls per",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "CustomJS",
+    "category": "파일 변환",
+    "description": "HTML to PDF/PNG 변환 API. 월 600회 호출 무료",
+    "freeDetail": "www.customjs.io",
+    "tags": [
+      "#AI",
+      "파일 변환"
+    ],
+    "url": "https://www.customjs.io",
+    "source": "free-for-dev",
+    "limit": "Free tier has 600 calls a month",
+    "features": [
+      "API",
+      "파일 변환",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Data Fetcher",
+    "category": "Airtable 연동",
+    "description": "Airtable와 앱/API 연결 도구. 월 100회 실행 무료",
+    "freeDetail": "datafetcher.com",
+    "tags": [
+      "#AI",
+      "Airtable 연동"
+    ],
+    "url": "https://datafetcher.com",
+    "source": "free-for-dev",
+    "limit": "100 runs per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Data Miner",
+    "category": "웹 스크래핑",
+    "description": "웹페이지 데이터 추출 Chrome 확장. 월 500페이지 무료",
+    "freeDetail": "dataminer.io/",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://dataminer.io/",
+    "source": "free-for-dev",
+    "limit": "free plan gives you 500 pages/month",
+    "features": [
+      "데이터 분석",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Dataimporter.io",
+    "category": "Salesforce",
+    "description": "Salesforce 데이터 연결, 정리, 가져오기 도구. 월 2만 개 레코드 무료",
+    "freeDetail": "www.dataimporter.io",
+    "tags": [
+      "#AI",
+      "Salesforce"
+    ],
+    "url": "https://www.dataimporter.io",
+    "source": "free-for-dev",
+    "limit": "20,000 records per",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Datalore",
+    "category": "데이터 사이언스",
+    "description": "JetBrains의 Python 노트북 환경. 실시간 협업, 클라우드 컴퓨팅 지원",
+    "freeDetail": "datalore.jetbrains.com",
+    "tags": [
+      "#AI",
+      "데이터 사이언스"
+    ],
+    "url": "https://datalore.jetbrains.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "DB Designer",
+    "category": "데이터베이스",
+    "description": "클라우드 데이터베이스 스키마 설계 및 모델링 도구. 2개 모델, 모델당 10개 테이블 무료",
+    "freeDetail": "www.dbdesigner.net/",
+    "tags": [
+      "#AI",
+      "데이터베이스"
+    ],
+    "url": "https://www.dbdesigner.net/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "DB-IP",
+    "category": "IP/지리 정보",
+    "description": "무료 IP 지리적 위치 API. 일 1000회 요청 무료",
+    "freeDetail": "db-ip.com/api/free",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://db-ip.com/api/free",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "DeepAR",
+    "category": "이미지 생성",
+    "description": "모든 플랫폼용 AR 얼굴 필터 SDK. 월 10개 활성 사용자 무료",
+    "freeDetail": "developer.deepar.ai",
+    "tags": [
+      "#AI",
+      "이미지 생성"
+    ],
+    "url": "https://developer.deepar.ai",
+    "source": "free-for-dev",
+    "limit": "10 month",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Deepnote",
+    "category": "데이터 사이언스",
+    "description": "실시간 협업 가능한 데이터 사이언스 노트북. Jupyter 호환, 무제한 개인 프로젝트",
+    "freeDetail": "deepnote.com",
+    "tags": [
+      "#AI",
+      "데이터 사이언스"
+    ],
+    "url": "https://deepnote.com",
+    "source": "free-for-dev",
+    "limit": "free tier includes unlimited personal projects",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Compare JSON",
+    "category": "개발자 도구",
+    "description": "두 JSON 데이터 구조 차이점 비교 도구",
+    "freeDetail": "comparejson.com",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "url": "https://comparejson.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Disease.sh",
+    "category": "기타 API",
+    "description": "Covid-19 관련 데이터 무료 API",
+    "freeDetail": "disease.sh/",
+    "tags": [
+      "#AI",
+      "기타 API"
+    ],
+    "url": "https://disease.sh/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "Doczilla",
+    "category": "PDF 생성",
+    "description": "HTML/CSS/JS 코드에서 스크린샷/PDF 생성 API. 월 250개 문서 무료",
+    "freeDetail": "www.doczilla.app/",
+    "tags": [
+      "#AI",
+      "PDF 생성"
+    ],
+    "url": "https://www.doczilla.app/",
+    "source": "free-for-dev",
+    "limit": "250 documents month",
+    "features": [
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Doppio",
+    "category": "PDF/스크린샷",
+    "description": "브라우저 기반 가상 데스크톱. 개발 환경 즉시 사용 가능",
+    "freeDetail": "doppio.sh/",
+    "tags": [
+      "#AI",
+      "PDF/스크린샷"
+    ],
+    "url": "https://doppio.sh/",
+    "source": "free-for-dev",
+    "limit": "free plan allows 400 PDFs and Screenshots per month",
+    "features": [
+      "코드生成"
+    ]
+  },
+  {
+    "name": "drawDB",
+    "category": "데이터베이스",
+    "description": "무료 온라인 데이터베이스 스키마 편집기 및 SQL 생성기",
+    "freeDetail": "drawdb.app/",
+    "tags": [
+      "#AI",
+      "데이터베이스"
+    ],
+    "url": "https://drawdb.app/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "DynamicDocs",
+    "category": "문서 생성",
+    "description": "템플릿 기반 문서 자동 생성. PDF, 문서 생성 API",
+    "freeDetail": "advicement.io",
+    "tags": [
+      "#AI",
+      "문서 생성"
+    ],
+    "url": "https://advicement.io",
+    "source": "free-for-dev",
+    "limit": "free plan allows 50 API calls per month and access to a l...",
+    "features": [
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Earnings Feed",
+    "category": "금융 데이터",
+    "description": "기업 실적 데이터 API. 회의 일정 및 데이터 제공",
+    "freeDetail": "earningsfeed.com/api",
+    "tags": [
+      "#AI",
+      "금융 데이터"
+    ],
+    "url": "https://earningsfeed.com/api",
+    "source": "free-for-dev",
+    "limit": "15 requests per",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "Export SDK",
+    "category": "문서 생성",
+    "description": "앱 내 데이터 내보내기 SDK. PDF, Excel, CSV 내보내기",
+    "freeDetail": "exportsdk.com",
+    "tags": [
+      "#AI",
+      "문서 생성"
+    ],
+    "url": "https://exportsdk.com",
+    "source": "free-for-dev",
+    "limit": "250 month",
+    "features": [
+      "데이터 분석",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "ExtendsClass",
+    "category": "API 테스트",
+    "description": "무료 개발자 도구: REST/GraphQL 클라이언트, Faker.js, SQL 플레이그라운드",
+    "freeDetail": "extendsclass.com/rest-client-online.html",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://extendsclass.com/rest-client-online.html",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Financial Data",
+    "category": "금융 데이터",
+    "description": "주식, 암호화폐, 환율 데이터 API",
+    "freeDetail": "financialdata.net/",
+    "tags": [
+      "#AI",
+      "금융 데이터"
+    ],
+    "url": "https://financialdata.net/",
+    "source": "free-for-dev",
+    "limit": "300 requests per",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "FormatJSONOnline",
+    "category": "AI/ML",
+    "description": "JSON 포맷, 미니파이, 검증 도구",
+    "freeDetail": "formatjsononline.com",
+    "tags": [
+      "#AI",
+      "AI/ML"
+    ],
+    "url": "https://formatjsononline.com",
+    "source": "free-for-dev",
+    "limit": "formatjsononline.com",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "FraudLabs Pro",
+    "category": "보안",
+    "description": "사기 거래 감지 API. 월 500회 호출 무료",
+    "freeDetail": "www.fraudlabspro.com",
+    "tags": [
+      "#AI",
+      "보안"
+    ],
+    "url": "https://www.fraudlabspro.com",
+    "source": "free-for-dev",
+    "limit": "500 transactions per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "FreeIPAPI",
+    "category": "IP/지리 정보",
+    "description": "무료 IP 지리적 위치 API. 무제한 요청",
+    "freeDetail": "freeipapi.com",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://freeipapi.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Geolocated.io",
+    "category": "IP/지리 정보",
+    "description": "IP 기반 지리적 위치 API. 일 1만 회 요청 무료",
+    "freeDetail": "geolocated.io",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://geolocated.io",
+    "source": "free-for-dev",
+    "limit": "2,000 requests per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Hex",
+    "category": "데이터 사이언스",
+    "description": "데이터 사이언스 협업 플랫폼. SQL, Python 노트북 지원",
+    "freeDetail": "hex.tech/",
+    "tags": [
+      "#AI",
+      "데이터 사이언스"
+    ],
+    "url": "https://hex.tech/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "Hook0",
+    "category": "웹훅",
+    "description": "Webhook 관리 및 디버깅 플랫폼. 월 1만 이벤트 무료",
+    "freeDetail": "www.hook0.com/",
+    "tags": [
+      "#AI",
+      "웹훅"
+    ],
+    "url": "https://www.hook0.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Hoppscotch",
+    "category": "API 테스트",
+    "description": "오픈소스 API 개발 환경. REST, GraphQL, WebSocket 테스트",
+    "freeDetail": "hoppscotch.io",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://hoppscotch.io",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "HS Ping",
+    "category": "모니터링",
+    "description": "API 상태 모니터링 및 uptime 체크. 3개 엔드포인트 무료",
+    "freeDetail": "hsping.com",
+    "tags": [
+      "#AI",
+      "모니터링"
+    ],
+    "url": "https://hsping.com",
+    "source": "free-for-dev",
+    "limit": "free plan offering 100 lookups/day",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "허깅페이스",
+    "category": "AI/ML",
+    "description": "50만 개 이상의 오픈소스 AI 모델을 무료로 체험. Stable Diffusion, FLUX, Llama, Whisper 등 브라우저에서 즉시 사용 가능",
+    "freeDetail": "huggingface.co",
+    "tags": [
+      "#AI",
+      "AI/ML"
+    ],
+    "url": "https://huggingface.co",
+    "source": "free-for-dev",
+    "limit": "huggingface.co",
+    "features": [
+      "음성 인식"
+    ]
+  },
+  {
+    "name": "Insomnia",
+    "category": "API 테스트",
+    "description": "API 디자인 및 디버깅 도구. REST, GraphQL 지원",
+    "freeDetail": "insomnia.rest",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://insomnia.rest",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Invantive Cloud",
+    "category": "데이터 통합",
+    "description": "기업 데이터 통합 플랫폼. 70개 이상의 ERP/CRM 연결",
+    "freeDetail": "cloud.invantive.com/",
+    "tags": [
+      "#AI",
+      "데이터 통합"
+    ],
+    "url": "https://cloud.invantive.com/",
+    "source": "free-for-dev",
+    "limit": "Free plan for developers and implementation consultants",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "IP Geolocation (ipwho.org)",
+    "category": "AI/ML",
+    "description": "무료 IP 지리적 위치 API. 무제한 사용 가능",
+    "freeDetail": "ipwho.org/",
+    "tags": [
+      "#AI",
+      "AI/ML"
+    ],
+    "url": "https://ipwho.org/",
+    "source": "free-for-dev",
+    "limit": "ipwho.org/",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "IP Geolocation API",
+    "category": "IP/지리 정보",
+    "description": "IP 주소로 위치 정보 조회 API",
+    "freeDetail": "www.abstractapi.com/ip-geolocation-api",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://www.abstractapi.com/ip-geolocation-api",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "IP Geolocation",
+    "category": "IP/지리 정보",
+    "description": "간단한 IP 위치 조회 API",
+    "freeDetail": "ipgeolocation.io/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ipgeolocation.io/",
+    "source": "free-for-dev",
+    "limit": "1,000 requests per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "ip-api",
+    "category": "IP/지리 정보",
+    "description": "IP 지리적 위치, ASN 정보 API. 일 45회 요청 무료",
+    "freeDetail": "ip-api.com",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ip-api.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "IP.City",
+    "category": "IP/지리 정보",
+    "description": "IP로 도시 정보 조회. 간단한 위치 API",
+    "freeDetail": "ip.city",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ip.city",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "IP2Location.io",
+    "category": "IP/지리 정보",
+    "description": "IP 지리적 위치 및 ASN 정보. 월 5만 회 요청 무료",
+    "freeDetail": "www.ip2location.io/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://www.ip2location.io/",
+    "source": "free-for-dev",
+    "limit": "free plan includes 50k credits per month",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "ip2geo.dev",
+    "category": "IP/지리 정보",
+    "description": "간단한 IP 지오코딩 API. 개발용 무료",
+    "freeDetail": "ip2geo.dev",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ip2geo.dev",
+    "source": "free-for-dev",
+    "limit": "1,000 requests per",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "ipaddress.sh",
+    "category": "IP 확인",
+    "description": "IP 주소 정보 조회 CLI 도구",
+    "freeDetail": "ipaddress.sh",
+    "tags": [
+      "#AI",
+      "IP 확인"
+    ],
+    "url": "https://ipaddress.sh",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "ipapi.is",
+    "category": "IP/지리 정보",
+    "description": "IP 정보 API. 지리적 위치, ASN, 시간대 정보",
+    "freeDetail": "ipapi.is/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ipapi.is/",
+    "source": "free-for-dev",
+    "limit": "free plan offers 1000 lookups without signup",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "ipapi",
+    "category": "IP/지리 정보",
+    "description": "IP 지리적 위치 API. 일 1000회 요청 무료",
+    "freeDetail": "ipapi.co/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ipapi.co/",
+    "source": "free-for-dev",
+    "limit": "free tier offers 30k lookups/month (1k/day) without signup",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "ipbase.com",
+    "category": "IP/지리 정보",
+    "description": "IP 정보 및 지리적 위치 API. 월 5만 회 요청 무료",
+    "freeDetail": "ipbase.com",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ipbase.com",
+    "source": "free-for-dev",
+    "limit": "150 month",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "IPinfo",
+    "category": "IP/지리 정보",
+    "description": "IP 데이터베이스 API. IP 소유자, 지리적 위치, ASN 정보",
+    "freeDetail": "ipinfo.io/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://ipinfo.io/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "IPLocate",
+    "category": "IP/지리 정보",
+    "description": "IP 위치 추적 API. 간단한 무료 플랜",
+    "freeDetail": "www.iplocate.io",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://www.iplocate.io",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "모니터링",
+      "API"
+    ]
+  },
+  {
+    "name": "IPTrace",
+    "category": "IP/지리 정보",
+    "description": "IP 추적 및 위협 인텔리전스 API",
+    "freeDetail": "iptrace.io",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://iptrace.io",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "모니터링",
+      "API"
+    ]
+  },
+  {
+    "name": "JSON IP",
+    "category": "IP 확인",
+    "description": "간단한 JSON 형식 IP 조회 API",
+    "freeDetail": "getjsonip.com",
+    "tags": [
+      "#AI",
+      "IP 확인"
+    ],
+    "url": "https://getjsonip.com",
+    "source": "free-for-dev",
+    "limit": "Unlimited",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "JSON to Table",
+    "category": "개발자 도구",
+    "description": "Convert JSON into an interactive table for quick viewing, editing, and sharing online.",
+    "freeDetail": "jsontotable.org",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "url": "https://jsontotable.org",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "파일 변환"
+    ]
+  },
+  {
+    "name": "JSON2Video",
+    "category": "영상 생성",
+    "description": "JSON에서 동영상 자동 생성 API",
+    "freeDetail": "json2video.com",
+    "tags": [
+      "#AI",
+      "영상 생성"
+    ],
+    "url": "https://json2video.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "영상 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "JSONGrid",
+    "category": "개발자 도구",
+    "description": "JSON 데이터를 격자 형태로 보기/편집",
+    "freeDetail": "jsongrid.com",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "url": "https://jsongrid.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "음악 생성",
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "JSONing",
+    "category": "개발자 도구",
+    "description": "JSON 뷰어 및 에디터 온라인 도구",
+    "freeDetail": "jsoning.com/api/",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "url": "https://jsoning.com/api/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "JSONSwiss",
+    "category": "개발자 도구",
+    "description": "JSON 데이터 처리 유틸리티",
+    "freeDetail": "www.jsonswiss.com/",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "url": "https://www.jsonswiss.com/",
+    "source": "free-for-dev",
+    "limit": ", proper",
+    "features": [
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "KillBait API",
+    "category": "API 테스트",
+    "description": "API 모니터링 및 상태 확인 도구",
+    "freeDetail": "killbait.com/api/doc",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://killbait.com/api/doc",
+    "source": "free-for-dev",
+    "limit": "1 submission per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Kreya",
+    "category": "API 테스트",
+    "description": "gRPC, REST API 클라이언트 및 디버깅 도구",
+    "freeDetail": "kreya.app",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://kreya.app",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "LoginLlama",
+    "category": "보안",
+    "description": "로그인 보안 및 브루트포스 감지 API",
+    "freeDetail": "loginllama.app",
+    "tags": [
+      "#AI",
+      "보안"
+    ],
+    "url": "https://loginllama.app",
+    "source": "free-for-dev",
+    "limit": "1,000 logins per",
+    "features": [
+      "모니터링",
+      "API"
+    ]
+  },
+  {
+    "name": "Market Data API",
+    "category": "금융 데이터",
+    "description": "금융 시장 데이터 API. 주식, 암호화폐",
+    "freeDetail": "www.marketdata.app",
+    "tags": [
+      "#AI",
+      "금융 데이터"
+    ],
+    "url": "https://www.marketdata.app",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "Maxim AI",
+    "category": "LLM 모니터링",
+    "description": "AI 에이전트 플랫폼. LLM 추적 및 모니터링",
+    "freeDetail": "getmaxim.ai/",
+    "tags": [
+      "#AI",
+      "LLM 모니터링"
+    ],
+    "url": "https://getmaxim.ai/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "대화형 AI",
+      "모니터링",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "microlink.io",
+    "category": "메타데이터 추출",
+    "description": "URL에서 메타데이터 추출 API. 미리보기 카드 생성",
+    "freeDetail": "microlink.io/",
+    "tags": [
+      "#AI",
+      "메타데이터 추출"
+    ],
+    "url": "https://microlink.io/",
+    "source": "free-for-dev",
+    "limit": "50 requests per",
+    "features": [
+      "데이터 분석",
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Mintlify",
+    "category": "문서화",
+    "description": "문서 자동 생성 플랫폼. 아름다운 문서 사이트 호스팅",
+    "freeDetail": "mintlify.com",
+    "tags": [
+      "#AI",
+      "문서화"
+    ],
+    "url": "https://mintlify.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "MockAPI",
+    "category": "API 목킹",
+    "description": "REST API 목킹 서비스. 가짜 API 서버 생성",
+    "freeDetail": "www.mockapi.io/",
+    "tags": [
+      "#AI",
+      "API 목킹"
+    ],
+    "url": "https://www.mockapi.io/",
+    "source": "free-for-dev",
+    "limit": ", and per",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Mockerito",
+    "category": "API 목킹",
+    "description": "Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.",
+    "freeDetail": "mockerito.com/",
+    "tags": [
+      "#AI",
+      "API 목킹"
+    ],
+    "url": "https://mockerito.com/",
+    "source": "free-for-dev",
+    "limit": "unlimited",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Mockfly",
+    "category": "API 목킹",
+    "description": "API 목킹 및 테스트 데이터 생성 플랫폼",
+    "freeDetail": "www.mockfly.dev/",
+    "tags": [
+      "#AI",
+      "API 목킹"
+    ],
+    "url": "https://www.mockfly.dev/",
+    "source": "free-for-dev",
+    "limit": "500 requests per",
+    "features": [
+      "데이터 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "Mocko.dev",
+    "category": "API 목킹",
+    "description": "간단한 API 목킹 서비스",
+    "freeDetail": "mocko.dev/",
+    "tags": [
+      "#AI",
+      "API 목킹"
+    ],
+    "url": "https://mocko.dev/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Multi-Exit IP Address Checker",
+    "category": "IP 확인",
+    "description": "A free and simple tool to check your exit IP address across multiple nodes and understand how your IP appears to different global regions and services. Useful for testing rule-based DNS splitting tools such as Control D.",
+    "freeDetail": "ip.alstra.ca/",
+    "tags": [
+      "#AI",
+      "IP 확인"
+    ],
+    "url": "https://ip.alstra.ca/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "News API",
+    "category": "뉴스 API",
+    "description": "Search news on the web with code, and get JSON results. Developers get 100 queries free each day. Articles have a 24 hour delay.",
+    "freeDetail": "newsapi.org",
+    "tags": [
+      "#AI",
+      "뉴스 API"
+    ],
+    "url": "https://newsapi.org",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "코드生成",
+      "검색",
+      "API"
+    ]
+  },
+  {
+    "name": "numlookupapi.com",
+    "category": "API 유틸리티",
+    "description": "Free phone number validation API - 100 free requests / month.",
+    "freeDetail": "numlookupapi.com",
+    "tags": [
+      "#AI",
+      "API 유틸리티"
+    ],
+    "url": "https://numlookupapi.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "검색",
+      "API"
+    ]
+  },
+  {
+    "name": "OCR.Space",
+    "category": "OCR",
+    "description": "An OCR API parses image and pdf files that return the text results in JSON format. 25,000 requests per month are free and a 1MB file size limit.",
+    "freeDetail": "ocr.space/",
+    "tags": [
+      "#AI",
+      "OCR"
+    ],
+    "url": "https://ocr.space/",
+    "source": "free-for-dev",
+    "limit": "25,000 requests per",
+    "features": [
+      "이미지 생성",
+      "텍스트 분석",
+      "OCR",
+      "API"
+    ]
+  },
+  {
+    "name": "OpenAPI3 Designer",
+    "category": "API",
+    "description": "Visually create Open API 3 definitions for free.",
+    "freeDetail": "openapidesigner.com/",
+    "tags": [
+      "#AI",
+      "API"
+    ],
+    "url": "https://openapidesigner.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Parseur",
+    "category": "기타",
+    "description": "20 free pages/month: Extract data from PDFs, emails. AI powered. Full API access.",
+    "freeDetail": "parseur.com",
+    "tags": [
+      "#AI",
+      "기타"
+    ],
+    "url": "https://parseur.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "PDF-API.io",
+    "category": "PDF 생성",
+    "description": "PDF Automation API, visual template editor or HTML to PDF, dynamic data integration, and PDF rendering with an API. The free plan comes with one template, 100 PDFs/month.",
+    "freeDetail": "pdf-api.io",
+    "tags": [
+      "#AI",
+      "PDF 생성"
+    ],
+    "url": "https://pdf-api.io",
+    "source": "free-for-dev",
+    "limit": "free plan comes with one template",
+    "features": [
+      "이미지 생성",
+      "API",
+      "PDF 생성",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "PDFBolt",
+    "category": "PDF 도구",
+    "description": "Developer-focused PDF generation API designed with privacy in mind. It offers Stripe-inspired documentation and includes 500 free PDF conversions per month.",
+    "freeDetail": "pdfbolt.com",
+    "tags": [
+      "#AI",
+      "PDF 도구"
+    ],
+    "url": "https://pdfbolt.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Pixela",
+    "category": "데이터 시각화",
+    "description": "Free daystream database service. All operations are performed by API. Visualization with heat maps and line graphs is also possible.",
+    "freeDetail": "pixe.la/",
+    "tags": [
+      "#AI",
+      "데이터 시각화"
+    ],
+    "url": "https://pixe.la/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Posthook",
+    "category": "웹훅",
+    "description": "Schedule webhooks to fire at a future time with automatic retries, delivery tracking, and failure alerting. Free plan includes 1,000 webhooks per month.",
+    "freeDetail": "posthook.io",
+    "tags": [
+      "#AI",
+      "웹훅"
+    ],
+    "url": "https://posthook.io",
+    "source": "free-for-dev",
+    "limit": "1,000 webhooks per",
+    "features": [
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Postman",
+    "category": "API 테스트",
+    "description": "API 개발 및 테스트 플랫폼. Collections 공유 기능",
+    "freeDetail": "postman.com",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://postman.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "PrefectCloud",
+    "category": "데이터 파이프라인",
+    "description": "A complete platform for dataflow automation. Free plan includes 5 deployed workflows and 500 minutes of serverless compute credits per month.",
+    "freeDetail": "www.prefect.io/cloud/",
+    "tags": [
+      "#AI",
+      "데이터 파이프라인"
+    ],
+    "url": "https://www.prefect.io/cloud/",
+    "source": "free-for-dev",
+    "limit": "Free plan includes 5 deployed workflows and 500 minutes o...",
+    "features": [
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Preset Cloud",
+    "category": "BI/대시보드",
+    "description": "A hosted Apache Superset service. Forever free for teams of up to 5 users, featuring unlimited dashboards and charts, a no-code chart builder, and a collaborative SQL editor.",
+    "freeDetail": "preset.io/",
+    "tags": [
+      "#AI",
+      "BI/대시보드"
+    ],
+    "url": "https://preset.io/",
+    "source": "free-for-dev",
+    "limit": "unlimited",
+    "features": [
+      "이미지 생성",
+      "코드生成",
+      "데이터 분석"
+    ]
+  },
+  {
+    "name": "ProxySentry",
+    "category": "보안",
+    "description": "IP API that detects residential proxies and VPNs. ProxySentry.io offers a free tier with 10k requests per month on rapidapi.com.",
+    "freeDetail": "proxysentry.io/",
+    "tags": [
+      "#AI",
+      "보안"
+    ],
+    "url": "https://proxysentry.io/",
+    "source": "free-for-dev",
+    "limit": "free tier with 10k requests per month on rapidapi",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Reducto",
+    "category": "문서 변환",
+    "description": "Turn any unstructured documents (PDF, XLSX, JPG, PPTX, etc.) into structured JSON data. Parse, extract data, and edit PDF forms. Free tier with 15k free credits and pay-as-you-go.",
+    "freeDetail": "reducto.ai",
+    "tags": [
+      "#AI",
+      "문서 변환"
+    ],
+    "url": "https://reducto.ai",
+    "source": "free-for-dev",
+    "limit": "Free tier with 15k free credits and pay-as-you-go",
+    "features": [
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Rendi",
+    "category": "CDN",
+    "description": "FFmpeg API - A REST API for FFmpeg, run FFmpeg online without handling the infrastructure. Free tier with monthly processing quota and 4 vCPUs available.",
+    "freeDetail": "rendi.dev",
+    "tags": [
+      "#AI",
+      "CDN"
+    ],
+    "url": "https://rendi.dev",
+    "source": "free-for-dev",
+    "limit": "Free tier with monthly processing quota and 4 vCPUs avail...",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "RequestBin.com",
+    "category": "API 테스트",
+    "description": "Create a free endpoint to which you can send HTTP requests. Any HTTP requests sent to that endpoint will be recorded with the associated payload and headers so you can observe recommendations from webhooks and other services.",
+    "freeDetail": "requestbin.com",
+    "tags": [
+      "#AI",
+      "API 테스트"
+    ],
+    "url": "https://requestbin.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "ROBOHASH",
+    "category": "이미지 생성",
+    "description": "Web service to generate unique and cool images from any text.",
+    "freeDetail": "robohash.org/",
+    "tags": [
+      "#AI",
+      "이미지 생성"
+    ],
+    "url": "https://robohash.org/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "텍스트 분석"
+    ]
+  },
+  {
+    "name": "Scraper's Proxy",
+    "category": "프록시",
+    "description": "Simple HTTP proxy API for scraping. Scrape anonymously without having to worry about restrictions, blocks, or captchas. First 100 successful scrapes per month free including javascript rendering (more available if you contact support).",
+    "freeDetail": "scrapersproxy.com",
+    "tags": [
+      "#AI",
+      "프록시"
+    ],
+    "url": "https://scrapersproxy.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "ScrapingAnt",
+    "category": "웹 스크래핑",
+    "description": "웹 스크래핑 API. JS 렌더링, 프록시 지원",
+    "freeDetail": "scrapingant.com/",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://scrapingant.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "SerpApi",
+    "category": "검색 API",
+    "description": "Real-time search engine scraping API. Returns structured JSON results for Google, YouTube, Bing, Baidu, Walmart, and many other machines. The free plan includes 100 successful API calls per month.",
+    "freeDetail": "serpapi.com/",
+    "tags": [
+      "#AI",
+      "검색 API"
+    ],
+    "url": "https://serpapi.com/",
+    "source": "free-for-dev",
+    "limit": "free plan includes 100 successful API calls per month",
+    "features": [
+      "이미지 생성",
+      "검색",
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Sheetson",
+    "category": "스프레드시트",
+    "description": "Instantly turn any Google Sheets into a RESTful API. Free plan available, including 1,000 free rows per sheet.",
+    "freeDetail": "sheetson.com",
+    "tags": [
+      "#AI",
+      "스프레드시트"
+    ],
+    "url": "https://sheetson.com",
+    "source": "free-for-dev",
+    "limit": "Free plan available",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "SikkerAPI",
+    "category": "보안",
+    "description": "Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.",
+    "freeDetail": "sikkerapi.com",
+    "tags": [
+      "#AI",
+      "보안"
+    ],
+    "url": "https://sikkerapi.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "검색",
+      "모니터링",
+      "API"
+    ]
+  },
+  {
+    "name": "Simplescraper",
+    "category": "웹 스크래핑",
+    "description": "Trigger your webhook after each operation. The free plan includes 100 cloud scrape credits.",
+    "freeDetail": "simplescraper.io",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://simplescraper.io",
+    "source": "free-for-dev",
+    "limit": "free plan includes 100 cloud scrape credits",
+    "features": [
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Geekflare API",
+    "category": "모니터링",
+    "description": "Geekflare API lets you scrape websites into Markdown, take screenshots, perform TLS scans and DNS lookups, test load times, and more. The free plan offers 500 API credits per month (e.g., 500 DNS lookups, 250 web scrapes, or 100 screenshots). See [credit mapping](https://docs.geekflare.com/api/api-credit-mapping).",
+    "freeDetail": "geekflare.com/api/",
+    "tags": [
+      "#AI",
+      "모니터링"
+    ],
+    "url": "https://geekflare.com/api/",
+    "source": "free-for-dev",
+    "limit": "free plan offers 500 API credits per month (e",
+    "features": [
+      "검색",
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "SmartParse",
+    "category": "문서 파싱",
+    "description": "SmartParse is a data migration and CSV to API platform that offers time- and cost-saving developer tools. The Free tier includes 300 Processing Units per month, Browser uploads, Data quarantining, Circuit breakers, and Job Alerts.",
+    "freeDetail": "smartparse.io",
+    "tags": [
+      "#AI",
+      "문서 파싱"
+    ],
+    "url": "https://smartparse.io",
+    "source": "free-for-dev",
+    "limit": "Free tier includes 300 Processing Units per month",
+    "features": [
+      "이미지 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Sofodata",
+    "category": "데이터 플랫폼",
+    "description": "Create secure RESTful APIs from CSV files. Upload a CSV file and instantly access the data via its API allowing faster application development. The free plan includes 2 APIs and 2,500 API calls per month. You don't need a credit card.",
+    "freeDetail": "www.sofodata.com/",
+    "tags": [
+      "#AI",
+      "데이터 플랫폼"
+    ],
+    "url": "https://www.sofodata.com/",
+    "source": "free-for-dev",
+    "limit": "free plan includes 2 APIs and 2",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Sqlable",
+    "category": "데이터베이스",
+    "description": "A collection of free online SQL tools, including an SQL formatter and validator, SQL regex tester, fake data generator, and interactive database playgrounds.",
+    "freeDetail": "sqlable.com/",
+    "tags": [
+      "#AI",
+      "데이터베이스"
+    ],
+    "url": "https://sqlable.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성"
+    ]
+  },
+  {
+    "name": "Svix",
+    "category": "웹훅",
+    "description": "Webhooks as a Service. Send up to 50,000 messages/month for free.",
+    "freeDetail": "www.svix.com/",
+    "tags": [
+      "#AI",
+      "웹훅"
+    ],
+    "url": "https://www.svix.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "Tavily AI",
+    "category": "AI 검색",
+    "description": "API for online search and rapid insights and comprehensive research, with the capability of organization of research results. 1000 request/month for the Free tier with No credit card required.",
+    "freeDetail": "tavily.com/",
+    "tags": [
+      "#AI",
+      "AI 검색"
+    ],
+    "url": "https://tavily.com/",
+    "source": "free-for-dev",
+    "limit": "Free tier with No credit card required",
+    "features": [
+      "검색",
+      "API"
+    ]
+  },
+  {
+    "name": "TemplateFox",
+    "category": "문서 템플릿",
+    "description": "PDF generation API with a visual template editor, dynamic data merging, and SDKs for 7 languages. Free plan includes 60 PDFs/month and 3 templates.",
+    "freeDetail": "pdftemplateapi.com",
+    "tags": [
+      "#AI",
+      "문서 템플릿"
+    ],
+    "url": "https://pdftemplateapi.com",
+    "source": "free-for-dev",
+    "limit": "Free plan includes 60 PDFs/month and 3 templates",
+    "features": [
+      "이미지 생성",
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "The IP API",
+    "category": "IP/지리 정보",
+    "description": "IP Geolocation API with 1000 free requests / day. Provides information about the location of an IP address, including country, city, region, and more.",
+    "freeDetail": "theipapi.com/",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "url": "https://theipapi.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "TinyMCE",
+    "category": "에디터",
+    "description": "rich text editing API. Core features are free for unlimited usage.",
+    "freeDetail": "www.tiny.cloud",
+    "tags": [
+      "#AI",
+      "에디터"
+    ],
+    "url": "https://www.tiny.cloud",
+    "source": "free-for-dev",
+    "limit": "unlimited",
+    "features": [
+      "텍스트 분석",
+      "API"
+    ]
+  },
+  {
+    "name": "Tomorrow.io Weather API",
+    "category": "날씨 API",
+    "description": "Offers free plan of weather API. Provides accurate and up-to-date weather forecasting with global coverage, historical data and weather monitoring solutions.",
+    "freeDetail": "www.tomorrow.io/weather-api/",
+    "tags": [
+      "#AI",
+      "날씨 API"
+    ],
+    "url": "https://www.tomorrow.io/weather-api/",
+    "source": "free-for-dev",
+    "limit": "free plan of weather API",
+    "features": [
+      "모니터링",
+      "API"
+    ]
+  },
+  {
+    "name": "Treblle",
+    "category": "API 관리",
+    "description": "Treblle helps teams build, ship, and govern APIs. With advanced API log aggregation, observability, docs, and debugging. You get all features for free, but there is a limit of up to 250k requests per month on the free tier.",
+    "freeDetail": "www.treblle.com",
+    "tags": [
+      "#AI",
+      "API 관리"
+    ],
+    "url": "https://www.treblle.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Trophy",
+    "category": "API 모니터링",
+    "description": "API infrastructure for building gamification features like achievements, streaks, points and leaderboards in web and mobile apps. Free for 100 monthly active users.",
+    "freeDetail": "trophy.so",
+    "tags": [
+      "#AI",
+      "API 모니터링"
+    ],
+    "url": "https://trophy.so",
+    "source": "free-for-dev",
+    "limit": "100 month",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "UniRateAPI",
+    "category": "환율 API",
+    "description": "Real-time exchange rates for 590+ currencies and crypto. Unlimited API calls on the free plan, perfect for developers and finance apps.",
+    "freeDetail": "unirateapi.com",
+    "tags": [
+      "#AI",
+      "환율 API"
+    ],
+    "url": "https://unirateapi.com",
+    "source": "free-for-dev",
+    "limit": "Unlimited",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "vatcheckapi.com",
+    "category": "VAT",
+    "description": "Simple and free VAT number validation API. 150 free validations per month.",
+    "freeDetail": "vatcheckapi.com",
+    "tags": [
+      "#AI",
+      "VAT"
+    ],
+    "url": "https://vatcheckapi.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "vatnode",
+    "category": "VAT",
+    "description": "EU VAT number validation REST API with VIES and national tax-registry fallback, returning the official VIES consultation number for audit records. Free tier of 100 validations/month, no credit card.",
+    "freeDetail": "vatnode.dev",
+    "tags": [
+      "#AI",
+      "VAT"
+    ],
+    "url": "https://vatnode.dev",
+    "source": "free-for-dev",
+    "limit": "Free tier of 100 validations/month",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "WeatherXu",
+    "category": "날씨 API",
+    "description": "Global weather data including current conditions, hourly and daily forecasts, and weather alerts via our API. Integrating AI models and ML systems to analyze and combine multiple weather models to deliver improved forecast accuracy. Free tier includes 10,000 API calls/month.",
+    "freeDetail": "weatherxu.com/",
+    "tags": [
+      "#AI",
+      "날씨 API"
+    ],
+    "url": "https://weatherxu.com/",
+    "source": "free-for-dev",
+    "limit": "Free tier includes 10",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "WebScraping.AI",
+    "category": "웹 스크래핑",
+    "description": "Simple Web Scraping API with built-in parsing, Chrome rendering, and proxies. Two thousand free API calls per month.",
+    "freeDetail": "webscraping.ai",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://webscraping.ai",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Weights & Biases",
+    "category": "MLOps",
+    "description": "MLOps 실험 추적 및 모델 모니터링 플랫폼. 학습 메트릭 실시간 추적, 하이퍼파라미터 최적화",
+    "freeDetail": "wandb.ai",
+    "tags": [
+      "#AI",
+      "MLOps"
+    ],
+    "url": "https://wandb.ai",
+    "source": "free-for-dev",
+    "limit": "Free tier for personal projects only",
+    "features": [
+      "모니터링"
+    ]
+  },
+  {
+    "name": "What Is My IP",
+    "category": "IP 확인",
+    "description": "A free service to check your public IPv4 and IPv6 address and related request data through an API with different output formats for automation, scripts, and network troubleshooting.",
+    "freeDetail": "whatismyip.help",
+    "tags": [
+      "#AI",
+      "IP 확인"
+    ],
+    "url": "https://whatismyip.help",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "What The Diff",
+    "category": "코드 리뷰",
+    "description": "AI-powered code review assistant. The free plan has a limit of 25,000 monthly tokens (~10 PRs).",
+    "freeDetail": "whatthediff.ai",
+    "tags": [
+      "#AI",
+      "코드 리뷰"
+    ],
+    "url": "https://whatthediff.ai",
+    "source": "free-for-dev",
+    "limit": "25,000 month",
+    "features": [
+      "코드生成"
+    ]
+  },
+  {
+    "name": "wolfram.com",
+    "category": "컴퓨팅",
+    "description": "Built-in knowledge-based algorithms in the cloud.",
+    "freeDetail": "wolfram.com/language/",
+    "tags": [
+      "#AI",
+      "컴퓨팅"
+    ],
+    "url": "https://wolfram.com/language/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "wrapapi.com",
+    "category": "API 유틸리티",
+    "description": "Turn any website into a parameterized API. 30k API calls per month.",
+    "freeDetail": "wrapapi.com/",
+    "tags": [
+      "#AI",
+      "API 유틸리티"
+    ],
+    "url": "https://wrapapi.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Zenscrape",
+    "category": "웹 스크래핑",
+    "description": "Web scraping API with headless browsers, residentials IPs, and straightforward pricing. One thousand free API calls/month and extra credits for students and non-profits.",
+    "freeDetail": "zenscrape.com/web-scraping-api",
+    "tags": [
+      "#AI",
+      "웹 스크래핑"
+    ],
+    "url": "https://zenscrape.com/web-scraping-api",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API",
+      "웹 스크래핑"
+    ]
+  },
+  {
+    "name": "Zipcodebase",
+    "category": "우편번호",
+    "description": "Free Zip Code API, access to Worldwide Postal Code Data. 5,000 free requests/month.",
+    "freeDetail": "zipcodebase.com",
+    "tags": [
+      "#AI",
+      "우편번호"
+    ],
+    "url": "https://zipcodebase.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Zip-Codes",
+    "category": "우편번호",
+    "description": "REST API for US and Canadian postal codes with address validation, radius search, and Census demographics. 2,500 free requests/day.",
+    "freeDetail": "www.zip-codes.com/api/",
+    "tags": [
+      "#AI",
+      "우편번호"
+    ],
+    "url": "https://www.zip-codes.com/api/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "검색",
+      "API"
+    ]
+  },
+  {
+    "name": "Zipcodestack",
+    "category": "우편번호",
+    "description": "Free Zip Code API and Postal Code Validation. Ten thousand free requests/month.",
+    "freeDetail": "zipcodestack.com",
+    "tags": [
+      "#AI",
+      "우편번호"
+    ],
+    "url": "https://zipcodestack.com",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Zuplo",
+    "category": "API 게이트웨이",
+    "description": "Free API Management platform to design, build, and deploy APIs to the Edge. Add API Key authentication, rate limiting, developer documentation and Monetization to any API in minutes. OpenAPI-native and fully-programmable with web standard apis & Typescript. The free plan offers up to 10 projects, unlimited production edge environments, 1M monthly requests, and 10GB egress.",
+    "freeDetail": "zuplo.com/",
+    "tags": [
+      "#AI",
+      "API 게이트웨이"
+    ],
+    "url": "https://zuplo.com/",
+    "source": "free-for-dev",
+    "limit": ", developer",
+    "features": [
+      "코드生成",
+      "API",
+      "PDF 생성"
+    ]
+  },
+  {
+    "name": "Metashot",
+    "category": "이미지 처리",
+    "description": "— Open Graph (OG) social preview image generation API. Generate dynamic 1200×630 images for Twitter, LinkedIn and Facebook via URL params, edge-cached on Cloudflare Workers. Free tier: 1,000 renders/month. Paid plans from $12/month.",
+    "freeDetail": "metashot.io",
+    "tags": [
+      "#AI",
+      "이미지 처리"
+    ],
+    "url": "https://metashot.io",
+    "source": "free-for-dev",
+    "limit": "Free tier: 1",
+    "features": [
+      "이미지 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Arize AX",
+    "category": "MLOps",
+    "description": "AI engineering platform that helps AI eng/PMs, evaluate, and observe AI applications and agents with built-in Alyx agent. Free product inlcudes 25k spans and ingestion volume of 1gb per month.",
+    "freeDetail": "arize.com",
+    "tags": [
+      "#AI",
+      "MLOps"
+    ],
+    "url": "https://arize.com",
+    "source": "free-for-dev",
+    "limit": "1gb per",
+    "features": [
+      "이미지 생성",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Audio Enhancer",
+    "category": "오디오 처리",
+    "description": "AI-powered audio enhancer SaaS that removes noise and echo while preserving natural vocal clarity. totally Free: unlimited one-click enhancements, no login required, supports MP3/WAV/FLAC",
+    "freeDetail": "voice-clone.org/tools/audio-enhancer",
+    "tags": [
+      "#AI",
+      "오디오 처리"
+    ],
+    "url": "https://voice-clone.org/tools/audio-enhancer",
+    "source": "free-for-dev",
+    "limit": "unlimited",
+    "features": [
+      "음악 생성",
+      "자연어 처리"
+    ]
+  },
+  {
+    "name": "Braintrust",
+    "category": "LLM 평가",
+    "description": "Evals, prompt playground, and data management for Gen AI. Free plan gives upto 1,000 private eval rows/week.",
+    "freeDetail": "www.braintrustdata.com/",
+    "tags": [
+      "#AI",
+      "LLM 평가"
+    ],
+    "url": "https://www.braintrustdata.com/",
+    "source": "free-for-dev",
+    "limit": "Free plan gives upto 1",
+    "features": [
+      "이미지 생성"
+    ]
+  },
+  {
+    "name": "Clair",
+    "category": "보안",
+    "description": "Clinical AI Reference. Students have free access to the professional tool suite, which includes Open Search, Clinical Summary, Med Review, Drug Interactions, ICD-10 Codes, and Stewardship. Additionally, a free trial for the professional suite is available.",
+    "freeDetail": "askclair.ai/",
+    "tags": [
+      "#AI",
+      "보안"
+    ],
+    "url": "https://askclair.ai/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "텍스트 분석",
+      "검색"
+    ]
+  },
+  {
+    "name": "Comet Opik",
+    "category": "MLOps",
+    "description": "Evaluate, test, and ship LLM applications across your dev and production lifecycles. [#opensource](https://github.com/comet-ml/opik/)",
+    "freeDetail": "www.comet.com/site/products/opik/",
+    "tags": [
+      "#AI",
+      "MLOps"
+    ],
+    "url": "https://www.comet.com/site/products/opik/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "대화형 AI"
+    ]
+  },
+  {
+    "name": "Future AGI",
+    "category": "AI 플랫폼",
+    "description": "Open-source platform to evaluate, observe, and improve LLM and AI agent apps, with tracing, evals, simulations, and guardrails. Free tier includes 50GB storage, 2K eval credits, 100K AI-gateway requests/month, 1M tokens of text agent simulation and 60 min of voice simulation, plus unlimited projects/seats and BYOK LLM-as-judge at $0 platform cost. [#opensource](https://github.com/future-agi/future-agi)",
+    "freeDetail": "futureagi.com",
+    "tags": [
+      "#AI",
+      "AI 플랫폼"
+    ],
+    "url": "https://futureagi.com",
+    "source": "free-for-dev",
+    "limit": "Free tier includes 50GB storage",
+    "features": [
+      "이미지 생성",
+      "대화형 AI",
+      "텍스트 분석",
+      "음성/TTS"
+    ]
+  },
+  {
+    "name": "Keywords AI",
+    "category": "AI 플랫폼",
+    "description": "The best LLM monitoring platform. One format to call 200+ LLMs with 2 lines of code. 10,000 free requests every month and $0 for platform features!",
+    "freeDetail": "keywordsai.co",
+    "tags": [
+      "#AI",
+      "AI 플랫폼"
+    ],
+    "url": "https://keywordsai.co",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "코드生成",
+      "대화형 AI",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Langfuse",
+    "category": "LLM 모니터링",
+    "description": "LLM 애플리케이션용 오픈소스 추적 및 분석 플랫폼. 토큰 사용량, 지연 시간, 비용 추적",
+    "freeDetail": "langfuse.com/",
+    "tags": [
+      "#AI",
+      "LLM 모니터링"
+    ],
+    "url": "https://langfuse.com/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "대화형 AI",
+      "텍스트 분석",
+      "데이터 분석",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Langtrace",
+    "category": "LLM 모니터링",
+    "description": "AI 애플리케이션 추적 및 디버깅 플랫폼. 토큰 추적, 비용 분석, 성능 모니터링",
+    "freeDetail": "langtrace.ai",
+    "tags": [
+      "#AI",
+      "LLM 모니터링"
+    ],
+    "url": "https://langtrace.ai",
+    "source": "free-for-dev",
+    "limit": "Free plan offers 50K traces/month",
+    "features": [
+      "텍스트 분석",
+      "데이터 분석",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "LangWatch",
+    "category": "LLM 모니터링",
+    "description": "LLM 애플리케이션 모니터링 및 품질 관리. Hallucination 감지, 응답 품질 추적",
+    "freeDetail": "langwatch.ai",
+    "tags": [
+      "#AI",
+      "LLM 모니터링"
+    ],
+    "url": "https://langwatch.ai",
+    "source": "free-for-dev",
+    "limit": ", and per",
+    "features": [
+      "대화형 AI",
+      "모니터링"
+    ]
+  },
+  {
+    "name": "Lumenfall.ai",
+    "category": "AI 이미지",
+    "description": "AI media gateway providing unified access to leading image generation models via an OpenAI-compatible API. The platform itself is free to use with zero markup and no subscription fee. Inference costs for most models are billed at provider price, but FLUX.1 [schnell] FP8 is offered free forever with unlimited usage for registered users. Built-in failover and provider resilience included.",
+    "freeDetail": "lumenfall.ai/",
+    "tags": [
+      "#AI",
+      "AI 이미지"
+    ],
+    "url": "https://lumenfall.ai/",
+    "source": "free-for-dev",
+    "limit": "unlimited",
+    "features": [
+      "이미지 생성",
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "Maxim",
+    "category": "AI 모니터링",
+    "description": "An LLM evaluation and observability platform with agent simulation and prompt playground. Free tier offers 10k monthly logs, access to prompt playground, simulations and evaluations via BYOK.",
+    "freeDetail": "www.getmaxim.ai",
+    "tags": [
+      "#AI",
+      "AI 모니터링"
+    ],
+    "url": "https://www.getmaxim.ai",
+    "source": "free-for-dev",
+    "limit": "10k month",
+    "features": [
+      "이미지 생성",
+      "대화형 AI",
+      "에이전트"
+    ]
+  },
+  {
+    "name": "Mediaworkbench.ai",
+    "category": "미디어 처리",
+    "description": "MediaWorkbench.ai offers 100,000 free words for Azure OpenAI, DeepSeek, and Google Gemini models, enabling users to access powerful tools for code generation, deep research, and image creation.",
+    "freeDetail": "mediaworkbench.ai",
+    "tags": [
+      "#AI",
+      "미디어 처리"
+    ],
+    "url": "https://mediaworkbench.ai",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "코드生成",
+      "검색"
+    ]
+  },
+  {
+    "name": "OpenRouter",
+    "category": "AI API",
+    "description": "단일 API로 Claude, GPT, Gemini, Llama 등 모든 주요 AI 모델 접근. 사용량 기반 과금",
+    "freeDetail": "openrouter.ai/models?q=free",
+    "tags": [
+      "#AI",
+      "AI API"
+    ],
+    "url": "https://openrouter.ai/models?q=free",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Pollinations.AI",
+    "category": "이미지/영상 생성",
+    "description": "easy-to-use, free image generation AI with free API available. No signups or API keys required, and several option for integrating into a website or workflow. [#opensource](https://github.com/pollinations/pollinations)",
+    "freeDetail": "pollinations.ai/",
+    "tags": [
+      "#AI",
+      "이미지/영상 생성"
+    ],
+    "url": "https://pollinations.ai/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성",
+      "API"
+    ]
+  },
+  {
+    "name": "Portkey",
+    "category": "LLM 게이트웨이",
+    "description": "Control panel for Gen AI apps featuring an observability suite & an AI gateway. Send & log up to 10,000 requests for free every month.",
+    "freeDetail": "portkey.ai/",
+    "tags": [
+      "#AI",
+      "LLM 게이트웨이"
+    ],
+    "url": "https://portkey.ai/",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "이미지 생성"
+    ]
+  },
+  {
+    "name": "ReportGPT",
+    "category": "문서 생성",
+    "description": "AI Powered Writing Assistant. The entire platform is free as long as you bring your own API key.",
+    "freeDetail": "ReportGPT.app",
+    "tags": [
+      "#AI",
+      "문서 생성"
+    ],
+    "url": "https://ReportGPT.app",
+    "source": "free-for-dev",
+    "limit": "무료",
+    "features": [
+      "API"
+    ]
+  },
+  {
+    "name": "Zenable",
+    "category": "AI 이미지",
+    "description": "Instantly auto-fix outputs from tools like Cursor, Windsurf, and Copilot to meet your company's quality and compliance standards using guardrails built with Policy as Code. The free tier includes 100 tools calls per day to the MCP server and 25 free automated pull request reviews per day via the GitHub App.",
+    "freeDetail": "zenable.io",
+    "tags": [
+      "#AI",
+      "AI 이미지"
+    ],
+    "url": "https://zenable.io",
+    "source": "free-for-dev",
+    "limit": "free tier includes 100 tools calls per day to the MCP ser...",
+    "features": [
+      "코드生成"
+    ]
+  },
+  {
+    "name": "Country-State-City Microservice API",
+    "url": "https://country-state-city.rebuscando.info/",
+    "description": "API and Microservice to provides a wide range of information including countries, regions, provinces, cities, postal codes, and much more. The free tier includes up to 100 requests per day.",
+    "limit": "100 requests per",
+    "category": "기타 API",
+    "tags": [
+      "#AI",
+      "기타 API"
+    ],
+    "source": "free-for-dev",
+    "features": [
+      "코드生成",
+      "API"
+    ]
+  },
+  {
+    "name": "FormatJSONOnline.com",
+    "url": "https://formatjsononline.com",
+    "description": "A free, browser-based tool to format, validate,compare and minify JSON data instantly.",
+    "limit": "무료",
+    "category": "개발자 도구",
+    "tags": [
+      "#AI",
+      "개발자 도구"
+    ],
+    "source": "free-for-dev",
+    "features": [
+      "기본 기능"
+    ]
+  },
+  {
+    "name": "huggingface.co",
+    "url": "https://huggingface.co",
+    "description": "Build, train, and deploy NLP models for Pytorch, TensorFlow, and JAX. Free up to 30k input characters/mo.",
+    "limit": "무료",
+    "category": "AI 모델/트래이닝",
+    "tags": [
+      "#AI",
+      "AI 모델/트래이닝"
+    ],
+    "source": "free-for-dev",
+    "features": [
+      "텍스트 분석",
+      "자연어 처리"
+    ]
+  },
+  {
+    "name": "IP Geolocation API by ipwho.org",
+    "url": "https://ipwho.org/",
+    "description": "2,000 free requests per day. Fast, enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government and education clients. Servers in 12+ regions.",
+    "limit": "무료",
+    "category": "IP/지리 정보",
+    "tags": [
+      "#AI",
+      "IP/지리 정보"
+    ],
+    "source": "free-for-dev",
+    "features": [
+      "API"
+    ]
+  }
+]
