@@ -1,0 +1,938 @@
+[
+  {
+    "name": "Abstract API",
+    "url": "https://www.abstractapi.com",
+    "description": "IP 지리적 위치, 전화번호 검증, 이메일 검증 등 다양한 API 모음",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Apify",
+    "url": "https://www.apify.com/",
+    "description": "웹 스크래핑 및 자동화 플랫폼. 모든 웹사이트에서 API 생성 및 데이터 추출. 월 5달러 크레딧 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "APITemplate.io",
+    "url": "https://apitemplate.io",
+    "description": "간단한 API로 이미지 및 PDF 자동 생성. 월 50개 이미지 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "APIVerve",
+    "url": "https://apiverve.com",
+    "description": "120개 이상의 API에 무제한 접근. 월 50 API 토큰 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Arize AI",
+    "url": "https://arize.com/",
+    "description": "ML 모델 모니터링 및 Root-Cause 분석. 데이터 드리프트 감지, 모델 성능 추적",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Beeceptor",
+    "url": "https://beeceptor.com",
+    "description": "REST, SOAP, gRPC, GraphQL API 목킹 및 디버깅. 하루 50회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "BigDataCloud",
+    "url": "https://www.bigdatacloud.com/",
+    "description": "IP 지리적 위치, 역지오코딩, 이메일/전화번호 검증 API. 월 1만~5만 회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Browse AI",
+    "url": "https://www.browse.ai",
+    "description": "웹 데이터 추출 및 모니터링. 월 1000 크레딧 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "BrowserCat",
+    "url": "https://www.browsercat.com",
+    "description": "헤드리스 브라우저 API. 자동화, 스크래핑, AI 에이전트 웹 접근. 월 1000회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Calendarific",
+    "url": "https://calendarific.com",
+    "description": "200개 이상의 국가 공휴일 API. 월 500회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Canopy",
+    "url": "https://www.canopyapi.co/",
+    "description": "Amazon.com 제품, 검색, 카테고리 GraphQL API. 월 100회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CarAPI.dev",
+    "url": "https://carapi.dev",
+    "description": "차대번호 해독, 도난 차량 확인, 차량 가치 평가 API. 월 100회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CatchDoms",
+    "url": "https://catchdoms.com",
+    "description": "16개 마켓플레이스의 만료/삭제 도메인 목록 수집. SEO 인사이트 제공",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Cloudmersive",
+    "url": "https://cloudmersive.com/",
+    "description": "문서 변환, 바이러스 검사 등 유틸리티 API. 월 600회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Colaboratory",
+    "url": "https://colab.research.google.com",
+    "description": "무료 웹 기반 Python 노트북 환경. Nvidia Tesla K80 GPU 포함",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CometML",
+    "url": "https://www.comet.com/site/",
+    "description": "MLOps 실험 추적 플랫폼. 실험 비교, 모델 레지스트리, 데이터 계보 추적",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Commerce Layer",
+    "url": "https://commercelayer.io",
+    "description": "주문 관리, 결제 통합 API. 개발자 플랜: 월 100개 주문, 1000개 SKU 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Composio",
+    "url": "https://composio.dev/",
+    "description": "AI 에이전트 및 LLM 통합 플랫폼. 200개 이상의 도구 통합",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Conversion Tools",
+    "url": "https://conversiontools.io/",
+    "description": "Online File Converter for documents, images, video, audio, and eBooks. REST API is available. Libraries for Node.js, PHP, Python. Support files up to 50 GB (for paid plans). The free tier is limited by file size (20MB) and number of conversions (30/Day, 300/Month).",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Country-State-City API",
+    "url": "https://country-state-city.rebuscando.info/",
+    "description": "국가, 지역, 도시, 우편번호 정보 API. 하루 100회 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Coupler",
+    "url": "https://www.coupler.io/",
+    "description": "앱 간 데이터 동기화 및 실시간 대시보드. 1개 데이터 연결 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CraftMyPDF",
+    "url": "https://craftmypdf.com",
+    "description": "템플릿 기반 PDF 문서 자동 생성 API. 월 100개 PDF 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Cube",
+    "url": "https://cube.dev/",
+    "description": "데이터 엔지니어용 데이터 플랫폼. 일 1000쿼리 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CurlHub",
+    "url": "https://curlhub.io",
+    "description": "API 검사 및 디버깅 프록시 서비스. 월 1만 회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CurrencyScoop",
+    "url": "https://currencyscoop.com",
+    "description": "실시간 환율 데이터 API. 월 5000회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "CustomJS",
+    "url": "https://www.customjs.io",
+    "description": "HTML to PDF/PNG 변환 API. 월 600회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Data Fetcher",
+    "url": "https://datafetcher.com",
+    "description": "Airtable와 앱/API 연결 도구. 월 100회 실행 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Data Miner",
+    "url": "https://dataminer.io/",
+    "description": "웹페이지 데이터 추출 Chrome 확장. 월 500페이지 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Dataimporter.io",
+    "url": "https://www.dataimporter.io",
+    "description": "Salesforce 데이터 연결, 정리, 가져오기 도구. 월 2만 개 레코드 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Datalore",
+    "url": "https://datalore.jetbrains.com",
+    "description": "JetBrains의 Python 노트북 환경. 실시간 협업, 클라우드 컴퓨팅 지원",
+    "category": "AI/ML"
+  },
+  {
+    "name": "DB Designer",
+    "url": "https://www.dbdesigner.net/",
+    "description": "클라우드 데이터베이스 스키마 설계 및 모델링 도구. 2개 모델, 모델당 10개 테이블 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "DB-IP",
+    "url": "https://db-ip.com/api/free",
+    "description": "무료 IP 지리적 위치 API. 일 1000회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "DeepAR",
+    "url": "https://developer.deepar.ai",
+    "description": "모든 플랫폼용 AR 얼굴 필터 SDK. 월 10개 활성 사용자 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Deepnote",
+    "url": "https://deepnote.com",
+    "description": "실시간 협업 가능한 데이터 사이언스 노트북. Jupyter 호환, 무제한 개인 프로젝트",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Compare JSON",
+    "url": "https://comparejson.com",
+    "description": "두 JSON 데이터 구조 차이점 비교 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Disease.sh",
+    "url": "https://disease.sh/",
+    "description": "Covid-19 관련 데이터 무료 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Doczilla",
+    "url": "https://www.doczilla.app/",
+    "description": "HTML/CSS/JS 코드에서 스크린샷/PDF 생성 API. 월 250개 문서 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Doppio",
+    "url": "https://doppio.sh/",
+    "description": "브라우저 기반 가상 데스크톱. 개발 환경 즉시 사용 가능",
+    "category": "AI/ML"
+  },
+  {
+    "name": "drawDB",
+    "url": "https://drawdb.app/",
+    "description": "무료 온라인 데이터베이스 스키마 편집기 및 SQL 생성기",
+    "category": "AI/ML"
+  },
+  {
+    "name": "DynamicDocs",
+    "url": "https://advicement.io",
+    "description": "템플릿 기반 문서 자동 생성. PDF, 문서 생성 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Earnings Feed",
+    "url": "https://earningsfeed.com/api",
+    "description": "기업 실적 데이터 API. 회의 일정 및 데이터 제공",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Export SDK",
+    "url": "https://exportsdk.com",
+    "description": "앱 내 데이터 내보내기 SDK. PDF, Excel, CSV 내보내기",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ExtendsClass",
+    "url": "https://extendsclass.com/rest-client-online.html",
+    "description": "무료 개발자 도구: REST/GraphQL 클라이언트, Faker.js, SQL 플레이그라운드",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Financial Data",
+    "url": "https://financialdata.net/",
+    "description": "주식, 암호화폐, 환율 데이터 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "FormatJSONOnline",
+    "url": "https://formatjsononline.com",
+    "description": "JSON 포맷, 미니파이, 검증 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "FraudLabs Pro",
+    "url": "https://www.fraudlabspro.com",
+    "description": "사기 거래 감지 API. 월 500회 호출 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "FreeIPAPI",
+    "url": "https://freeipapi.com",
+    "description": "무료 IP 지리적 위치 API. 무제한 요청",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Geolocated.io",
+    "url": "https://geolocated.io",
+    "description": "IP 기반 지리적 위치 API. 일 1만 회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Hex",
+    "url": "https://hex.tech/",
+    "description": "데이터 사이언스 협업 플랫폼. SQL, Python 노트북 지원",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Hook0",
+    "url": "https://www.hook0.com/",
+    "description": "Webhook 관리 및 디버깅 플랫폼. 월 1만 이벤트 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Hoppscotch",
+    "url": "https://hoppscotch.io",
+    "description": "오픈소스 API 개발 환경. REST, GraphQL, WebSocket 테스트",
+    "category": "AI/ML"
+  },
+  {
+    "name": "HS Ping",
+    "url": "https://hsping.com",
+    "description": "API 상태 모니터링 및 uptime 체크. 3개 엔드포인트 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "허깅페이스",
+    "url": "https://huggingface.co",
+    "description": "50만 개 이상의 오픈소스 AI 모델을 무료로 체험. Stable Diffusion, FLUX, Llama, Whisper 등 브라우저에서 즉시 사용 가능",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Insomnia",
+    "url": "https://insomnia.rest",
+    "description": "API 디자인 및 디버깅 도구. REST, GraphQL 지원",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Invantive Cloud",
+    "url": "https://cloud.invantive.com/",
+    "description": "기업 데이터 통합 플랫폼. 70개 이상의 ERP/CRM 연결",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IP Geolocation (ipwho.org)",
+    "url": "https://ipwho.org/",
+    "description": "무료 IP 지리적 위치 API. 무제한 사용 가능",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IP Geolocation API",
+    "url": "https://www.abstractapi.com/ip-geolocation-api",
+    "description": "IP 주소로 위치 정보 조회 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IP Geolocation",
+    "url": "https://ipgeolocation.io/",
+    "description": "간단한 IP 위치 조회 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ip-api",
+    "url": "https://ip-api.com",
+    "description": "IP 지리적 위치, ASN 정보 API. 일 45회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IP.City",
+    "url": "https://ip.city",
+    "description": "IP로 도시 정보 조회. 간단한 위치 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IP2Location.io",
+    "url": "https://www.ip2location.io/",
+    "description": "IP 지리적 위치 및 ASN 정보. 월 5만 회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ip2geo.dev",
+    "url": "https://ip2geo.dev",
+    "description": "간단한 IP 지오코딩 API. 개발용 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ipaddress.sh",
+    "url": "https://ipaddress.sh",
+    "description": "IP 주소 정보 조회 CLI 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ipapi.is",
+    "url": "https://ipapi.is/",
+    "description": "IP 정보 API. 지리적 위치, ASN, 시간대 정보",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ipapi",
+    "url": "https://ipapi.co/",
+    "description": "IP 지리적 위치 API. 일 1000회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ipbase.com",
+    "url": "https://ipbase.com",
+    "description": "IP 정보 및 지리적 위치 API. 월 5만 회 요청 무료",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IPinfo",
+    "url": "https://ipinfo.io/",
+    "description": "IP 데이터베이스 API. IP 소유자, 지리적 위치, ASN 정보",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IPLocate",
+    "url": "https://www.iplocate.io",
+    "description": "IP 위치 추적 API. 간단한 무료 플랜",
+    "category": "AI/ML"
+  },
+  {
+    "name": "IPTrace",
+    "url": "https://iptrace.io",
+    "description": "IP 추적 및 위협 인텔리전스 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSON IP",
+    "url": "https://getjsonip.com",
+    "description": "간단한 JSON 형식 IP 조회 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSON to Table",
+    "url": "https://jsontotable.org",
+    "description": "Convert JSON into an interactive table for quick viewing, editing, and sharing online.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSON2Video",
+    "url": "https://json2video.com",
+    "description": "JSON에서 동영상 자동 생성 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSONGrid",
+    "url": "https://jsongrid.com",
+    "description": "JSON 데이터를 격자 형태로 보기/편집",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSONing",
+    "url": "https://jsoning.com/api/",
+    "description": "JSON 뷰어 및 에디터 온라인 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "JSONSwiss",
+    "url": "https://www.jsonswiss.com/",
+    "description": "JSON 데이터 처리 유틸리티",
+    "category": "AI/ML"
+  },
+  {
+    "name": "KillBait API",
+    "url": "https://killbait.com/api/doc",
+    "description": "API 모니터링 및 상태 확인 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Kreya",
+    "url": "https://kreya.app",
+    "description": "gRPC, REST API 클라이언트 및 디버깅 도구",
+    "category": "AI/ML"
+  },
+  {
+    "name": "LoginLlama",
+    "url": "https://loginllama.app",
+    "description": "로그인 보안 및 브루트포스 감지 API",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Market Data API",
+    "url": "https://www.marketdata.app",
+    "description": "금융 시장 데이터 API. 주식, 암호화폐",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Maxim AI",
+    "url": "https://getmaxim.ai/",
+    "description": "AI 에이전트 플랫폼. LLM 추적 및 모니터링",
+    "category": "AI/ML"
+  },
+  {
+    "name": "microlink.io",
+    "url": "https://microlink.io/",
+    "description": "URL에서 메타데이터 추출 API. 미리보기 카드 생성",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Mintlify",
+    "url": "https://mintlify.com",
+    "description": "문서 자동 생성 플랫폼. 아름다운 문서 사이트 호스팅",
+    "category": "AI/ML"
+  },
+  {
+    "name": "MockAPI",
+    "url": "https://www.mockapi.io/",
+    "description": "REST API 목킹 서비스. 가짜 API 서버 생성",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Mockerito",
+    "url": "https://mockerito.com/",
+    "description": "Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Mockfly",
+    "url": "https://www.mockfly.dev/",
+    "description": "API 목킹 및 테스트 데이터 생성 플랫폼",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Mocko.dev",
+    "url": "https://mocko.dev/",
+    "description": "간단한 API 목킹 서비스",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Multi-Exit IP Address Checker",
+    "url": "https://ip.alstra.ca/",
+    "description": "A free and simple tool to check your exit IP address across multiple nodes and understand how your IP appears to different global regions and services. Useful for testing rule-based DNS splitting tools such as Control D.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "News API",
+    "url": "https://newsapi.org",
+    "description": "Search news on the web with code, and get JSON results. Developers get 100 queries free each day. Articles have a 24 hour delay.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "numlookupapi.com",
+    "url": "https://numlookupapi.com",
+    "description": "Free phone number validation API - 100 free requests / month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "OCR.Space",
+    "url": "https://ocr.space/",
+    "description": "An OCR API parses image and pdf files that return the text results in JSON format. 25,000 requests per month are free and a 1MB file size limit.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "OpenAPI3 Designer",
+    "url": "https://openapidesigner.com/",
+    "description": "Visually create Open API 3 definitions for free.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Parseur",
+    "url": "https://parseur.com",
+    "description": "20 free pages/month: Extract data from PDFs, emails. AI powered. Full API access.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "PDF-API.io",
+    "url": "https://pdf-api.io",
+    "description": "PDF Automation API, visual template editor or HTML to PDF, dynamic data integration, and PDF rendering with an API. The free plan comes with one template, 100 PDFs/month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "PDFBolt",
+    "url": "https://pdfbolt.com",
+    "description": "Developer-focused PDF generation API designed with privacy in mind. It offers Stripe-inspired documentation and includes 500 free PDF conversions per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Pixela",
+    "url": "https://pixe.la/",
+    "description": "Free daystream database service. All operations are performed by API. Visualization with heat maps and line graphs is also possible.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Posthook",
+    "url": "https://posthook.io",
+    "description": "Schedule webhooks to fire at a future time with automatic retries, delivery tracking, and failure alerting. Free plan includes 1,000 webhooks per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Postman",
+    "url": "https://postman.com",
+    "description": "API 개발 및 테스트 플랫폼. Collections 공유 기능",
+    "category": "AI/ML"
+  },
+  {
+    "name": "PrefectCloud",
+    "url": "https://www.prefect.io/cloud/",
+    "description": "A complete platform for dataflow automation. Free plan includes 5 deployed workflows and 500 minutes of serverless compute credits per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Preset Cloud",
+    "url": "https://preset.io/",
+    "description": "A hosted Apache Superset service. Forever free for teams of up to 5 users, featuring unlimited dashboards and charts, a no-code chart builder, and a collaborative SQL editor.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ProxySentry",
+    "url": "https://proxysentry.io/",
+    "description": "IP API that detects residential proxies and VPNs. ProxySentry.io offers a free tier with 10k requests per month on rapidapi.com.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Reducto",
+    "url": "https://reducto.ai",
+    "description": "Turn any unstructured documents (PDF, XLSX, JPG, PPTX, etc.) into structured JSON data. Parse, extract data, and edit PDF forms. Free tier with 15k free credits and pay-as-you-go.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Rendi",
+    "url": "https://rendi.dev",
+    "description": "FFmpeg API - A REST API for FFmpeg, run FFmpeg online without handling the infrastructure. Free tier with monthly processing quota and 4 vCPUs available.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "RequestBin.com",
+    "url": "https://requestbin.com",
+    "description": "Create a free endpoint to which you can send HTTP requests. Any HTTP requests sent to that endpoint will be recorded with the associated payload and headers so you can observe recommendations from webhooks and other services.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ROBOHASH",
+    "url": "https://robohash.org/",
+    "description": "Web service to generate unique and cool images from any text.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Scraper's Proxy",
+    "url": "https://scrapersproxy.com",
+    "description": "Simple HTTP proxy API for scraping. Scrape anonymously without having to worry about restrictions, blocks, or captchas. First 100 successful scrapes per month free including javascript rendering (more available if you contact support).",
+    "category": "AI/ML"
+  },
+  {
+    "name": "ScrapingAnt",
+    "url": "https://scrapingant.com/",
+    "description": "웹 스크래핑 API. JS 렌더링, 프록시 지원",
+    "category": "AI/ML"
+  },
+  {
+    "name": "SerpApi",
+    "url": "https://serpapi.com/",
+    "description": "Real-time search engine scraping API. Returns structured JSON results for Google, YouTube, Bing, Baidu, Walmart, and many other machines. The free plan includes 100 successful API calls per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Sheetson",
+    "url": "https://sheetson.com",
+    "description": "Instantly turn any Google Sheets into a RESTful API. Free plan available, including 1,000 free rows per sheet.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "SikkerAPI",
+    "url": "https://sikkerapi.com",
+    "description": "Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Simplescraper",
+    "url": "https://simplescraper.io",
+    "description": "Trigger your webhook after each operation. The free plan includes 100 cloud scrape credits.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Geekflare API",
+    "url": "https://geekflare.com/api/",
+    "description": "Geekflare API lets you scrape websites into Markdown, take screenshots, perform TLS scans and DNS lookups, test load times, and more. The free plan offers 500 API credits per month (e.g., 500 DNS lookups, 250 web scrapes, or 100 screenshots). See [credit mapping](https://docs.geekflare.com/api/api-credit-mapping).",
+    "category": "AI/ML"
+  },
+  {
+    "name": "SmartParse",
+    "url": "https://smartparse.io",
+    "description": "SmartParse is a data migration and CSV to API platform that offers time- and cost-saving developer tools. The Free tier includes 300 Processing Units per month, Browser uploads, Data quarantining, Circuit breakers, and Job Alerts.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Sofodata",
+    "url": "https://www.sofodata.com/",
+    "description": "Create secure RESTful APIs from CSV files. Upload a CSV file and instantly access the data via its API allowing faster application development. The free plan includes 2 APIs and 2,500 API calls per month. You don't need a credit card.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Sqlable",
+    "url": "https://sqlable.com/",
+    "description": "A collection of free online SQL tools, including an SQL formatter and validator, SQL regex tester, fake data generator, and interactive database playgrounds.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Svix",
+    "url": "https://www.svix.com/",
+    "description": "Webhooks as a Service. Send up to 50,000 messages/month for free.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Tavily AI",
+    "url": "https://tavily.com/",
+    "description": "API for online search and rapid insights and comprehensive research, with the capability of organization of research results. 1000 request/month for the Free tier with No credit card required.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "TemplateFox",
+    "url": "https://pdftemplateapi.com",
+    "description": "PDF generation API with a visual template editor, dynamic data merging, and SDKs for 7 languages. Free plan includes 60 PDFs/month and 3 templates.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "The IP API",
+    "url": "https://theipapi.com/",
+    "description": "IP Geolocation API with 1000 free requests / day. Provides information about the location of an IP address, including country, city, region, and more.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "TinyMCE",
+    "url": "https://www.tiny.cloud",
+    "description": "rich text editing API. Core features are free for unlimited usage.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Tomorrow.io Weather API",
+    "url": "https://www.tomorrow.io/weather-api/",
+    "description": "Offers free plan of weather API. Provides accurate and up-to-date weather forecasting with global coverage, historical data and weather monitoring solutions.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Treblle",
+    "url": "https://www.treblle.com",
+    "description": "Treblle helps teams build, ship, and govern APIs. With advanced API log aggregation, observability, docs, and debugging. You get all features for free, but there is a limit of up to 250k requests per month on the free tier.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Trophy",
+    "url": "https://trophy.so",
+    "description": "API infrastructure for building gamification features like achievements, streaks, points and leaderboards in web and mobile apps. Free for 100 monthly active users.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "UniRateAPI",
+    "url": "https://unirateapi.com",
+    "description": "Real-time exchange rates for 590+ currencies and crypto. Unlimited API calls on the free plan, perfect for developers and finance apps.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "vatcheckapi.com",
+    "url": "https://vatcheckapi.com",
+    "description": "Simple and free VAT number validation API. 150 free validations per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "vatnode",
+    "url": "https://vatnode.dev",
+    "description": "EU VAT number validation REST API with VIES and national tax-registry fallback, returning the official VIES consultation number for audit records. Free tier of 100 validations/month, no credit card.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "WeatherXu",
+    "url": "https://weatherxu.com/",
+    "description": "Global weather data including current conditions, hourly and daily forecasts, and weather alerts via our API. Integrating AI models and ML systems to analyze and combine multiple weather models to deliver improved forecast accuracy. Free tier includes 10,000 API calls/month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "WebScraping.AI",
+    "url": "https://webscraping.ai",
+    "description": "Simple Web Scraping API with built-in parsing, Chrome rendering, and proxies. Two thousand free API calls per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Weights & Biases",
+    "url": "https://wandb.ai",
+    "description": "MLOps 실험 추적 및 모델 모니터링 플랫폼. 학습 메트릭 실시간 추적, 하이퍼파라미터 최적화",
+    "category": "AI/ML"
+  },
+  {
+    "name": "What Is My IP",
+    "url": "https://whatismyip.help",
+    "description": "A free service to check your public IPv4 and IPv6 address and related request data through an API with different output formats for automation, scripts, and network troubleshooting.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "What The Diff",
+    "url": "https://whatthediff.ai",
+    "description": "AI-powered code review assistant. The free plan has a limit of 25,000 monthly tokens (~10 PRs).",
+    "category": "AI/ML"
+  },
+  {
+    "name": "wolfram.com",
+    "url": "https://wolfram.com/language/",
+    "description": "Built-in knowledge-based algorithms in the cloud.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "wrapapi.com",
+    "url": "https://wrapapi.com/",
+    "description": "Turn any website into a parameterized API. 30k API calls per month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Zenscrape",
+    "url": "https://zenscrape.com/web-scraping-api",
+    "description": "Web scraping API with headless browsers, residentials IPs, and straightforward pricing. One thousand free API calls/month and extra credits for students and non-profits.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Zipcodebase",
+    "url": "https://zipcodebase.com",
+    "description": "Free Zip Code API, access to Worldwide Postal Code Data. 5,000 free requests/month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Zip-Codes",
+    "url": "https://www.zip-codes.com/api/",
+    "description": "REST API for US and Canadian postal codes with address validation, radius search, and Census demographics. 2,500 free requests/day.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Zipcodestack",
+    "url": "https://zipcodestack.com",
+    "description": "Free Zip Code API and Postal Code Validation. Ten thousand free requests/month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Zuplo",
+    "url": "https://zuplo.com/",
+    "description": "Free API Management platform to design, build, and deploy APIs to the Edge. Add API Key authentication, rate limiting, developer documentation and Monetization to any API in minutes. OpenAPI-native and fully-programmable with web standard apis & Typescript. The free plan offers up to 10 projects, unlimited production edge environments, 1M monthly requests, and 10GB egress.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Metashot",
+    "url": "https://metashot.io",
+    "description": "— Open Graph (OG) social preview image generation API. Generate dynamic 1200×630 images for Twitter, LinkedIn and Facebook via URL params, edge-cached on Cloudflare Workers. Free tier: 1,000 renders/month. Paid plans from $12/month.",
+    "category": "AI/ML"
+  },
+  {
+    "name": "Arize AX",
+    "url": "https://arize.com",
+    "description": "AI engineering platform that helps AI eng/PMs, evaluate, and observe AI applications and agents with built-in Alyx agent. Free product inlcudes 25k spans and ingestion volume of 1gb per month.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Audio Enhancer",
+    "url": "https://voice-clone.org/tools/audio-enhancer",
+    "description": "AI-powered audio enhancer SaaS that removes noise and echo while preserving natural vocal clarity. totally Free: unlimited one-click enhancements, no login required, supports MP3/WAV/FLAC",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Braintrust",
+    "url": "https://www.braintrustdata.com/",
+    "description": "Evals, prompt playground, and data management for Gen AI. Free plan gives upto 1,000 private eval rows/week.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Clair",
+    "url": "https://askclair.ai/",
+    "description": "Clinical AI Reference. Students have free access to the professional tool suite, which includes Open Search, Clinical Summary, Med Review, Drug Interactions, ICD-10 Codes, and Stewardship. Additionally, a free trial for the professional suite is available.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Comet Opik",
+    "url": "https://www.comet.com/site/products/opik/",
+    "description": "Evaluate, test, and ship LLM applications across your dev and production lifecycles. [#opensource](https://github.com/comet-ml/opik/)",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Future AGI",
+    "url": "https://futureagi.com",
+    "description": "Open-source platform to evaluate, observe, and improve LLM and AI agent apps, with tracing, evals, simulations, and guardrails. Free tier includes 50GB storage, 2K eval credits, 100K AI-gateway requests/month, 1M tokens of text agent simulation and 60 min of voice simulation, plus unlimited projects/seats and BYOK LLM-as-judge at $0 platform cost. [#opensource](https://github.com/future-agi/future-agi)",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Keywords AI",
+    "url": "https://keywordsai.co",
+    "description": "The best LLM monitoring platform. One format to call 200+ LLMs with 2 lines of code. 10,000 free requests every month and $0 for platform features!",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Langfuse",
+    "url": "https://langfuse.com/",
+    "description": "LLM 애플리케이션용 오픈소스 추적 및 분석 플랫폼. 토큰 사용량, 지연 시간, 비용 추적",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Langtrace",
+    "url": "https://langtrace.ai",
+    "description": "AI 애플리케이션 추적 및 디버깅 플랫폼. 토큰 추적, 비용 분석, 성능 모니터링",
+    "category": "Generative AI"
+  },
+  {
+    "name": "LangWatch",
+    "url": "https://langwatch.ai",
+    "description": "LLM 애플리케이션 모니터링 및 품질 관리. Hallucination 감지, 응답 품질 추적",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Lumenfall.ai",
+    "url": "https://lumenfall.ai/",
+    "description": "AI media gateway providing unified access to leading image generation models via an OpenAI-compatible API. The platform itself is free to use with zero markup and no subscription fee. Inference costs for most models are billed at provider price, but FLUX.1 [schnell] FP8 is offered free forever with unlimited usage for registered users. Built-in failover and provider resilience included.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Maxim",
+    "url": "https://www.getmaxim.ai",
+    "description": "An LLM evaluation and observability platform with agent simulation and prompt playground. Free tier offers 10k monthly logs, access to prompt playground, simulations and evaluations via BYOK.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Mediaworkbench.ai",
+    "url": "https://mediaworkbench.ai",
+    "description": "MediaWorkbench.ai offers 100,000 free words for Azure OpenAI, DeepSeek, and Google Gemini models, enabling users to access powerful tools for code generation, deep research, and image creation.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/models?q=free",
+    "description": "단일 API로 Claude, GPT, Gemini, Llama 등 모든 주요 AI 모델 접근. 사용량 기반 과금",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Pollinations.AI",
+    "url": "https://pollinations.ai/",
+    "description": "easy-to-use, free image generation AI with free API available. No signups or API keys required, and several option for integrating into a website or workflow. [#opensource](https://github.com/pollinations/pollinations)",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Portkey",
+    "url": "https://portkey.ai/",
+    "description": "Control panel for Gen AI apps featuring an observability suite & an AI gateway. Send & log up to 10,000 requests for free every month.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "ReportGPT",
+    "url": "https://ReportGPT.app",
+    "description": "AI Powered Writing Assistant. The entire platform is free as long as you bring your own API key.",
+    "category": "Generative AI"
+  },
+  {
+    "name": "Zenable",
+    "url": "https://zenable.io",
+    "description": "Instantly auto-fix outputs from tools like Cursor, Windsurf, and Copilot to meet your company's quality and compliance standards using guardrails built with Policy as Code. The free tier includes 100 tools calls per day to the MCP server and 25 free automated pull request reviews per day via the GitHub App.",
+    "category": "Generative AI"
+  }
+]
