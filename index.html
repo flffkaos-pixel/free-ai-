@@ -3265,7 +3265,7 @@ document.addEventListener('click', e => {
   }
 });
 
-const fuse = new Fuse([], { keys: ['name'], threshold: 0.4 });
+const fuse = new Fuse([], { keys: ['name', 'desc', 'tags'], threshold: 0.35 });
 function filterCards() {
   const query = document.getElementById('searchInput').value.trim();
   if (!query) {
@@ -3275,7 +3275,11 @@ function filterCards() {
     document.querySelector('#all-services .section-header h2').textContent = '전체 서비스';
     return;
   }
-  fuse.setCollection(Array.from(document.querySelectorAll('#mainGrid > .card')).map(c => ({ name: c.dataset.name })));
+  fuse.setCollection(Array.from(document.querySelectorAll('#mainGrid > .card')).map(c => ({
+    name: c.dataset.name,
+    desc: (c.querySelector('.card-desc')?.textContent || ''),
+    tags: (c.querySelector('.card-tags')?.textContent || '')
+  })));
   const results = fuse.search(query);
   const matched = new Set(results.map(r => r.item.name));
   document.querySelectorAll('#mainGrid > .card').forEach(card => {
