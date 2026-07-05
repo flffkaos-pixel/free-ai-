@@ -106,6 +106,17 @@
   @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
   article.card { animation: fadeUp .35s ease both; }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Free AI - 무료 AI 서비스 모음",
+  "alternateName": "무료 AI & 개발도구 모음 2026",
+  "url": "https://flffkaos-pixel.github.io/free-ai-/",
+  "description": "191개 무료 AI/ML 서비스를 카테고리별로 정리. 각 서비스의 무료 사용 제한량을 확인하세요.",
+  "inLanguage": "ko-KR"
+}
+</script>
 </head>
 <body>
 
@@ -3254,8 +3265,9 @@ document.addEventListener('click', e => {
   }
 });
 
+const fuse = new Fuse([], { keys: ['name'], threshold: 0.4 });
 function filterCards() {
-  const query = document.getElementById('searchInput').value.toLowerCase();
+  const query = document.getElementById('searchInput').value.trim();
   if (!query) {
     document.querySelectorAll('#mainGrid > .card').forEach(c => c.style.display = '');
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -3263,10 +3275,11 @@ function filterCards() {
     document.querySelector('#all-services .section-header h2').textContent = '전체 서비스';
     return;
   }
+  fuse.setCollection(Array.from(document.querySelectorAll('#mainGrid > .card')).map(c => ({ name: c.dataset.name })));
+  const results = fuse.search(query);
+  const matched = new Set(results.map(r => r.item.name));
   document.querySelectorAll('#mainGrid > .card').forEach(card => {
-    const name = card.dataset.name.toLowerCase();
-    const visible = name.includes(query);
-    card.style.display = visible ? '' : 'none';
+    card.style.display = matched.has(card.dataset.name) ? '' : 'none';
   });
 }
 </script>
