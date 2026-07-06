@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -9,15 +9,15 @@
 <meta property="og:title" content="무료 AI & 개발도구 모음 2026 - DevTools Platform">
 <meta property="og:description" content="무료 AI 서비스 총정리. ChatGPT, Claude, Gemini, Hugging Face 등 191개 서비스를 카테고리별로 정리. 각 서비스의 무료 사용 제한량을 확인하세요.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://flffkaos-pixel.github.io/free-ai-/">
-<meta property="og:image" content="https://flffkaos-pixel.github.io/free-ai-/og-image.png">
+<meta property="og:url" content="https://freeaisite.pages.dev/">
+<meta property="og:image" content="https://freeaisite.pages.dev/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="무료 AI & 개발도구 모음 2026 - DevTools Platform">
 <meta name="twitter:description" content="191개 무료 AI 서비스를 카테고리별로 정리">
-<meta name="twitter:image" content="https://flffkaos-pixel.github.io/free-ai-/og-image.png">
+<meta name="twitter:image" content="https://freeaisite.pages.dev/og-image.png">
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
@@ -76,8 +76,10 @@
 
   .limit-badge { font-size: 11px; color: var(--text-muted); margin-bottom: 10px; padding: 6px 10px; background: var(--bg-secondary); border-radius: 6px; display: flex; align-items: center; gap: 6px; }
   .limit-label { color: var(--text-muted); font-weight: 500; }
-  .limit-badge.free-only { background: var(--accent-dim); }
-  .limit-badge.free-only .limit-label { color: var(--accent); font-weight: 600; }
+  .limit-badge.free-only { background: var(--accent); }
+  .limit-badge.free-only .limit-label { color: #0a0a0f; font-weight: 700; }
+  .limit-badge:not(.free-only) .limit-label { color: var(--accent); font-weight: 600; }
+  .limit-badge:not(.free-only) { color: var(--text-secondary); }
 
   .card-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 10px; }
   .tag { padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 500; background: var(--accent-dim); color: #a0e000; }
@@ -112,7 +114,7 @@
   "@type": "WebSite",
   "name": "Free AI - 무료 AI 서비스 모음",
   "alternateName": "무료 AI & 개발도구 모음 2026",
-  "url": "https://flffkaos-pixel.github.io/free-ai-/",
+  "url": "https://freeaisite.pages.dev/",
   "description": "191개 무료 AI/ML 서비스를 카테고리별로 정리. 각 서비스의 무료 사용 제한량을 확인하세요.",
   "inLanguage": "ko-KR"
 }
@@ -159,7 +161,7 @@
       </div>
       <div class="grid" id="mainGrid" role="list">
 <article class="card" data-category="챗봇" data-name="ChatGPT" role="listitem">
-  <a href="/free-ai-/services/chatgpt.html" class="card-link" aria-label="ChatGPT 상세 정보"></a>
+  <a href="/services/chatgpt.html" class="card-link" aria-label="ChatGPT 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">C</div>
     <div>
@@ -168,14 +170,14 @@
     </div>
   </div>
   <p class="card-desc">세계에서 가장 널리 쓰이는 AI 챗봇. GPT-5 모델을 무료로 제한적 사용 가능하며, 이미지 업로드·분석, 웹 검색, 코드 실행 기능을 무료로 제공합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">글쓰기</span><span class="tag">코딩</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">ChatGPT 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Claude" role="listitem">
-  <a href="/free-ai-/services/claude.html" class="card-link" aria-label="Claude 상세 정보"></a>
+  <a href="/services/claude.html" class="card-link" aria-label="Claude 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">C</div>
     <div>
@@ -184,14 +186,14 @@
     </div>
   </div>
   <p class="card-desc">Anthropic의 AI. 200K 토큰의 초장문 컨텍스트로 문서 분석·코드 리뷰에 강력합니다. 한국어 문장 결이 차분하고 논리적이어서 진지한 글쓰기에 적합합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">장문</span><span class="tag">코딩</span><span class="tag">분석</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Claude 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Google Gemini" role="listitem">
-  <a href="/free-ai-/services/google-gemini.html" class="card-link" aria-label="Google Gemini 상세 정보"></a>
+  <a href="/services/google-gemini.html" class="card-link" aria-label="Google Gemini 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">GG</div>
     <div>
@@ -200,14 +202,14 @@
     </div>
   </div>
   <p class="card-desc">Google의 AI. Gmail, Docs, YouTube 등 Google 생태계와 완벽 연동됩니다. 실시간 웹 검색과 이미지 분석도 무료로 가능하며, 안드로이드 기본 음성 비서로도 사용됩니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">검색</span><span class="tag">구글</span><span class="tag">문서</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Google Gemini 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="DeepSeek" role="listitem">
-  <a href="/free-ai-/services/deepseek.html" class="card-link" aria-label="DeepSeek 상세 정보"></a>
+  <a href="/services/deepseek.html" class="card-link" aria-label="DeepSeek 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">D</div>
     <div>
@@ -216,14 +218,14 @@
     </div>
   </div>
   <p class="card-desc">중국 DeepSeek의 오픈소스 모델. 무료 한도가 매우 넉넉해 거의 무제한에 가깝게 사용 가능합니다. 수학·논리 추론에 특히 강점이 있으며, 한국어도 자연스럽게 지원합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">추론</span><span class="tag">무제한</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">DeepSeek 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Microsoft Copilot" role="listitem">
-  <a href="/free-ai-/services/microsoft-copilot.html" class="card-link" aria-label="Microsoft Copilot 상세 정보"></a>
+  <a href="/services/microsoft-copilot.html" class="card-link" aria-label="Microsoft Copilot 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">MC</div>
     <div>
@@ -232,14 +234,14 @@
     </div>
   </div>
   <p class="card-desc">Microsoft의 AI 어시스턴트. GPT-4 기반 대화와 DALL-E 3 이미지 생성, 웹 검색을 하나의 서비스에서 모두 무료로 사용할 수 있습니다. Edge 브라우저와 완벽하게 통합됩니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지</span><span class="tag">검색</span><span class="tag">GPT-4</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Microsoft Copilot 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Grok" role="listitem">
-  <a href="/free-ai-/services/grok.html" class="card-link" aria-label="Grok 상세 정보"></a>
+  <a href="/services/grok.html" class="card-link" aria-label="Grok 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">G</div>
     <div>
@@ -248,14 +250,14 @@
     </div>
   </div>
   <p class="card-desc">xAI의 AI 챗봇. 실시간 트위터/X 정보 접근이 가능하며 무료 플랜에서 제한적으로 사용할 수 있습니다. 위트있고 직설적인 답변이 특징이며, 최신 트렌드 파악에 유용합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">트위터</span><span class="tag">실시간</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Grok 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Mistral AI" role="listitem">
-  <a href="/free-ai-/services/mistral-ai.html" class="card-link" aria-label="Mistral AI 상세 정보"></a>
+  <a href="/services/mistral-ai.html" class="card-link" aria-label="Mistral AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">MA</div>
     <div>
@@ -264,14 +266,14 @@
     </div>
   </div>
   <p class="card-desc">프랑스 AI 스타트업 Mistral의 챗봇 Le Chat. 무료로 제공되며 한국어도 지원합니다. 응답 속도가 매우 빠르고 성능이 우수하며, 오픈소스 모델을 기반으로 합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">빠름</span><span class="tag">오픈소스</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Mistral AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Canva AI" role="listitem">
-  <a href="/free-ai-/services/canva-ai.html" class="card-link" aria-label="Canva AI 상세 정보"></a>
+  <a href="/services/canva-ai.html" class="card-link" aria-label="Canva AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">CA</div>
     <div>
@@ -280,14 +282,14 @@
     </div>
   </div>
   <p class="card-desc">디자인 플랫폼 Canva의 AI 기능. Magic Media로 AI 이미지 생성, 배경 제거, 이미지 확장 등 디자인 작업을 무료로 할 수 있습니다. SNS 콘텐츠 제작에 특히 유용합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">디자인</span><span class="tag">SNS</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Canva AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Ideogram" role="listitem">
-  <a href="/free-ai-/services/ideogram.html" class="card-link" aria-label="Ideogram 상세 정보"></a>
+  <a href="/services/ideogram.html" class="card-link" aria-label="Ideogram 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">I</div>
     <div>
@@ -296,14 +298,14 @@
     </div>
   </div>
   <p class="card-desc">텍스트가 깔끔하게 들어간 이미지 생성에 특화된 AI. 로고, 포스터, 썸네일 등 텍스트 렌더링이 중요한 작업에 강점을 보입니다. 하루에 무료 이미지를 생성할 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">텍스트</span><span class="tag">로고</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Ideogram 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="GitHub Copilot" role="listitem">
-  <a href="/free-ai-/services/github-copilot.html" class="card-link" aria-label="GitHub Copilot 상세 정보"></a>
+  <a href="/services/github-copilot.html" class="card-link" aria-label="GitHub Copilot 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">GC</div>
     <div>
@@ -312,14 +314,14 @@
     </div>
   </div>
   <p class="card-desc">GitHub가 제공하는 AI 코드 어시스턴트. VS Code 등 주요 IDE에서 코드 자동완성과 채팅을 무료로 사용할 수 있습니다. 개인 개발자에게 특히 유용한 티어입니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">코딩</span><span class="tag">VS Code</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">GitHub Copilot 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="Windsurf" role="listitem">
-  <a href="/free-ai-/services/windsurf.html" class="card-link" aria-label="Windsurf 상세 정보"></a>
+  <a href="/services/windsurf.html" class="card-link" aria-label="Windsurf 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">W</div>
     <div>
@@ -328,14 +330,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 코딩 에디터. Cascade 에이전트 기능이 무료로 제공되며, 코드 자동완성과 리팩토링 추천도 기본 지원됩니다. 복잡한 코딩 작업을 AI의 도움으로 빠르게 처리할 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">코딩</span><span class="tag">에디터</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Windsurf 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="검색" data-name="Perplexity" role="listitem">
-  <a href="/free-ai-/services/perplexity.html" class="card-link" aria-label="Perplexity 상세 정보"></a>
+  <a href="/services/perplexity.html" class="card-link" aria-label="Perplexity 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">P</div>
     <div>
@@ -344,14 +346,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 검색 엔진. 각 답변마다 5~10개의 출처를 함께 제시해 정보 신뢰도를 확인할 수 있습니다. 보고서 작성, 논문 자료 수집, 팩트체크에 최적화된 도구입니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">검색</span><span class="tag">리서치</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Perplexity 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Kling" role="listitem">
-  <a href="/free-ai-/services/kling.html" class="card-link" aria-label="Kling 상세 정보"></a>
+  <a href="/services/kling.html" class="card-link" aria-label="Kling 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">K</div>
     <div>
@@ -360,14 +362,14 @@
     </div>
   </div>
   <p class="card-desc">AI 영상 생성 서비스. 가입 시 무료 크레딧을 제공하며, 텍스트나 이미지로 짧은 영상 클립을 생성할 수 있습니다. 영상 퀄리티가 매우 인상적이며, 5초 클립도 전문가 수준입니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">영상</span><span class="tag">크레딧</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Kling 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Runway" role="listitem">
-  <a href="/free-ai-/services/runway.html" class="card-link" aria-label="Runway 상세 정보"></a>
+  <a href="/services/runway.html" class="card-link" aria-label="Runway 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">R</div>
     <div>
@@ -376,14 +378,14 @@
     </div>
   </div>
   <p class="card-desc">AI 영상 편집 및 생성 플랫폼. Gen 시리즈 모델로 텍스트나 이미지에서 영상을 생성합니다. 무료 크레딧으로 체험 가능하며, 영상 편집 기능도 기본 제공됩니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">영상</span><span class="tag">편집</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Runway 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Suno" role="listitem">
-  <a href="/free-ai-/services/suno.html" class="card-link" aria-label="Suno 상세 정보"></a>
+  <a href="/services/suno.html" class="card-link" aria-label="Suno 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">S</div>
     <div>
@@ -392,14 +394,14 @@
     </div>
   </div>
   <p class="card-desc">AI 음악 생성 서비스. 가사나 장르, 분위기를 입력하면 놀라운 퀄리티의 음악을 만들어줍니다. 무료 크레딧으로 매일 곡을 생성할 수 있어 크리에이터에게 유용합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">음악</span><span class="tag">크레딧</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Suno 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="ElevenLabs" role="listitem">
-  <a href="/free-ai-/services/elevenlabs.html" class="card-link" aria-label="ElevenLabs 상세 정보"></a>
+  <a href="/services/elevenlabs.html" class="card-link" aria-label="ElevenLabs 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">E</div>
     <div>
@@ -408,14 +410,14 @@
     </div>
   </div>
   <p class="card-desc">AI 음성 합성 서비스. 자연스러운 음성으로 텍스트를 읽어주며, 음성 클로닝도 가능합니다. 다양한 언어와 음색을 지원하여 콘텐츠 제작에 활용하기 좋습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">음성</span><span class="tag">TTS</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">ElevenLabs 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Vrew" role="listitem">
-  <a href="/free-ai-/services/vrew.html" class="card-link" aria-label="Vrew 상세 정보"></a>
+  <a href="/services/vrew.html" class="card-link" aria-label="Vrew 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">V</div>
     <div>
@@ -424,14 +426,14 @@
     </div>
   </div>
   <p class="card-desc">한국 AI 영상 편집 도구. AI 자막 생성, 음성 인식, 더빙 기능을 무료로 제공합니다. 초보자도 쉽게 영상을 편집할 수 있으며, 한국어 인식률이 매우 높습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">한국어</span><span class="tag">자막</span><span class="tag">편집</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Vrew 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="뤼튼 (Wrtn)" role="listitem">
-  <a href="/free-ai-/services/wrtn.html" class="card-link" aria-label="뤼튼 (Wrtn) 상세 정보"></a>
+  <a href="/services/wrtn.html" class="card-link" aria-label="뤼튼 (Wrtn) 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">뤼(</div>
     <div>
@@ -440,14 +442,14 @@
     </div>
   </div>
   <p class="card-desc">한국 대표 AI 플랫폼. GPT·Claude 계열 모델과 이미지 생성까지 하나의 서비스에서 모두 무료로 사용 가능합니다. 한국어에 최적화되어 있으며, 매우 넉넉한 무료 한도를 제공합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">한국어</span><span class="tag">올인원</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">뤼튼 (Wrtn) 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Groq" role="listitem">
-  <a href="/free-ai-/services/groq.html" class="card-link" aria-label="Groq 상세 정보"></a>
+  <a href="/services/groq.html" class="card-link" aria-label="Groq 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">G</div>
     <div>
@@ -456,14 +458,14 @@
     </div>
   </div>
   <p class="card-desc">세계에서 가장 빠른 AI 추론 엔진. LPU(Language Processing Unit) 기술로 Llama 3.3 70B 등 최신 모델을 초고속으로 실행합니다. 무료 티어에서 30 RPM, 일 14,400회 요청을 제공하며 카드 등록이 필요 없습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">초고속</span><span class="tag">무제한</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Groq 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Adobe Firefly" role="listitem">
-  <a href="/free-ai-/services/adobe-firefly.html" class="card-link" aria-label="Adobe Firefly 상세 정보"></a>
+  <a href="/services/adobe-firefly.html" class="card-link" aria-label="Adobe Firefly 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">AF</div>
     <div>
@@ -472,14 +474,14 @@
     </div>
   </div>
   <p class="card-desc">Adobe의 AI 이미지 생성 엔진. 텍스트-이미지 생성, 생성형 채우기, 텍스트 효과 등 다양한 기능을 무료로 제공합니다. Adobe 계정만 있으면 즉시 사용 가능하며, 상업적 사용도 가능합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지</span><span class="tag">Adobe</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Adobe Firefly 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Leonardo AI" role="listitem">
-  <a href="/free-ai-/services/leonardo-ai.html" class="card-link" aria-label="Leonardo AI 상세 정보"></a>
+  <a href="/services/leonardo-ai.html" class="card-link" aria-label="Leonardo AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">LA</div>
     <div>
@@ -488,14 +490,14 @@
     </div>
   </div>
   <p class="card-desc">게임 에셋 및 창작 이미지 생성에 특화된 AI. 무료 플랜에서 일일 크레딧을 제공하며, 다양한 사전 학습 모델을 선택할 수 있습니다. 커뮤니티 갤러리에서 다른 사용자의 프롬프트도 참고 가능합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지</span><span class="tag">게임</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Leonardo AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="Cursor" role="listitem">
-  <a href="/free-ai-/services/cursor.html" class="card-link" aria-label="Cursor 상세 정보"></a>
+  <a href="/services/cursor.html" class="card-link" aria-label="Cursor 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">C</div>
     <div>
@@ -504,14 +506,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 코드 에디터. VS Code 기반에 Claude/GPT 모델을 통합하여 코드 작성, 리팩토링, 디버깅을 AI와 대화하며 수행할 수 있습니다. 무료 플랜에서 월 2,000회 completions와 50회 프리미엄 요청을 제공합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">코딩</span><span class="tag">에디터</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Cursor 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Gamma AI" role="listitem">
-  <a href="/free-ai-/services/gamma-ai.html" class="card-link" aria-label="Gamma AI 상세 정보"></a>
+  <a href="/services/gamma-ai.html" class="card-link" aria-label="Gamma AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">GA</div>
     <div>
@@ -520,14 +522,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 프레젠테이션 및 문서 제작 도구. 주제를 입력하면 AI가 자동으로 PPT, 문서, 웹페이지를 생성합니다. 무료 플랜에서 AI 크레딧을 제공하며, 다양한 템플릿을 무료로 사용할 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">PPT</span><span class="tag">문서</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Gamma AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Grammarly" role="listitem">
-  <a href="/free-ai-/services/grammarly.html" class="card-link" aria-label="Grammarly 상세 정보"></a>
+  <a href="/services/grammarly.html" class="card-link" aria-label="Grammarly 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">G</div>
     <div>
@@ -536,14 +538,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 영작문 어시스턴트. 문법, 맞춤법, 문체, 톤을 실시간으로 교정하고 AI 글쓰기 생성 기능도 무료로 제공합니다. 브라우저 확장 프로그램으로 어디서나 사용 가능하며, 한국어 사용자도 영작 시 유용합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">영작</span><span class="tag">문법</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Grammarly 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="검색" data-name="NotebookLM" role="listitem">
-  <a href="/free-ai-/services/notebooklm.html" class="card-link" aria-label="NotebookLM 상세 정보"></a>
+  <a href="/services/notebooklm.html" class="card-link" aria-label="NotebookLM 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">N</div>
     <div>
@@ -552,14 +554,14 @@
     </div>
   </div>
   <p class="card-desc">Google의 AI 리서치 어시스턴트. PDF, 웹페이지, YouTube 영상 등 최대 50개 출처를 업로드하면 해당 내용만 기반으로 답변합니다. 출처를 정확히 인용해 환각(hallucination)이 없으며, Audio Overviews로 문서를 팟캐스트로 변환해 들을 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">#추천</span><span class="tag">리서치</span><span class="tag">팟캐스트</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">NotebookLM 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Poe" role="listitem">
-  <a href="/free-ai-/services/poe.html" class="card-link" aria-label="Poe 상세 정보"></a>
+  <a href="/services/poe.html" class="card-link" aria-label="Poe 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">P</div>
     <div>
@@ -568,14 +570,14 @@
     </div>
   </div>
   <p class="card-desc">Quora의 올인원 AI 플랫폼. GPT-5.5, Claude 4.5, Gemini 3.1, Grok, DeepSeek 등 최신 모델을 한 곳에서 모두 사용할 수 있습니다. FLUX 이미지 생성, Sora 영상 생성 등 멀티모달 기능도 포함되어 있어 여러 AI를 비교하며 작업할 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">올인원</span><span class="tag">멀티모델</span><span class="tag">비교</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Poe 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Hugging Face Spaces" role="listitem">
-  <a href="/free-ai-/services/hugging-face-spaces.html" class="card-link" aria-label="Hugging Face Spaces 상세 정보"></a>
+  <a href="/services/hugging-face-spaces.html" class="card-link" aria-label="Hugging Face Spaces 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">HF</div>
     <div>
@@ -584,14 +586,14 @@
     </div>
   </div>
   <p class="card-desc">500,000개 이상의 오픈소스 AI 모델을 무료로 체험하는 플랫폼. 이미지 생성(Stable Diffusion, FLUX), 영상 생성, 음성 합성, 챗봇 등 모든 종류의 AI 데모를 브라우저에서 바로 테스트할 수 있습니다. 회원가입 없이도 대부분 이용 가능합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">오픈소스</span><span class="tag">실험실</span><span class="tag">모든AI</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Hugging Face Spaces 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="챗봇" data-name="Goblin Tools" role="listitem">
-  <a href="/free-ai-/services/goblin-tools.html" class="card-link" aria-label="Goblin Tools 상세 정보"></a>
+  <a href="/services/goblin-tools.html" class="card-link" aria-label="Goblin Tools 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">GT</div>
     <div>
@@ -600,14 +602,14 @@
     </div>
   </div>
   <p class="card-desc">막막한 할 일을 구체적인 단계로 자동 분해해주는 AI. "웹사이트 런칭 준비" 같은 모호한 작업을 세부 액션 아이템으로 나눠줍니다. 매운맛(복잡도) 조절, 작업 시간 추정, 격식체 변환 등 기능이 포함되어 있으며 회원가입이 필요 없습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">생산성</span><span class="tag">할일</span><span class="tag">무료</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Goblin Tools 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Descript" role="listitem">
-  <a href="/free-ai-/services/descript.html" class="card-link" aria-label="Descript 상세 정보"></a>
+  <a href="/services/descript.html" class="card-link" aria-label="Descript 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">D</div>
     <div>
@@ -616,14 +618,14 @@
     </div>
   </div>
   <p class="card-desc">AI 기반 영상/음성 편집 도구. 영상 음성을 자동으로 텍스트 변환하고, 텍스트를 수정하면 영상도 함께 수정됩니다(타임라인 불필요). Overdub 음성 클로닝, 화면 녹화, AI 더빙 기능으로 초보자도 프로 수준의 영상을 제작할 수 있습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">영상편집</span><span class="tag">음성</span><span class="tag">자막</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Descript 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="Cerebras" role="listitem">
-  <a href="/free-ai-/services/cerebras.html" class="card-link" aria-label="Cerebras 상세 정보"></a>
+  <a href="/services/cerebras.html" class="card-link" aria-label="Cerebras 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">C</div>
     <div>
@@ -632,14 +634,14 @@
     </div>
   </div>
   <p class="card-desc">Groq과 함께 가장 빠른 AI 추론 속도를 자랑하는 플랫폼. Wafer-Scale Engine(WSE) 기술로 Llama 3.1 70B 등 최신 오픈소스 모델을 밀리초 단위로 실행합니다. 무료 API 키를 즉시 발급받아 사용할 수 있으며 신용카드가 필요 없습니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">초고속</span><span class="tag">API</span><span class="tag">오픈소스</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">Cerebras 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="ChatGPT 이미지 생성" role="listitem">
-  <a href="/free-ai-/services/chatgpt.html" class="card-link" aria-label="ChatGPT 이미지 생성 상세 정보"></a>
+  <a href="/services/chatgpt.html" class="card-link" aria-label="ChatGPT 이미지 생성 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">C이</div>
     <div>
@@ -648,14 +650,14 @@
     </div>
   </div>
   <p class="card-desc">ChatGPT 무료 플랜에서도 DALL-E 3 기반 이미지 생성이 가능합니다. 하루에 제한된 수량이지만, 간단한 썸네일이나 블로그 이미지를 만들기에 충분합니다.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지</span><span class="tag">DALL-E</span><span class="tag source-tag" style="background:rgba(16,163,127,0.1);color:#10a37f">자체 정리</span></div>
   <div class="card-footer">
     <span class="visit-btn">ChatGPT 이미지 생성 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Abstract API" role="listitem">
-  <a href="/free-ai-/services/abstract-api.html" class="card-link" aria-label="Abstract API 상세 정보"></a>
+  <a href="/services/abstract-api.html" class="card-link" aria-label="Abstract API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">AA</div>
     <div>
@@ -664,14 +666,14 @@
     </div>
   </div>
   <p class="card-desc">IP 지리적 위치, 전화번호 검증, 이메일 검증 등 다양한 API 모음</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Abstract API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Apify" role="listitem">
-  <a href="/free-ai-/services/apify.html" class="card-link" aria-label="Apify 상세 정보"></a>
+  <a href="/services/apify.html" class="card-link" aria-label="Apify 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">A</div>
     <div>
@@ -687,7 +689,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="APITemplate.io" role="listitem">
-  <a href="/free-ai-/services/apitemplate-io.html" class="card-link" aria-label="APITemplate.io 상세 정보"></a>
+  <a href="/services/apitemplate-io.html" class="card-link" aria-label="APITemplate.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">A</div>
     <div>
@@ -703,7 +705,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="APIVerve" role="listitem">
-  <a href="/free-ai-/services/apiverve.html" class="card-link" aria-label="APIVerve 상세 정보"></a>
+  <a href="/services/apiverve.html" class="card-link" aria-label="APIVerve 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">A</div>
     <div>
@@ -719,7 +721,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Arize AI" role="listitem">
-  <a href="/free-ai-/services/arize-ai.html" class="card-link" aria-label="Arize AI 상세 정보"></a>
+  <a href="/services/arize-ai.html" class="card-link" aria-label="Arize AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">AA</div>
     <div>
@@ -728,14 +730,14 @@
     </div>
   </div>
   <p class="card-desc">ML 모델 모니터링 및 Root-Cause 분석. 데이터 드리프트 감지, 모델 성능 추적</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">MLOps</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Arize AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Beeceptor" role="listitem">
-  <a href="/free-ai-/services/beeceptor.html" class="card-link" aria-label="Beeceptor 상세 정보"></a>
+  <a href="/services/beeceptor.html" class="card-link" aria-label="Beeceptor 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">B</div>
     <div>
@@ -751,7 +753,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="BigDataCloud" role="listitem">
-  <a href="/free-ai-/services/bigdatacloud.html" class="card-link" aria-label="BigDataCloud 상세 정보"></a>
+  <a href="/services/bigdatacloud.html" class="card-link" aria-label="BigDataCloud 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">B</div>
     <div>
@@ -767,7 +769,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Browse AI" role="listitem">
-  <a href="/free-ai-/services/browse-ai.html" class="card-link" aria-label="Browse AI 상세 정보"></a>
+  <a href="/services/browse-ai.html" class="card-link" aria-label="Browse AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">BA</div>
     <div>
@@ -783,7 +785,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="BrowserCat" role="listitem">
-  <a href="/free-ai-/services/browsercat.html" class="card-link" aria-label="BrowserCat 상세 정보"></a>
+  <a href="/services/browsercat.html" class="card-link" aria-label="BrowserCat 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">B</div>
     <div>
@@ -799,7 +801,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Calendarific" role="listitem">
-  <a href="/free-ai-/services/calendarific.html" class="card-link" aria-label="Calendarific 상세 정보"></a>
+  <a href="/services/calendarific.html" class="card-link" aria-label="Calendarific 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">C</div>
     <div>
@@ -815,7 +817,7 @@
   </div>
 </article>
 <article class="card" data-category="금융" data-name="Canopy" role="listitem">
-  <a href="/free-ai-/services/canopy.html" class="card-link" aria-label="Canopy 상세 정보"></a>
+  <a href="/services/canopy.html" class="card-link" aria-label="Canopy 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">C</div>
     <div>
@@ -831,7 +833,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="CarAPI.dev" role="listitem">
-  <a href="/free-ai-/services/carapi-dev.html" class="card-link" aria-label="CarAPI.dev 상세 정보"></a>
+  <a href="/services/carapi-dev.html" class="card-link" aria-label="CarAPI.dev 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">C</div>
     <div>
@@ -847,7 +849,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="CatchDoms" role="listitem">
-  <a href="/free-ai-/services/catchdoms.html" class="card-link" aria-label="CatchDoms 상세 정보"></a>
+  <a href="/services/catchdoms.html" class="card-link" aria-label="CatchDoms 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">C</div>
     <div>
@@ -863,7 +865,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Cloudmersive" role="listitem">
-  <a href="/free-ai-/services/cloudmersive.html" class="card-link" aria-label="Cloudmersive 상세 정보"></a>
+  <a href="/services/cloudmersive.html" class="card-link" aria-label="Cloudmersive 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">C</div>
     <div>
@@ -879,7 +881,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Colaboratory" role="listitem">
-  <a href="/free-ai-/services/colaboratory.html" class="card-link" aria-label="Colaboratory 상세 정보"></a>
+  <a href="/services/colaboratory.html" class="card-link" aria-label="Colaboratory 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">C</div>
     <div>
@@ -888,14 +890,14 @@
     </div>
   </div>
   <p class="card-desc">무료 웹 기반 Python 노트북 환경. Nvidia Tesla K80 GPU 포함</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터 사이언스</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Colaboratory 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="CometML" role="listitem">
-  <a href="/free-ai-/services/cometml.html" class="card-link" aria-label="CometML 상세 정보"></a>
+  <a href="/services/cometml.html" class="card-link" aria-label="CometML 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">C</div>
     <div>
@@ -904,14 +906,14 @@
     </div>
   </div>
   <p class="card-desc">MLOps 실험 추적 플랫폼. 실험 비교, 모델 레지스트리, 데이터 계보 추적</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">MLOps</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">CometML 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="금융" data-name="Commerce Layer" role="listitem">
-  <a href="/free-ai-/services/commerce-layer.html" class="card-link" aria-label="Commerce Layer 상세 정보"></a>
+  <a href="/services/commerce-layer.html" class="card-link" aria-label="Commerce Layer 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">CL</div>
     <div>
@@ -920,14 +922,14 @@
     </div>
   </div>
   <p class="card-desc">주문 관리, 결제 통합 API. 개발자 플랜: 월 100개 주문, 1000개 SKU 무료</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">비즈니스</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Commerce Layer 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Composio" role="listitem">
-  <a href="/free-ai-/services/composio.html" class="card-link" aria-label="Composio 상세 정보"></a>
+  <a href="/services/composio.html" class="card-link" aria-label="Composio 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">C</div>
     <div>
@@ -936,14 +938,14 @@
     </div>
   </div>
   <p class="card-desc">AI 에이전트 및 LLM 통합 플랫폼. 200개 이상의 도구 통합</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Composio 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="Conversion Tools" role="listitem">
-  <a href="/free-ai-/services/conversion-tools.html" class="card-link" aria-label="Conversion Tools 상세 정보"></a>
+  <a href="/services/conversion-tools.html" class="card-link" aria-label="Conversion Tools 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">CT</div>
     <div>
@@ -959,7 +961,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Country-State-City API" role="listitem">
-  <a href="/free-ai-/services/country-state-city-api.html" class="card-link" aria-label="Country-State-City API 상세 정보"></a>
+  <a href="/services/country-state-city-api.html" class="card-link" aria-label="Country-State-City API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">CA</div>
     <div>
@@ -968,14 +970,14 @@
     </div>
   </div>
   <p class="card-desc">국가, 지역, 도시, 우편번호 정보 API. 하루 100회 무료</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Country-State-City API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Coupler" role="listitem">
-  <a href="/free-ai-/services/coupler.html" class="card-link" aria-label="Coupler 상세 정보"></a>
+  <a href="/services/coupler.html" class="card-link" aria-label="Coupler 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">C</div>
     <div>
@@ -991,7 +993,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="CraftMyPDF" role="listitem">
-  <a href="/free-ai-/services/craftmypdf.html" class="card-link" aria-label="CraftMyPDF 상세 정보"></a>
+  <a href="/services/craftmypdf.html" class="card-link" aria-label="CraftMyPDF 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">C</div>
     <div>
@@ -1007,7 +1009,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Cube" role="listitem">
-  <a href="/free-ai-/services/cube.html" class="card-link" aria-label="Cube 상세 정보"></a>
+  <a href="/services/cube.html" class="card-link" aria-label="Cube 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">C</div>
     <div>
@@ -1023,7 +1025,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="CurlHub" role="listitem">
-  <a href="/free-ai-/services/curlhub.html" class="card-link" aria-label="CurlHub 상세 정보"></a>
+  <a href="/services/curlhub.html" class="card-link" aria-label="CurlHub 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">C</div>
     <div>
@@ -1039,7 +1041,7 @@
   </div>
 </article>
 <article class="card" data-category="금융" data-name="CurrencyScoop" role="listitem">
-  <a href="/free-ai-/services/currencyscoop.html" class="card-link" aria-label="CurrencyScoop 상세 정보"></a>
+  <a href="/services/currencyscoop.html" class="card-link" aria-label="CurrencyScoop 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">C</div>
     <div>
@@ -1055,7 +1057,7 @@
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="CustomJS" role="listitem">
-  <a href="/free-ai-/services/customjs.html" class="card-link" aria-label="CustomJS 상세 정보"></a>
+  <a href="/services/customjs.html" class="card-link" aria-label="CustomJS 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">C</div>
     <div>
@@ -1071,7 +1073,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Data Fetcher" role="listitem">
-  <a href="/free-ai-/services/data-fetcher.html" class="card-link" aria-label="Data Fetcher 상세 정보"></a>
+  <a href="/services/data-fetcher.html" class="card-link" aria-label="Data Fetcher 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">DF</div>
     <div>
@@ -1087,7 +1089,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Data Miner" role="listitem">
-  <a href="/free-ai-/services/data-miner.html" class="card-link" aria-label="Data Miner 상세 정보"></a>
+  <a href="/services/data-miner.html" class="card-link" aria-label="Data Miner 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">DM</div>
     <div>
@@ -1103,7 +1105,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Dataimporter.io" role="listitem">
-  <a href="/free-ai-/services/dataimporter-io.html" class="card-link" aria-label="Dataimporter.io 상세 정보"></a>
+  <a href="/services/dataimporter-io.html" class="card-link" aria-label="Dataimporter.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">D</div>
     <div>
@@ -1119,7 +1121,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Datalore" role="listitem">
-  <a href="/free-ai-/services/datalore.html" class="card-link" aria-label="Datalore 상세 정보"></a>
+  <a href="/services/datalore.html" class="card-link" aria-label="Datalore 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">D</div>
     <div>
@@ -1135,7 +1137,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="DB Designer" role="listitem">
-  <a href="/free-ai-/services/db-designer.html" class="card-link" aria-label="DB Designer 상세 정보"></a>
+  <a href="/services/db-designer.html" class="card-link" aria-label="DB Designer 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">DD</div>
     <div>
@@ -1144,14 +1146,14 @@
     </div>
   </div>
   <p class="card-desc">클라우드 데이터베이스 스키마 설계 및 모델링 도구. 2개 모델, 모델당 10개 테이블 무료</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">DB Designer 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="DB-IP" role="listitem">
-  <a href="/free-ai-/services/db-ip.html" class="card-link" aria-label="DB-IP 상세 정보"></a>
+  <a href="/services/db-ip.html" class="card-link" aria-label="DB-IP 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">D</div>
     <div>
@@ -1167,7 +1169,7 @@
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="DeepAR" role="listitem">
-  <a href="/free-ai-/services/deepar.html" class="card-link" aria-label="DeepAR 상세 정보"></a>
+  <a href="/services/deepar.html" class="card-link" aria-label="DeepAR 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">D</div>
     <div>
@@ -1183,7 +1185,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Deepnote" role="listitem">
-  <a href="/free-ai-/services/deepnote.html" class="card-link" aria-label="Deepnote 상세 정보"></a>
+  <a href="/services/deepnote.html" class="card-link" aria-label="Deepnote 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">D</div>
     <div>
@@ -1199,7 +1201,7 @@
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="Compare JSON" role="listitem">
-  <a href="/free-ai-/services/compare-json.html" class="card-link" aria-label="Compare JSON 상세 정보"></a>
+  <a href="/services/compare-json.html" class="card-link" aria-label="Compare JSON 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">CJ</div>
     <div>
@@ -1208,14 +1210,14 @@
     </div>
   </div>
   <p class="card-desc">두 JSON 데이터 구조 차이점 비교 도구</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Compare JSON 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Disease.sh" role="listitem">
-  <a href="/free-ai-/services/disease-sh.html" class="card-link" aria-label="Disease.sh 상세 정보"></a>
+  <a href="/services/disease-sh.html" class="card-link" aria-label="Disease.sh 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">D</div>
     <div>
@@ -1231,7 +1233,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="Doczilla" role="listitem">
-  <a href="/free-ai-/services/doczilla.html" class="card-link" aria-label="Doczilla 상세 정보"></a>
+  <a href="/services/doczilla.html" class="card-link" aria-label="Doczilla 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">D</div>
     <div>
@@ -1247,7 +1249,7 @@
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="Doppio" role="listitem">
-  <a href="/free-ai-/services/doppio.html" class="card-link" aria-label="Doppio 상세 정보"></a>
+  <a href="/services/doppio.html" class="card-link" aria-label="Doppio 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">D</div>
     <div>
@@ -1263,7 +1265,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="drawDB" role="listitem">
-  <a href="/free-ai-/services/drawdb.html" class="card-link" aria-label="drawDB 상세 정보"></a>
+  <a href="/services/drawdb.html" class="card-link" aria-label="drawDB 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">D</div>
     <div>
@@ -1272,14 +1274,14 @@
     </div>
   </div>
   <p class="card-desc">무료 온라인 데이터베이스 스키마 편집기 및 SQL 생성기</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">drawDB 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="DynamicDocs" role="listitem">
-  <a href="/free-ai-/services/dynamicdocs.html" class="card-link" aria-label="DynamicDocs 상세 정보"></a>
+  <a href="/services/dynamicdocs.html" class="card-link" aria-label="DynamicDocs 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">D</div>
     <div>
@@ -1295,7 +1297,7 @@
   </div>
 </article>
 <article class="card" data-category="금융" data-name="Earnings Feed" role="listitem">
-  <a href="/free-ai-/services/earnings-feed.html" class="card-link" aria-label="Earnings Feed 상세 정보"></a>
+  <a href="/services/earnings-feed.html" class="card-link" aria-label="Earnings Feed 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">EF</div>
     <div>
@@ -1311,7 +1313,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="Export SDK" role="listitem">
-  <a href="/free-ai-/services/export-sdk.html" class="card-link" aria-label="Export SDK 상세 정보"></a>
+  <a href="/services/export-sdk.html" class="card-link" aria-label="Export SDK 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">ES</div>
     <div>
@@ -1327,7 +1329,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="ExtendsClass" role="listitem">
-  <a href="/free-ai-/services/extendsclass.html" class="card-link" aria-label="ExtendsClass 상세 정보"></a>
+  <a href="/services/extendsclass.html" class="card-link" aria-label="ExtendsClass 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">E</div>
     <div>
@@ -1336,14 +1338,14 @@
     </div>
   </div>
   <p class="card-desc">무료 개발자 도구: REST/GraphQL 클라이언트, Faker.js, SQL 플레이그라운드</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">ExtendsClass 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="금융" data-name="Financial Data" role="listitem">
-  <a href="/free-ai-/services/financial-data.html" class="card-link" aria-label="Financial Data 상세 정보"></a>
+  <a href="/services/financial-data.html" class="card-link" aria-label="Financial Data 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">FD</div>
     <div>
@@ -1359,7 +1361,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="FormatJSONOnline" role="listitem">
-  <a href="/free-ai-/services/formatjsononline.html" class="card-link" aria-label="FormatJSONOnline 상세 정보"></a>
+  <a href="/services/formatjsononline.html" class="card-link" aria-label="FormatJSONOnline 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">F</div>
     <div>
@@ -1368,14 +1370,14 @@
     </div>
   </div>
   <p class="card-desc">JSON 포맷, 미니파이, 검증 도구</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">FormatJSONOnline 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="FraudLabs Pro" role="listitem">
-  <a href="/free-ai-/services/fraudlabs-pro.html" class="card-link" aria-label="FraudLabs Pro 상세 정보"></a>
+  <a href="/services/fraudlabs-pro.html" class="card-link" aria-label="FraudLabs Pro 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">FP</div>
     <div>
@@ -1384,14 +1386,14 @@
     </div>
   </div>
   <p class="card-desc">사기 거래 감지 API. 월 500회 호출 무료</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">보안</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">FraudLabs Pro 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="FreeIPAPI" role="listitem">
-  <a href="/free-ai-/services/freeipapi.html" class="card-link" aria-label="FreeIPAPI 상세 정보"></a>
+  <a href="/services/freeipapi.html" class="card-link" aria-label="FreeIPAPI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">F</div>
     <div>
@@ -1400,14 +1402,14 @@
     </div>
   </div>
   <p class="card-desc">무료 IP 지리적 위치 API. 무제한 요청</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">FreeIPAPI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="Geolocated.io" role="listitem">
-  <a href="/free-ai-/services/geolocated-io.html" class="card-link" aria-label="Geolocated.io 상세 정보"></a>
+  <a href="/services/geolocated-io.html" class="card-link" aria-label="Geolocated.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">G</div>
     <div>
@@ -1423,7 +1425,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Hex" role="listitem">
-  <a href="/free-ai-/services/hex.html" class="card-link" aria-label="Hex 상세 정보"></a>
+  <a href="/services/hex.html" class="card-link" aria-label="Hex 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">H</div>
     <div>
@@ -1432,14 +1434,14 @@
     </div>
   </div>
   <p class="card-desc">데이터 사이언스 협업 플랫폼. SQL, Python 노트북 지원</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터 사이언스</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Hex 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Hook0" role="listitem">
-  <a href="/free-ai-/services/hook0.html" class="card-link" aria-label="Hook0 상세 정보"></a>
+  <a href="/services/hook0.html" class="card-link" aria-label="Hook0 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">H</div>
     <div>
@@ -1448,14 +1450,14 @@
     </div>
   </div>
   <p class="card-desc">Webhook 관리 및 디버깅 플랫폼. 월 1만 이벤트 무료</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Hook0 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Hoppscotch" role="listitem">
-  <a href="/free-ai-/services/hoppscotch.html" class="card-link" aria-label="Hoppscotch 상세 정보"></a>
+  <a href="/services/hoppscotch.html" class="card-link" aria-label="Hoppscotch 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">H</div>
     <div>
@@ -1464,14 +1466,14 @@
     </div>
   </div>
   <p class="card-desc">오픈소스 API 개발 환경. REST, GraphQL, WebSocket 테스트</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Hoppscotch 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="HS Ping" role="listitem">
-  <a href="/free-ai-/services/hs-ping.html" class="card-link" aria-label="HS Ping 상세 정보"></a>
+  <a href="/services/hs-ping.html" class="card-link" aria-label="HS Ping 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">HP</div>
     <div>
@@ -1487,7 +1489,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="허깅페이스" role="listitem">
-  <a href="/free-ai-/services/huggingface-co.html" class="card-link" aria-label="허깅페이스 상세 정보"></a>
+  <a href="/services/huggingface-co.html" class="card-link" aria-label="허깅페이스 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">허</div>
     <div>
@@ -1496,14 +1498,14 @@
     </div>
   </div>
   <p class="card-desc">50만 개 이상의 오픈소스 AI 모델을 무료로 체험. Stable Diffusion, FLUX, Llama, Whisper 등 브라우저에서 즉시 사용 가능</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">허깅페이스 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Insomnia" role="listitem">
-  <a href="/free-ai-/services/insomnia.html" class="card-link" aria-label="Insomnia 상세 정보"></a>
+  <a href="/services/insomnia.html" class="card-link" aria-label="Insomnia 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">I</div>
     <div>
@@ -1512,14 +1514,14 @@
     </div>
   </div>
   <p class="card-desc">API 디자인 및 디버깅 도구. REST, GraphQL 지원</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Insomnia 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Invantive Cloud" role="listitem">
-  <a href="/free-ai-/services/invantive-cloud.html" class="card-link" aria-label="Invantive Cloud 상세 정보"></a>
+  <a href="/services/invantive-cloud.html" class="card-link" aria-label="Invantive Cloud 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">IC</div>
     <div>
@@ -1535,7 +1537,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="IP Geolocation (ipwho.org)" role="listitem">
-  <a href="/free-ai-/services/ip-geolocation-ipwho-org.html" class="card-link" aria-label="IP Geolocation (ipwho.org) 상세 정보"></a>
+  <a href="/services/ip-geolocation-ipwho-org.html" class="card-link" aria-label="IP Geolocation (ipwho.org) 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">IG</div>
     <div>
@@ -1544,14 +1546,14 @@
     </div>
   </div>
   <p class="card-desc">무료 IP 지리적 위치 API. 무제한 사용 가능</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">IP Geolocation (ipwho.org) 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IP Geolocation API" role="listitem">
-  <a href="/free-ai-/services/ip-geolocation-api.html" class="card-link" aria-label="IP Geolocation API 상세 정보"></a>
+  <a href="/services/ip-geolocation-api.html" class="card-link" aria-label="IP Geolocation API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">IG</div>
     <div>
@@ -1560,14 +1562,14 @@
     </div>
   </div>
   <p class="card-desc">IP 주소로 위치 정보 조회 API</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">IP Geolocation API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IP Geolocation" role="listitem">
-  <a href="/free-ai-/services/ip-geolocation.html" class="card-link" aria-label="IP Geolocation 상세 정보"></a>
+  <a href="/services/ip-geolocation.html" class="card-link" aria-label="IP Geolocation 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">IG</div>
     <div>
@@ -1583,7 +1585,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ip-api" role="listitem">
-  <a href="/free-ai-/services/ip-api.html" class="card-link" aria-label="ip-api 상세 정보"></a>
+  <a href="/services/ip-api.html" class="card-link" aria-label="ip-api 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">I</div>
     <div>
@@ -1599,7 +1601,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IP.City" role="listitem">
-  <a href="/free-ai-/services/ip-city.html" class="card-link" aria-label="IP.City 상세 정보"></a>
+  <a href="/services/ip-city.html" class="card-link" aria-label="IP.City 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">I</div>
     <div>
@@ -1608,14 +1610,14 @@
     </div>
   </div>
   <p class="card-desc">IP로 도시 정보 조회. 간단한 위치 API</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">IP.City 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IP2Location.io" role="listitem">
-  <a href="/free-ai-/services/ip2location-io.html" class="card-link" aria-label="IP2Location.io 상세 정보"></a>
+  <a href="/services/ip2location-io.html" class="card-link" aria-label="IP2Location.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">I</div>
     <div>
@@ -1631,7 +1633,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ip2geo.dev" role="listitem">
-  <a href="/free-ai-/services/ip2geo-dev.html" class="card-link" aria-label="ip2geo.dev 상세 정보"></a>
+  <a href="/services/ip2geo-dev.html" class="card-link" aria-label="ip2geo.dev 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">I</div>
     <div>
@@ -1647,7 +1649,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ipaddress.sh" role="listitem">
-  <a href="/free-ai-/services/ipaddress-sh.html" class="card-link" aria-label="ipaddress.sh 상세 정보"></a>
+  <a href="/services/ipaddress-sh.html" class="card-link" aria-label="ipaddress.sh 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">I</div>
     <div>
@@ -1656,14 +1658,14 @@
     </div>
   </div>
   <p class="card-desc">IP 주소 정보 조회 CLI 도구</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">ipaddress.sh 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ipapi.is" role="listitem">
-  <a href="/free-ai-/services/ipapi-is.html" class="card-link" aria-label="ipapi.is 상세 정보"></a>
+  <a href="/services/ipapi-is.html" class="card-link" aria-label="ipapi.is 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">I</div>
     <div>
@@ -1679,7 +1681,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ipapi" role="listitem">
-  <a href="/free-ai-/services/ipapi.html" class="card-link" aria-label="ipapi 상세 정보"></a>
+  <a href="/services/ipapi.html" class="card-link" aria-label="ipapi 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">I</div>
     <div>
@@ -1695,7 +1697,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="ipbase.com" role="listitem">
-  <a href="/free-ai-/services/ipbase-com.html" class="card-link" aria-label="ipbase.com 상세 정보"></a>
+  <a href="/services/ipbase-com.html" class="card-link" aria-label="ipbase.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">I</div>
     <div>
@@ -1711,7 +1713,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IPinfo" role="listitem">
-  <a href="/free-ai-/services/ipinfo.html" class="card-link" aria-label="IPinfo 상세 정보"></a>
+  <a href="/services/ipinfo.html" class="card-link" aria-label="IPinfo 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">I</div>
     <div>
@@ -1727,7 +1729,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IPLocate" role="listitem">
-  <a href="/free-ai-/services/iplocate.html" class="card-link" aria-label="IPLocate 상세 정보"></a>
+  <a href="/services/iplocate.html" class="card-link" aria-label="IPLocate 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">I</div>
     <div>
@@ -1743,7 +1745,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IPTrace" role="listitem">
-  <a href="/free-ai-/services/iptrace.html" class="card-link" aria-label="IPTrace 상세 정보"></a>
+  <a href="/services/iptrace.html" class="card-link" aria-label="IPTrace 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">I</div>
     <div>
@@ -1752,14 +1754,14 @@
     </div>
   </div>
   <p class="card-desc">IP 추적 및 위협 인텔리전스 API</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">IPTrace 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="JSON IP" role="listitem">
-  <a href="/free-ai-/services/json-ip.html" class="card-link" aria-label="JSON IP 상세 정보"></a>
+  <a href="/services/json-ip.html" class="card-link" aria-label="JSON IP 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">JI</div>
     <div>
@@ -1775,7 +1777,7 @@
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="JSON to Table" role="listitem">
-  <a href="/free-ai-/services/json-to-table.html" class="card-link" aria-label="JSON to Table 상세 정보"></a>
+  <a href="/services/json-to-table.html" class="card-link" aria-label="JSON to Table 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">JT</div>
     <div>
@@ -1784,14 +1786,14 @@
     </div>
   </div>
   <p class="card-desc">Convert JSON into an interactive table for quick viewing, editing, and sharing online.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">JSON to Table 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="JSON2Video" role="listitem">
-  <a href="/free-ai-/services/json2video.html" class="card-link" aria-label="JSON2Video 상세 정보"></a>
+  <a href="/services/json2video.html" class="card-link" aria-label="JSON2Video 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">J</div>
     <div>
@@ -1800,14 +1802,14 @@
     </div>
   </div>
   <p class="card-desc">JSON에서 동영상 자동 생성 API</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지/영상</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">JSON2Video 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="JSONGrid" role="listitem">
-  <a href="/free-ai-/services/jsongrid.html" class="card-link" aria-label="JSONGrid 상세 정보"></a>
+  <a href="/services/jsongrid.html" class="card-link" aria-label="JSONGrid 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">J</div>
     <div>
@@ -1816,14 +1818,14 @@
     </div>
   </div>
   <p class="card-desc">JSON 데이터를 격자 형태로 보기/편집</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">JSONGrid 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="JSONing" role="listitem">
-  <a href="/free-ai-/services/jsoning.html" class="card-link" aria-label="JSONing 상세 정보"></a>
+  <a href="/services/jsoning.html" class="card-link" aria-label="JSONing 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">J</div>
     <div>
@@ -1832,14 +1834,14 @@
     </div>
   </div>
   <p class="card-desc">JSON 뷰어 및 에디터 온라인 도구</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">JSONing 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="JSONSwiss" role="listitem">
-  <a href="/free-ai-/services/jsonswiss.html" class="card-link" aria-label="JSONSwiss 상세 정보"></a>
+  <a href="/services/jsonswiss.html" class="card-link" aria-label="JSONSwiss 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">J</div>
     <div>
@@ -1848,14 +1850,14 @@
     </div>
   </div>
   <p class="card-desc">JSON 데이터 처리 유틸리티</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">JSONSwiss 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="KillBait API" role="listitem">
-  <a href="/free-ai-/services/killbait-api.html" class="card-link" aria-label="KillBait API 상세 정보"></a>
+  <a href="/services/killbait-api.html" class="card-link" aria-label="KillBait API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">KA</div>
     <div>
@@ -1871,7 +1873,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Kreya" role="listitem">
-  <a href="/free-ai-/services/kreya.html" class="card-link" aria-label="Kreya 상세 정보"></a>
+  <a href="/services/kreya.html" class="card-link" aria-label="Kreya 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">K</div>
     <div>
@@ -1880,14 +1882,14 @@
     </div>
   </div>
   <p class="card-desc">gRPC, REST API 클라이언트 및 디버깅 도구</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Kreya 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="LoginLlama" role="listitem">
-  <a href="/free-ai-/services/loginllama.html" class="card-link" aria-label="LoginLlama 상세 정보"></a>
+  <a href="/services/loginllama.html" class="card-link" aria-label="LoginLlama 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">L</div>
     <div>
@@ -1896,14 +1898,14 @@
     </div>
   </div>
   <p class="card-desc">로그인 보안 및 브루트포스 감지 API</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">보안</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">LoginLlama 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="금융" data-name="Market Data API" role="listitem">
-  <a href="/free-ai-/services/market-data-api.html" class="card-link" aria-label="Market Data API 상세 정보"></a>
+  <a href="/services/market-data-api.html" class="card-link" aria-label="Market Data API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">MD</div>
     <div>
@@ -1912,14 +1914,14 @@
     </div>
   </div>
   <p class="card-desc">금융 시장 데이터 API. 주식, 암호화폐</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">금융</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Market Data API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Maxim AI" role="listitem">
-  <a href="/free-ai-/services/maxim-ai.html" class="card-link" aria-label="Maxim AI 상세 정보"></a>
+  <a href="/services/maxim-ai.html" class="card-link" aria-label="Maxim AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">MA</div>
     <div>
@@ -1928,14 +1930,14 @@
     </div>
   </div>
   <p class="card-desc">AI 에이전트 플랫폼. LLM 추적 및 모니터링</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">LLM 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Maxim AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="microlink.io" role="listitem">
-  <a href="/free-ai-/services/microlink-io.html" class="card-link" aria-label="microlink.io 상세 정보"></a>
+  <a href="/services/microlink-io.html" class="card-link" aria-label="microlink.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">M</div>
     <div>
@@ -1951,7 +1953,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Mintlify" role="listitem">
-  <a href="/free-ai-/services/mintlify.html" class="card-link" aria-label="Mintlify 상세 정보"></a>
+  <a href="/services/mintlify.html" class="card-link" aria-label="Mintlify 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">M</div>
     <div>
@@ -1960,14 +1962,14 @@
     </div>
   </div>
   <p class="card-desc">문서 자동 생성 플랫폼. 아름다운 문서 사이트 호스팅</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Mintlify 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="MockAPI" role="listitem">
-  <a href="/free-ai-/services/mockapi.html" class="card-link" aria-label="MockAPI 상세 정보"></a>
+  <a href="/services/mockapi.html" class="card-link" aria-label="MockAPI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">M</div>
     <div>
@@ -1976,14 +1978,14 @@
     </div>
   </div>
   <p class="card-desc">REST API 목킹 서비스. 가짜 API 서버 생성</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">MockAPI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Mockerito" role="listitem">
-  <a href="/free-ai-/services/mockerito.html" class="card-link" aria-label="Mockerito 상세 정보"></a>
+  <a href="/services/mockerito.html" class="card-link" aria-label="Mockerito 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">M</div>
     <div>
@@ -1999,7 +2001,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Mockfly" role="listitem">
-  <a href="/free-ai-/services/mockfly.html" class="card-link" aria-label="Mockfly 상세 정보"></a>
+  <a href="/services/mockfly.html" class="card-link" aria-label="Mockfly 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">M</div>
     <div>
@@ -2015,7 +2017,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Mocko.dev" role="listitem">
-  <a href="/free-ai-/services/mocko-dev.html" class="card-link" aria-label="Mocko.dev 상세 정보"></a>
+  <a href="/services/mocko-dev.html" class="card-link" aria-label="Mocko.dev 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">M</div>
     <div>
@@ -2024,14 +2026,14 @@
     </div>
   </div>
   <p class="card-desc">간단한 API 목킹 서비스</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Mocko.dev 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="Multi-Exit IP Address Checker" role="listitem">
-  <a href="/free-ai-/services/multi-exit-ip-address-checker.html" class="card-link" aria-label="Multi-Exit IP Address Checker 상세 정보"></a>
+  <a href="/services/multi-exit-ip-address-checker.html" class="card-link" aria-label="Multi-Exit IP Address Checker 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">MI</div>
     <div>
@@ -2040,14 +2042,14 @@
     </div>
   </div>
   <p class="card-desc">A free and simple tool to check your exit IP address across multiple nodes and understand how your IP appears to different global regions and services. Useful for testing rule-based DNS splitting tools such as Control D.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Multi-Exit IP Address Checker 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="News API" role="listitem">
-  <a href="/free-ai-/services/news-api.html" class="card-link" aria-label="News API 상세 정보"></a>
+  <a href="/services/news-api.html" class="card-link" aria-label="News API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">NA</div>
     <div>
@@ -2056,14 +2058,14 @@
     </div>
   </div>
   <p class="card-desc">Search news on the web with code, and get JSON results. Developers get 100 queries free each day. Articles have a 24 hour delay.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">News API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="numlookupapi.com" role="listitem">
-  <a href="/free-ai-/services/numlookupapi-com.html" class="card-link" aria-label="numlookupapi.com 상세 정보"></a>
+  <a href="/services/numlookupapi-com.html" class="card-link" aria-label="numlookupapi.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">N</div>
     <div>
@@ -2072,14 +2074,14 @@
     </div>
   </div>
   <p class="card-desc">Free phone number validation API - 100 free requests / month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">numlookupapi.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="OCR.Space" role="listitem">
-  <a href="/free-ai-/services/ocr-space.html" class="card-link" aria-label="OCR.Space 상세 정보"></a>
+  <a href="/services/ocr-space.html" class="card-link" aria-label="OCR.Space 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">O</div>
     <div>
@@ -2095,7 +2097,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="OpenAPI3 Designer" role="listitem">
-  <a href="/free-ai-/services/openapi3-designer.html" class="card-link" aria-label="OpenAPI3 Designer 상세 정보"></a>
+  <a href="/services/openapi3-designer.html" class="card-link" aria-label="OpenAPI3 Designer 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">OD</div>
     <div>
@@ -2104,14 +2106,14 @@
     </div>
   </div>
   <p class="card-desc">Visually create Open API 3 definitions for free.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">OpenAPI3 Designer 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="Parseur" role="listitem">
-  <a href="/free-ai-/services/parseur.html" class="card-link" aria-label="Parseur 상세 정보"></a>
+  <a href="/services/parseur.html" class="card-link" aria-label="Parseur 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">P</div>
     <div>
@@ -2120,14 +2122,14 @@
     </div>
   </div>
   <p class="card-desc">20 free pages/month: Extract data from PDFs, emails. AI powered. Full API access.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">파일/데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Parseur 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="PDF-API.io" role="listitem">
-  <a href="/free-ai-/services/pdf-api-io.html" class="card-link" aria-label="PDF-API.io 상세 정보"></a>
+  <a href="/services/pdf-api-io.html" class="card-link" aria-label="PDF-API.io 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">P</div>
     <div>
@@ -2143,7 +2145,7 @@
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="PDFBolt" role="listitem">
-  <a href="/free-ai-/services/pdfbolt.html" class="card-link" aria-label="PDFBolt 상세 정보"></a>
+  <a href="/services/pdfbolt.html" class="card-link" aria-label="PDFBolt 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">P</div>
     <div>
@@ -2152,14 +2154,14 @@
     </div>
   </div>
   <p class="card-desc">Developer-focused PDF generation API designed with privacy in mind. It offers Stripe-inspired documentation and includes 500 free PDF conversions per month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">파일/데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">PDFBolt 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Pixela" role="listitem">
-  <a href="/free-ai-/services/pixela.html" class="card-link" aria-label="Pixela 상세 정보"></a>
+  <a href="/services/pixela.html" class="card-link" aria-label="Pixela 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">P</div>
     <div>
@@ -2168,14 +2170,14 @@
     </div>
   </div>
   <p class="card-desc">Free daystream database service. All operations are performed by API. Visualization with heat maps and line graphs is also possible.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Pixela 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Posthook" role="listitem">
-  <a href="/free-ai-/services/posthook.html" class="card-link" aria-label="Posthook 상세 정보"></a>
+  <a href="/services/posthook.html" class="card-link" aria-label="Posthook 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">P</div>
     <div>
@@ -2191,7 +2193,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Postman" role="listitem">
-  <a href="/free-ai-/services/postman.html" class="card-link" aria-label="Postman 상세 정보"></a>
+  <a href="/services/postman.html" class="card-link" aria-label="Postman 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">P</div>
     <div>
@@ -2200,14 +2202,14 @@
     </div>
   </div>
   <p class="card-desc">API 개발 및 테스트 플랫폼. Collections 공유 기능</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Postman 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="PrefectCloud" role="listitem">
-  <a href="/free-ai-/services/prefectcloud.html" class="card-link" aria-label="PrefectCloud 상세 정보"></a>
+  <a href="/services/prefectcloud.html" class="card-link" aria-label="PrefectCloud 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">P</div>
     <div>
@@ -2223,7 +2225,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Preset Cloud" role="listitem">
-  <a href="/free-ai-/services/preset-cloud.html" class="card-link" aria-label="Preset Cloud 상세 정보"></a>
+  <a href="/services/preset-cloud.html" class="card-link" aria-label="Preset Cloud 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">PC</div>
     <div>
@@ -2239,7 +2241,7 @@
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="ProxySentry" role="listitem">
-  <a href="/free-ai-/services/proxysentry.html" class="card-link" aria-label="ProxySentry 상세 정보"></a>
+  <a href="/services/proxysentry.html" class="card-link" aria-label="ProxySentry 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">P</div>
     <div>
@@ -2255,7 +2257,7 @@
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="Reducto" role="listitem">
-  <a href="/free-ai-/services/reducto.html" class="card-link" aria-label="Reducto 상세 정보"></a>
+  <a href="/services/reducto.html" class="card-link" aria-label="Reducto 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">R</div>
     <div>
@@ -2271,7 +2273,7 @@
   </div>
 </article>
 <article class="card" data-category="인프라" data-name="Rendi" role="listitem">
-  <a href="/free-ai-/services/rendi.html" class="card-link" aria-label="Rendi 상세 정보"></a>
+  <a href="/services/rendi.html" class="card-link" aria-label="Rendi 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">R</div>
     <div>
@@ -2287,7 +2289,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="RequestBin.com" role="listitem">
-  <a href="/free-ai-/services/requestbin-com.html" class="card-link" aria-label="RequestBin.com 상세 정보"></a>
+  <a href="/services/requestbin-com.html" class="card-link" aria-label="RequestBin.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">R</div>
     <div>
@@ -2296,14 +2298,14 @@
     </div>
   </div>
   <p class="card-desc">Create a free endpoint to which you can send HTTP requests. Any HTTP requests sent to that endpoint will be recorded with the associated payload and headers so you can observe recommendations from webhooks and other services.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">RequestBin.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="ROBOHASH" role="listitem">
-  <a href="/free-ai-/services/robohash.html" class="card-link" aria-label="ROBOHASH 상세 정보"></a>
+  <a href="/services/robohash.html" class="card-link" aria-label="ROBOHASH 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">R</div>
     <div>
@@ -2312,14 +2314,14 @@
     </div>
   </div>
   <p class="card-desc">Web service to generate unique and cool images from any text.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지/영상</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">ROBOHASH 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Scraper's Proxy" role="listitem">
-  <a href="/free-ai-/services/scraper-s-proxy.html" class="card-link" aria-label="Scraper's Proxy 상세 정보"></a>
+  <a href="/services/scraper-s-proxy.html" class="card-link" aria-label="Scraper's Proxy 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">SP</div>
     <div>
@@ -2328,14 +2330,14 @@
     </div>
   </div>
   <p class="card-desc">Simple HTTP proxy API for scraping. Scrape anonymously without having to worry about restrictions, blocks, or captchas. First 100 successful scrapes per month free including javascript rendering (more available if you contact support).</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터 수집</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Scraper's Proxy 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="ScrapingAnt" role="listitem">
-  <a href="/free-ai-/services/scrapingant.html" class="card-link" aria-label="ScrapingAnt 상세 정보"></a>
+  <a href="/services/scrapingant.html" class="card-link" aria-label="ScrapingAnt 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">S</div>
     <div>
@@ -2344,14 +2346,14 @@
     </div>
   </div>
   <p class="card-desc">웹 스크래핑 API. JS 렌더링, 프록시 지원</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터 수집</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">ScrapingAnt 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="SerpApi" role="listitem">
-  <a href="/free-ai-/services/serpapi.html" class="card-link" aria-label="SerpApi 상세 정보"></a>
+  <a href="/services/serpapi.html" class="card-link" aria-label="SerpApi 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">S</div>
     <div>
@@ -2367,7 +2369,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Sheetson" role="listitem">
-  <a href="/free-ai-/services/sheetson.html" class="card-link" aria-label="Sheetson 상세 정보"></a>
+  <a href="/services/sheetson.html" class="card-link" aria-label="Sheetson 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">S</div>
     <div>
@@ -2383,7 +2385,7 @@
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="SikkerAPI" role="listitem">
-  <a href="/free-ai-/services/sikkerapi.html" class="card-link" aria-label="SikkerAPI 상세 정보"></a>
+  <a href="/services/sikkerapi.html" class="card-link" aria-label="SikkerAPI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">S</div>
     <div>
@@ -2392,14 +2394,14 @@
     </div>
   </div>
   <p class="card-desc">Free IP Reputation & Threat Intelligence, powered by a globally distributed high interaction honeypot network and community reported abuse incidents. 1,000 free IP lookups, TAXII indicators & reports per day, pull 5,000 fresh IPs from our blacklists daily and monitor your own CIDR ranges (/16) free free.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">보안</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">SikkerAPI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Simplescraper" role="listitem">
-  <a href="/free-ai-/services/simplescraper.html" class="card-link" aria-label="Simplescraper 상세 정보"></a>
+  <a href="/services/simplescraper.html" class="card-link" aria-label="Simplescraper 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">S</div>
     <div>
@@ -2415,7 +2417,7 @@
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="Geekflare API" role="listitem">
-  <a href="/free-ai-/services/geekflare-api.html" class="card-link" aria-label="Geekflare API 상세 정보"></a>
+  <a href="/services/geekflare-api.html" class="card-link" aria-label="Geekflare API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">GA</div>
     <div>
@@ -2431,7 +2433,7 @@
   </div>
 </article>
 <article class="card" data-category="파일/데이터" data-name="SmartParse" role="listitem">
-  <a href="/free-ai-/services/smartparse.html" class="card-link" aria-label="SmartParse 상세 정보"></a>
+  <a href="/services/smartparse.html" class="card-link" aria-label="SmartParse 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">S</div>
     <div>
@@ -2447,7 +2449,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Sofodata" role="listitem">
-  <a href="/free-ai-/services/sofodata.html" class="card-link" aria-label="Sofodata 상세 정보"></a>
+  <a href="/services/sofodata.html" class="card-link" aria-label="Sofodata 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">S</div>
     <div>
@@ -2463,7 +2465,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Sqlable" role="listitem">
-  <a href="/free-ai-/services/sqlable.html" class="card-link" aria-label="Sqlable 상세 정보"></a>
+  <a href="/services/sqlable.html" class="card-link" aria-label="Sqlable 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">S</div>
     <div>
@@ -2472,14 +2474,14 @@
     </div>
   </div>
   <p class="card-desc">A collection of free online SQL tools, including an SQL formatter and validator, SQL regex tester, fake data generator, and interactive database playgrounds.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">데이터</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Sqlable 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Svix" role="listitem">
-  <a href="/free-ai-/services/svix.html" class="card-link" aria-label="Svix 상세 정보"></a>
+  <a href="/services/svix.html" class="card-link" aria-label="Svix 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">S</div>
     <div>
@@ -2488,14 +2490,14 @@
     </div>
   </div>
   <p class="card-desc">Webhooks as a Service. Send up to 50,000 messages/month for free.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Svix 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터" data-name="Tavily AI" role="listitem">
-  <a href="/free-ai-/services/tavily-ai.html" class="card-link" aria-label="Tavily AI 상세 정보"></a>
+  <a href="/services/tavily-ai.html" class="card-link" aria-label="Tavily AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">TA</div>
     <div>
@@ -2511,7 +2513,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="TemplateFox" role="listitem">
-  <a href="/free-ai-/services/templatefox.html" class="card-link" aria-label="TemplateFox 상세 정보"></a>
+  <a href="/services/templatefox.html" class="card-link" aria-label="TemplateFox 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">T</div>
     <div>
@@ -2527,7 +2529,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="The IP API" role="listitem">
-  <a href="/free-ai-/services/the-ip-api.html" class="card-link" aria-label="The IP API 상세 정보"></a>
+  <a href="/services/the-ip-api.html" class="card-link" aria-label="The IP API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">TI</div>
     <div>
@@ -2536,14 +2538,14 @@
     </div>
   </div>
   <p class="card-desc">IP Geolocation API with 1000 free requests / day. Provides information about the location of an IP address, including country, city, region, and more.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">The IP API 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="TinyMCE" role="listitem">
-  <a href="/free-ai-/services/tinymce.html" class="card-link" aria-label="TinyMCE 상세 정보"></a>
+  <a href="/services/tinymce.html" class="card-link" aria-label="TinyMCE 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">T</div>
     <div>
@@ -2559,7 +2561,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Tomorrow.io Weather API" role="listitem">
-  <a href="/free-ai-/services/tomorrow-io-weather-api.html" class="card-link" aria-label="Tomorrow.io Weather API 상세 정보"></a>
+  <a href="/services/tomorrow-io-weather-api.html" class="card-link" aria-label="Tomorrow.io Weather API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">TW</div>
     <div>
@@ -2575,7 +2577,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Treblle" role="listitem">
-  <a href="/free-ai-/services/treblle.html" class="card-link" aria-label="Treblle 상세 정보"></a>
+  <a href="/services/treblle.html" class="card-link" aria-label="Treblle 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">T</div>
     <div>
@@ -2591,7 +2593,7 @@
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Trophy" role="listitem">
-  <a href="/free-ai-/services/trophy.html" class="card-link" aria-label="Trophy 상세 정보"></a>
+  <a href="/services/trophy.html" class="card-link" aria-label="Trophy 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">T</div>
     <div>
@@ -2607,7 +2609,7 @@
   </div>
 </article>
 <article class="card" data-category="금융" data-name="UniRateAPI" role="listitem">
-  <a href="/free-ai-/services/unirateapi.html" class="card-link" aria-label="UniRateAPI 상세 정보"></a>
+  <a href="/services/unirateapi.html" class="card-link" aria-label="UniRateAPI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">U</div>
     <div>
@@ -2623,7 +2625,7 @@
   </div>
 </article>
 <article class="card" data-category="금융" data-name="vatcheckapi.com" role="listitem">
-  <a href="/free-ai-/services/vatcheckapi-com.html" class="card-link" aria-label="vatcheckapi.com 상세 정보"></a>
+  <a href="/services/vatcheckapi-com.html" class="card-link" aria-label="vatcheckapi.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">V</div>
     <div>
@@ -2632,14 +2634,14 @@
     </div>
   </div>
   <p class="card-desc">Simple and free VAT number validation API. 150 free validations per month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">금융</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">vatcheckapi.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="금융" data-name="vatnode" role="listitem">
-  <a href="/free-ai-/services/vatnode.html" class="card-link" aria-label="vatnode 상세 정보"></a>
+  <a href="/services/vatnode.html" class="card-link" aria-label="vatnode 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">V</div>
     <div>
@@ -2655,7 +2657,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="WeatherXu" role="listitem">
-  <a href="/free-ai-/services/weatherxu.html" class="card-link" aria-label="WeatherXu 상세 정보"></a>
+  <a href="/services/weatherxu.html" class="card-link" aria-label="WeatherXu 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">W</div>
     <div>
@@ -2671,7 +2673,7 @@
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="WebScraping.AI" role="listitem">
-  <a href="/free-ai-/services/webscraping-ai.html" class="card-link" aria-label="WebScraping.AI 상세 정보"></a>
+  <a href="/services/webscraping-ai.html" class="card-link" aria-label="WebScraping.AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">W</div>
     <div>
@@ -2687,7 +2689,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Weights & Biases" role="listitem">
-  <a href="/free-ai-/services/weights-biases.html" class="card-link" aria-label="Weights & Biases 상세 정보"></a>
+  <a href="/services/weights-biases.html" class="card-link" aria-label="Weights & Biases 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">W&</div>
     <div>
@@ -2703,7 +2705,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="What Is My IP" role="listitem">
-  <a href="/free-ai-/services/what-is-my-ip.html" class="card-link" aria-label="What Is My IP 상세 정보"></a>
+  <a href="/services/what-is-my-ip.html" class="card-link" aria-label="What Is My IP 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">WI</div>
     <div>
@@ -2712,14 +2714,14 @@
     </div>
   </div>
   <p class="card-desc">A free service to check your public IPv4 and IPv6 address and related request data through an API with different output formats for automation, scripts, and network troubleshooting.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">What Is My IP 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="What The Diff" role="listitem">
-  <a href="/free-ai-/services/what-the-diff.html" class="card-link" aria-label="What The Diff 상세 정보"></a>
+  <a href="/services/what-the-diff.html" class="card-link" aria-label="What The Diff 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">WT</div>
     <div>
@@ -2735,7 +2737,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="wolfram.com" role="listitem">
-  <a href="/free-ai-/services/wolfram-com.html" class="card-link" aria-label="wolfram.com 상세 정보"></a>
+  <a href="/services/wolfram-com.html" class="card-link" aria-label="wolfram.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">W</div>
     <div>
@@ -2744,14 +2746,14 @@
     </div>
   </div>
   <p class="card-desc">Built-in knowledge-based algorithms in the cloud.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">wolfram.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="wrapapi.com" role="listitem">
-  <a href="/free-ai-/services/wrapapi-com.html" class="card-link" aria-label="wrapapi.com 상세 정보"></a>
+  <a href="/services/wrapapi-com.html" class="card-link" aria-label="wrapapi.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">W</div>
     <div>
@@ -2760,14 +2762,14 @@
     </div>
   </div>
   <p class="card-desc">Turn any website into a parameterized API. 30k API calls per month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">API 개발</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">wrapapi.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="데이터 수집" data-name="Zenscrape" role="listitem">
-  <a href="/free-ai-/services/zenscrape.html" class="card-link" aria-label="Zenscrape 상세 정보"></a>
+  <a href="/services/zenscrape.html" class="card-link" aria-label="Zenscrape 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">Z</div>
     <div>
@@ -2783,7 +2785,7 @@
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Zipcodebase" role="listitem">
-  <a href="/free-ai-/services/zipcodebase.html" class="card-link" aria-label="Zipcodebase 상세 정보"></a>
+  <a href="/services/zipcodebase.html" class="card-link" aria-label="Zipcodebase 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">Z</div>
     <div>
@@ -2792,14 +2794,14 @@
     </div>
   </div>
   <p class="card-desc">Free Zip Code API, access to Worldwide Postal Code Data. 5,000 free requests/month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Zipcodebase 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Zip-Codes" role="listitem">
-  <a href="/free-ai-/services/zip-codes.html" class="card-link" aria-label="Zip-Codes 상세 정보"></a>
+  <a href="/services/zip-codes.html" class="card-link" aria-label="Zip-Codes 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">Z</div>
     <div>
@@ -2808,14 +2810,14 @@
     </div>
   </div>
   <p class="card-desc">REST API for US and Canadian postal codes with address validation, radius search, and Census demographics. 2,500 free requests/day.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Zip-Codes 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="유틸리티" data-name="Zipcodestack" role="listitem">
-  <a href="/free-ai-/services/zipcodestack.html" class="card-link" aria-label="Zipcodestack 상세 정보"></a>
+  <a href="/services/zipcodestack.html" class="card-link" aria-label="Zipcodestack 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">Z</div>
     <div>
@@ -2824,14 +2826,14 @@
     </div>
   </div>
   <p class="card-desc">Free Zip Code API and Postal Code Validation. Ten thousand free requests/month.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">유틸리티</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Zipcodestack 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="API 개발" data-name="Zuplo" role="listitem">
-  <a href="/free-ai-/services/zuplo.html" class="card-link" aria-label="Zuplo 상세 정보"></a>
+  <a href="/services/zuplo.html" class="card-link" aria-label="Zuplo 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">Z</div>
     <div>
@@ -2847,7 +2849,7 @@
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Metashot" role="listitem">
-  <a href="/free-ai-/services/metashot.html" class="card-link" aria-label="Metashot 상세 정보"></a>
+  <a href="/services/metashot.html" class="card-link" aria-label="Metashot 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">M</div>
     <div>
@@ -2863,7 +2865,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Arize AX" role="listitem">
-  <a href="/free-ai-/services/arize-ax.html" class="card-link" aria-label="Arize AX 상세 정보"></a>
+  <a href="/services/arize-ax.html" class="card-link" aria-label="Arize AX 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">AA</div>
     <div>
@@ -2879,7 +2881,7 @@
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Audio Enhancer" role="listitem">
-  <a href="/free-ai-/services/audio-enhancer.html" class="card-link" aria-label="Audio Enhancer 상세 정보"></a>
+  <a href="/services/audio-enhancer.html" class="card-link" aria-label="Audio Enhancer 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">AE</div>
     <div>
@@ -2895,7 +2897,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Braintrust" role="listitem">
-  <a href="/free-ai-/services/braintrust.html" class="card-link" aria-label="Braintrust 상세 정보"></a>
+  <a href="/services/braintrust.html" class="card-link" aria-label="Braintrust 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">B</div>
     <div>
@@ -2911,7 +2913,7 @@
   </div>
 </article>
 <article class="card" data-category="보안/모니터링" data-name="Clair" role="listitem">
-  <a href="/free-ai-/services/clair.html" class="card-link" aria-label="Clair 상세 정보"></a>
+  <a href="/services/clair.html" class="card-link" aria-label="Clair 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">C</div>
     <div>
@@ -2920,14 +2922,14 @@
     </div>
   </div>
   <p class="card-desc">Clinical AI Reference. Students have free access to the professional tool suite, which includes Open Search, Clinical Summary, Med Review, Drug Interactions, ICD-10 Codes, and Stewardship. Additionally, a free trial for the professional suite is available.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">보안</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Clair 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Comet Opik" role="listitem">
-  <a href="/free-ai-/services/comet-opik.html" class="card-link" aria-label="Comet Opik 상세 정보"></a>
+  <a href="/services/comet-opik.html" class="card-link" aria-label="Comet Opik 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">CO</div>
     <div>
@@ -2936,14 +2938,14 @@
     </div>
   </div>
   <p class="card-desc">Evaluate, test, and ship LLM applications across your dev and production lifecycles. [#opensource](https://github.com/comet-ml/opik/)</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">MLOps</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Comet Opik 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Future AGI" role="listitem">
-  <a href="/free-ai-/services/future-agi.html" class="card-link" aria-label="Future AGI 상세 정보"></a>
+  <a href="/services/future-agi.html" class="card-link" aria-label="Future AGI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">FA</div>
     <div>
@@ -2959,7 +2961,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Keywords AI" role="listitem">
-  <a href="/free-ai-/services/keywords-ai.html" class="card-link" aria-label="Keywords AI 상세 정보"></a>
+  <a href="/services/keywords-ai.html" class="card-link" aria-label="Keywords AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">KA</div>
     <div>
@@ -2968,14 +2970,14 @@
     </div>
   </div>
   <p class="card-desc">The best LLM monitoring platform. One format to call 200+ LLMs with 2 lines of code. 10,000 free requests every month and $0 for platform features!</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML 모델</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Keywords AI 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Langfuse" role="listitem">
-  <a href="/free-ai-/services/langfuse.html" class="card-link" aria-label="Langfuse 상세 정보"></a>
+  <a href="/services/langfuse.html" class="card-link" aria-label="Langfuse 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ea580c20;color:#ea580c">L</div>
     <div>
@@ -2984,14 +2986,14 @@
     </div>
   </div>
   <p class="card-desc">LLM 애플리케이션용 오픈소스 추적 및 분석 플랫폼. 토큰 사용량, 지연 시간, 비용 추적</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">LLM 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Langfuse 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Langtrace" role="listitem">
-  <a href="/free-ai-/services/langtrace.html" class="card-link" aria-label="Langtrace 상세 정보"></a>
+  <a href="/services/langtrace.html" class="card-link" aria-label="Langtrace 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0891b220;color:#0891b2">L</div>
     <div>
@@ -3007,7 +3009,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="LangWatch" role="listitem">
-  <a href="/free-ai-/services/langwatch.html" class="card-link" aria-label="LangWatch 상세 정보"></a>
+  <a href="/services/langwatch.html" class="card-link" aria-label="LangWatch 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#65a30d20;color:#65a30d">L</div>
     <div>
@@ -3023,7 +3025,7 @@
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Lumenfall.ai" role="listitem">
-  <a href="/free-ai-/services/lumenfall-ai.html" class="card-link" aria-label="Lumenfall.ai 상세 정보"></a>
+  <a href="/services/lumenfall-ai.html" class="card-link" aria-label="Lumenfall.ai 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#9333ea20;color:#9333ea">L</div>
     <div>
@@ -3039,7 +3041,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Maxim" role="listitem">
-  <a href="/free-ai-/services/maxim.html" class="card-link" aria-label="Maxim 상세 정보"></a>
+  <a href="/services/maxim.html" class="card-link" aria-label="Maxim 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#10a37f20;color:#10a37f">M</div>
     <div>
@@ -3055,7 +3057,7 @@
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Mediaworkbench.ai" role="listitem">
-  <a href="/free-ai-/services/mediaworkbench-ai.html" class="card-link" aria-label="Mediaworkbench.ai 상세 정보"></a>
+  <a href="/services/mediaworkbench-ai.html" class="card-link" aria-label="Mediaworkbench.ai 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#d9775720;color:#d97757">M</div>
     <div>
@@ -3064,14 +3066,14 @@
     </div>
   </div>
   <p class="card-desc">MediaWorkbench.ai offers 100,000 free words for Azure OpenAI, DeepSeek, and Google Gemini models, enabling users to access powerful tools for code generation, deep research, and image creation.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">이미지/영상</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">Mediaworkbench.ai 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="OpenRouter" role="listitem">
-  <a href="/free-ai-/services/openrouter.html" class="card-link" aria-label="OpenRouter 상세 정보"></a>
+  <a href="/services/openrouter.html" class="card-link" aria-label="OpenRouter 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4285f420;color:#4285f4">O</div>
     <div>
@@ -3080,14 +3082,14 @@
     </div>
   </div>
   <p class="card-desc">단일 API로 Claude, GPT, Gemini, Llama 등 모든 주요 AI 모델 접근. 사용량 기반 과금</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML 모델</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">OpenRouter 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Pollinations.AI" role="listitem">
-  <a href="/free-ai-/services/pollinations-ai.html" class="card-link" aria-label="Pollinations.AI 상세 정보"></a>
+  <a href="/services/pollinations-ai.html" class="card-link" aria-label="Pollinations.AI 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#4f46e520;color:#4f46e5">P</div>
     <div>
@@ -3103,7 +3105,7 @@
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="Portkey" role="listitem">
-  <a href="/free-ai-/services/portkey.html" class="card-link" aria-label="Portkey 상세 정보"></a>
+  <a href="/services/portkey.html" class="card-link" aria-label="Portkey 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#0078d420;color:#0078d4">P</div>
     <div>
@@ -3119,7 +3121,7 @@
   </div>
 </article>
 <article class="card" data-category="문서/이미지" data-name="ReportGPT" role="listitem">
-  <a href="/free-ai-/services/reportgpt.html" class="card-link" aria-label="ReportGPT 상세 정보"></a>
+  <a href="/services/reportgpt.html" class="card-link" aria-label="ReportGPT 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#1d9bf020;color:#1d9bf0">R</div>
     <div>
@@ -3128,14 +3130,14 @@
     </div>
   </div>
   <p class="card-desc">AI Powered Writing Assistant. The entire platform is free as long as you bring your own API key.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">문서/이미지</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">ReportGPT 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="이미지/영상" data-name="Zenable" role="listitem">
-  <a href="/free-ai-/services/zenable.html" class="card-link" aria-label="Zenable 상세 정보"></a>
+  <a href="/services/zenable.html" class="card-link" aria-label="Zenable 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#ff6b3520;color:#ff6b35">Z</div>
     <div>
@@ -3151,7 +3153,7 @@
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="Country-State-City Microservice API" role="listitem">
-  <a href="/free-ai-/services/country-state-city-microservice-api.html" class="card-link" aria-label="Country-State-City Microservice API 상세 정보"></a>
+  <a href="/services/country-state-city-microservice-api.html" class="card-link" aria-label="Country-State-City Microservice API 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#6c47ff20;color:#6c47ff">CM</div>
     <div>
@@ -3167,7 +3169,7 @@
   </div>
 </article>
 <article class="card" data-category="코딩/개발" data-name="FormatJSONOnline.com" role="listitem">
-  <a href="/free-ai-/services/formatjsononline-com.html" class="card-link" aria-label="FormatJSONOnline.com 상세 정보"></a>
+  <a href="/services/formatjsononline-com.html" class="card-link" aria-label="FormatJSONOnline.com 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#7c3aed20;color:#7c3aed">F</div>
     <div>
@@ -3176,14 +3178,14 @@
     </div>
   </div>
   <p class="card-desc">A free, browser-based tool to format, validate,compare and minify JSON data instantly.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">개발자 도구</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">FormatJSONOnline.com 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="AI/ML" data-name="huggingface.co" role="listitem">
-  <a href="/free-ai-/services/huggingface-co.html" class="card-link" aria-label="huggingface.co 상세 정보"></a>
+  <a href="/services/huggingface-co.html" class="card-link" aria-label="huggingface.co 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#05966920;color:#059669">H</div>
     <div>
@@ -3192,14 +3194,14 @@
     </div>
   </div>
   <p class="card-desc">Build, train, and deploy NLP models for Pytorch, TensorFlow, and JAX. Free up to 30k input characters/mo.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">AI/ML 모델</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">huggingface.co 방문하기 →</span>
   </div>
 </article>
 <article class="card" data-category="네트워크" data-name="IP Geolocation API by ipwho.org" role="listitem">
-  <a href="/free-ai-/services/ip-geolocation-api-by-ipwho-org.html" class="card-link" aria-label="IP Geolocation API by ipwho.org 상세 정보"></a>
+  <a href="/services/ip-geolocation-api-by-ipwho-org.html" class="card-link" aria-label="IP Geolocation API by ipwho.org 상세 정보"></a>
   <div class="card-header">
     <div class="card-icon" style="background:#db277720;color:#db2777">IG</div>
     <div>
@@ -3208,7 +3210,7 @@
     </div>
   </div>
   <p class="card-desc">2,000 free requests per day. Fast, enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government and education clients. Servers in 12+ regions.</p>
-  <div class="limit-badge free-only"><span class="limit-label">무료</span> 사용 가능</div>
+  <div class="limit-badge free-only"><span class="limit-label">무료</span></div>
   <div class="card-tags"><span class="tag">IP/네트워크</span><span class="tag source-tag">free-for.dev</span></div>
   <div class="card-footer">
     <span class="visit-btn">IP Geolocation API by ipwho.org 방문하기 →</span>
