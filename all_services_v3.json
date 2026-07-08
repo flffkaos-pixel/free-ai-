@@ -159,7 +159,7 @@
     "url": "https://github.com/features/copilot",
     "source": "original",
     "features": [
-      "코드生成"
+      "코드생성"
     ]
   },
   {
@@ -174,7 +174,7 @@
     "url": "https://codeium.com/windsurf",
     "source": "original",
     "features": [
-      "코드生成",
+      "코드생성",
       "에이전트"
     ]
   },
@@ -346,7 +346,7 @@
     "url": "https://www.cursor.com",
     "source": "original",
     "features": [
-      "코드生成",
+      "코드생성",
       "대화형 AI"
     ]
   },
@@ -462,7 +462,7 @@
     "url": "https://www.descript.com",
     "source": "original",
     "features": [
-      "코드生成",
+      "코드생성",
       "음성/TTS",
       "영상 생성",
       "파일 변환"
@@ -615,7 +615,7 @@
     "source": "free-for-dev",
     "limit": "Unlimited",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -781,7 +781,7 @@
     "source": "free-for-dev",
     "limit": "100 orders per",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -1129,7 +1129,7 @@
     "source": "free-for-dev",
     "limit": "free plan allows 400 PDFs and Screenshots per month",
     "features": [
-      "코드生成"
+      "코드생성"
     ]
   },
   {
@@ -1212,7 +1212,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -1342,7 +1342,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -1519,7 +1519,7 @@
     "source": "free-for-dev",
     "limit": "1,000 requests per",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -1949,7 +1949,7 @@
     "limit": "무료",
     "features": [
       "이미지 생성",
-      "코드生成",
+      "코드생성",
       "검색",
       "API"
     ]
@@ -2107,7 +2107,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -2141,7 +2141,7 @@
     "limit": "unlimited",
     "features": [
       "이미지 생성",
-      "코드生成",
+      "코드생성",
       "데이터 분석"
     ]
   },
@@ -2239,7 +2239,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API",
       "웹 스크래핑"
     ]
@@ -2641,7 +2641,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API",
       "에이전트"
     ]
@@ -2659,7 +2659,7 @@
     "source": "free-for-dev",
     "limit": "25,000 month",
     "features": [
-      "코드生成"
+      "코드생성"
     ]
   },
   {
@@ -2724,7 +2724,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -2741,7 +2741,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "검색",
       "API"
     ]
@@ -2759,7 +2759,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -2776,7 +2776,7 @@
     "source": "free-for-dev",
     "limit": ", developer",
     "features": [
-      "코드生成",
+      "코드생성",
       "API",
       "PDF 생성"
     ]
@@ -2861,7 +2861,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "텍스트 분석",
       "검색"
     ]
@@ -2914,7 +2914,7 @@
     "source": "free-for-dev",
     "limit": "무료",
     "features": [
-      "코드生成",
+      "코드생성",
       "대화형 AI",
       "모니터링"
     ]
@@ -2987,7 +2987,7 @@
     "limit": "unlimited",
     "features": [
       "이미지 생성",
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
@@ -3023,7 +3023,7 @@
     "limit": "무료",
     "features": [
       "이미지 생성",
-      "코드生成",
+      "코드생성",
       "검색"
     ]
   },
@@ -3105,7 +3105,7 @@
     "source": "free-for-dev",
     "limit": "free tier includes 100 tools calls per day to the MCP ser...",
     "features": [
-      "코드生成"
+      "코드생성"
     ]
   },
   {
@@ -3120,7 +3120,7 @@
     ],
     "source": "free-for-dev",
     "features": [
-      "코드生成",
+      "코드생성",
       "API"
     ]
   },
