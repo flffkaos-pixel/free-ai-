@@ -3302,5 +3302,195 @@
       "이미지-투-비디오 변환",
       "일일 무료 크레딧"
     ]
+  },
+  {
+    "name": "GitHub Models",
+    "category": "LLM API",
+    "description": "GitHub에서 제공하는 무료 AI 모델 추론 API. GPT-4.1, GPT-4o, Llama, Phi 등 최신 모델을 개발자 워크플로 내에서 무료로 실험할 수 있습니다.",
+    "freeDetail": "GitHub 계정만으로 무료 · 신용카드 불필요 · GPT-4.1 (일 150회), GPT-4o (일 50회) 외 13개 모델",
+    "tags": [
+      "#추천",
+      "LLM API",
+      "GitHub"
+    ],
+    "url": "https://github.com/marketplace/models",
+    "source": "original",
+    "limit": "GPT-4.1 일 150회 / GPT-4o 일 50회",
+    "features": [
+      "GitHub 네이티브 통합",
+      "GPT-4.1/4o 무료",
+      "Codespaces 연동"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "category": "LLM API",
+    "description": "RAG(검색 증강 생성)에 특화된 LLM API 플랫폼. Command R+ 시리즈로 채팅, 임베딩, reranking API를 제공합니다.",
+    "freeDetail": "Trial API 키로 채팅 20RPM · 월 1,000회 호출 무료 · 신용카드 불필요",
+    "tags": [
+      "RAG",
+      "임베딩",
+      "검색"
+    ],
+    "url": "https://dashboard.cohere.com",
+    "source": "original",
+    "limit": "월 1,000회",
+    "features": [
+      "RAG 최적화",
+      "임베딩/리랭킹 API",
+      "Command R+ 모델"
+    ]
+  },
+  {
+    "name": "SambaNova",
+    "category": "LLM API",
+    "description": "초고속 AI 추론에 특화된 플랫폼. Llama 3.1 405B 등 초대형 모델을 SN40L 칩으로 매우 빠르게 실행합니다.",
+    "freeDetail": "가입 시 $5 무료 크레딧 (30일) · 신용카드 불필요 · Llama 3.1 405B 등 고성능 모델",
+    "tags": [
+      "초고속",
+      "LLM",
+      "대형모델"
+    ],
+    "url": "https://sambanova.ai",
+    "source": "original",
+    "limit": "$5 크레딧 (30일)",
+    "features": [
+      "초고속 추론",
+      "405B 파라미터 모델",
+      "OpenAI 호환 API"
+    ]
+  },
+  {
+    "name": "AI21 Labs",
+    "category": "LLM API",
+    "description": "Jamba 시리즈 SSM-Transformer 하이브리드 LLM을 제공하는 AI 플랫폼. 긴 컨텍스트 처리와 추론에 강점이 있습니다.",
+    "freeDetail": "가입 시 $10 무료 크레딧 (3개월) · 신용카드 불필요 · Jamba 1.6 Mini/Large 모델군",
+    "tags": [
+      "LLM",
+      "장문",
+      "크레딧"
+    ],
+    "url": "https://www.ai21.com",
+    "source": "original",
+    "limit": "$10 크레딧 (3개월)",
+    "features": [
+      "Jamba 하이브리드 모델",
+      "장문 컨텍스트",
+      "OpenAI 호환"
+    ]
+  },
+  {
+    "name": "OVHcloud AI Endpoints",
+    "category": "LLM API",
+    "description": "유럽 최대 클라우드 제공업체 OVHcloud의 AI 추론 API. Llama, Mistral 등 다양한 오픈소스 모델을 유럽 인프라에서 무료로 사용할 수 있습니다.",
+    "freeDetail": "무료 베타 티어 · 모델당 약 2RPM · 회원가입만으로 사용 · 신용카드 불필요",
+    "tags": [
+      "클라우드",
+      "오픈소스",
+      "유럽"
+    ],
+    "url": "https://endpoints.ai.cloud.ovh.net",
+    "source": "original",
+    "limit": "모델당 약 2RPM",
+    "features": [
+      "유럽 리전",
+      "오픈소스 모델",
+      "멀티모달 지원"
+    ]
+  },
+  {
+    "name": "ModelScope",
+    "category": "LLM API",
+    "description": "알리바바 클라우드의 AI 모델 플랫폼. 50개 이상의 무료 추론 모델을 제공하며 Qwen3 등 최신 LLM에 강점이 있습니다.",
+    "freeDetail": "54개 이상 모델 무료 사용 · 회원가입만 필요 · Qwen3, DeepSeek, GLM 등 · 신용카드 불필요",
+    "tags": [
+      "LLM",
+      "오픈소스",
+      "Qwen"
+    ],
+    "url": "https://modelscope.cn",
+    "source": "original",
+    "limit": "모델별 상이",
+    "features": [
+      "Qwen 시리즈",
+      "50+ 무료 모델",
+      "멀티모달"
+    ]
+  },
+  {
+    "name": "Zhipu AI",
+    "category": "LLM API",
+    "description": "중국 AI 선도기업 Zhipu AI의 LLM API. GLM-4.5, GLM-4.7 Flash 등 최신 모델을 추론, 이미지, 비디오 등 멀티모달로 제공합니다.",
+    "freeDetail": "GLM-4.5, GLM-4.7 Flash 무료 · 신용카드 불필요 · 200K 컨텍스트",
+    "tags": [
+      "GLM",
+      "중국",
+      "멀티모달"
+    ],
+    "url": "https://open.bigmodel.cn",
+    "source": "original",
+    "limit": "모델별 RPM 제한",
+    "features": [
+      "GLM 시리즈",
+      "멀티모달",
+      "200K 컨텍스트"
+    ]
+  },
+  {
+    "name": "Scaleway Generative API",
+    "category": "LLM API",
+    "description": "프랑스 클라우드 제공업체 Scaleway의 생성형 AI API. 오픈소스 모델을 유럽 인프라에서 무료로 추론할 수 있습니다.",
+    "freeDetail": "무료 베타 · 100RPM · 200K TPM · 신용카드 불필요 · Llama, Mistral 등",
+    "tags": [
+      "클라우드",
+      "유럽",
+      "LLM"
+    ],
+    "url": "https://www.scaleway.com/ai",
+    "source": "original",
+    "limit": "100RPM / 200K TPM",
+    "features": [
+      "유럽 클라우드",
+      "100RPM",
+      "오픈소스 모델"
+    ]
+  },
+  {
+    "name": "Kilo Code",
+    "category": "LLM API",
+    "description": "익명으로 사용 가능한 무료 LLM API. 로그인이나 회원가입 없이 즉시 추론이 가능하며 여러 오픈소스 모델을 무료로 제공합니다.",
+    "freeDetail": "완전 무료 · 익명 사용 · 회원가입 불필요 · 신용카드 불필요 · 속도 제한 있음",
+    "tags": [
+      "무료",
+      "익명",
+      "LLM"
+    ],
+    "url": "https://www.kilo.chat",
+    "source": "original",
+    "limit": "무제한 (속도 제한)",
+    "features": [
+      "익명 사용",
+      "회원가입 불필요",
+      "다중 모델"
+    ]
+  },
+  {
+    "name": "Replicate",
+    "category": "ML API",
+    "description": "오픈소스 AI 모델 호스팅 및 추론 플랫폼. FLUX, Stable Diffusion 등 이미지 생성부터 LLM, 영상 생성까지 수천 개 모델을 API로 제공합니다.",
+    "freeDetail": "무료 체험 모델 컬렉션 · 신용카드 불필요 · 1RPS/6RPM 제한 · FLUX, SD 등",
+    "tags": [
+      "#추천",
+      "이미지생성",
+      "오픈소스"
+    ],
+    "url": "https://replicate.com",
+    "source": "original",
+    "limit": "체험 모델 한정 1RPS/6RPM",
+    "features": [
+      "FLUX/Stable Diffusion",
+      "영상/이미지 생성",
+      "수천 개 오픈소스 모델"
+    ]
   }
 ]
