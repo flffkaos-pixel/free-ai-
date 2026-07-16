@@ -3169,5 +3169,138 @@
     "features": [
       "API"
     ]
+  },
+  {
+    "name": "Dreamina",
+    "category": "이미지 생성",
+    "description": "ByteDance(틱톡 모회사)의 AI 크리에이티브 스위트. 이미지, 비디오 생성 기능을 매일 30 크레딧으로 무료 사용할 수 있습니다. 신용카드 등록 없이 바로 시작 가능합니다.",
+    "freeDetail": "매일 30 무료 크레딧 · 신용카드 불필요 · 워터마크 없음",
+    "tags": [
+      "#추천",
+      "이미지 생성",
+      "비디오 생성"
+    ],
+    "url": "https://dreamina.capcut.com",
+    "source": "original",
+    "limit": "매일 30 크레딧",
+    "features": [
+      "텍스트-이미지 생성",
+      "AI 비디오 생성",
+      "AI 아바타 생성"
+    ]
+  },
+  {
+    "name": "NVIDIA NIM",
+    "category": "API/개발도구",
+    "description": "NVIDIA의 추론 마이크로서비스 플랫폼. 100개 이상의 최신 오픈소스 모델(Llama, Mistral, Gemma)을 무료 API로 테스트할 수 있습니다. 가입 시 무료 크레딧이 제공됩니다.",
+    "freeDetail": "가입 시 1,000 무료 크레딧 · 신용카드 불필요 · 100+ 모델",
+    "tags": [
+      "LLM API",
+      "추론",
+      "개발자 도구"
+    ],
+    "url": "https://build.nvidia.com",
+    "source": "original",
+    "limit": "1,000 크레딧",
+    "features": [
+      "100+ 오픈소스 LLM",
+      "무료 API 테스트",
+      "엔터프라이즈급 인프라"
+    ]
+  },
+  {
+    "name": "Cloudflare Workers AI",
+    "category": "API/개발도구",
+    "description": "Cloudflare의 엣지 AI 추론 서비스. 전 세계 300+ 엣지 로케이션에서 Llama, Mistral, Stable Diffusion 등 AI 모델을 실행합니다. 무료 티어로 일일 10,000뉴런을 제공합니다.",
+    "freeDetail": "일일 10,000 뉴런 무료 · 신용카드 불필요 · Workers 요금제 포함",
+    "tags": [
+      "엣지 AI",
+      "서버리스",
+      "개발자 도구"
+    ],
+    "url": "https://workers.ai.cloudflare.com",
+    "source": "original",
+    "limit": "일 10,000 뉴런",
+    "features": [
+      "엣지 AI 추론",
+      "서버리스 함수 통합",
+      "대규모 무료 티어"
+    ]
+  },
+  {
+    "name": "SiliconFlow",
+    "category": "API/개발도구",
+    "description": "중국 AI 스타트업의 오픈소스 모델 추론 API 플랫폼. DeepSeek, Qwen, GLM 등 최신 모델을 일일 100회 무료로 호출할 수 있습니다. REST API 및 SDK를 제공합니다.",
+    "freeDetail": "일 100회 무료 API 호출 · 신용카드 불필요 · 다양한 오픈소스 모델",
+    "tags": [
+      "LLM API",
+      "오픈소스 모델",
+      "무료 티어"
+    ],
+    "url": "https://siliconflow.cn",
+    "source": "original",
+    "limit": "일 100회",
+    "features": [
+      "DeepSeek/Qwen/GLM 모델",
+      "일일 100회 무료 호출",
+      "REST API 및 SDK"
+    ]
+  },
+  {
+    "name": "DeepInfra",
+    "category": "API/개발도구",
+    "description": "서버리스 LLM 추론 플랫폼. Llama 3, Mixtral, FLUX 등 100개 이상의 최신 모델을 저렴한 가격에 제공하며, 가입 시 $5 무료 크레딧을 지급합니다.",
+    "freeDetail": "가입 시 $5 무료 크레딧 · 신용카드 불필요 · pay-as-you-go",
+    "tags": [
+      "LLM API",
+      "서버리스",
+      "무료 크레딧"
+    ],
+    "url": "https://deepinfra.com",
+    "source": "original",
+    "limit": "$5 크레딧",
+    "features": [
+      "100+ 오픈소스 모델",
+      "서버리스 인프라",
+      "텍스트 및 이미지 생성"
+    ]
+  },
+  {
+    "name": "Bolt.new",
+    "category": "에이전트/자동화",
+    "description": "AI 기반 풀스택 앱 빌더. 브라우저에서 바로 전체 애플리케이션을 생성, 실행, 배포할 수 있습니다. 무료 티어로 월 100만 토큰이 제공됩니다.",
+    "freeDetail": "월 100만 토큰 무료 · 신용카드 불필요 · 코드 에디터 내장",
+    "tags": [
+      "#추천",
+      "앱 빌더",
+      "코드 생성"
+    ],
+    "url": "https://bolt.new",
+    "source": "original",
+    "limit": "월 100만 토큰",
+    "features": [
+      "텍스트로 풀스택 앱 생성",
+      "브라우저 내 코드 실행",
+      "원클릭 배포"
+    ]
+  },
+  {
+    "name": "Hailuo AI (MiniMax)",
+    "category": "비디오 생성",
+    "description": "MiniMax의 AI 비디오 생성 플랫폼. 텍스트와 이미지로 고품질 비디오를 생성합니다. 일일 무료 크레딧이 지급되어 신용카드 없이 사용 가능합니다.",
+    "freeDetail": "일일 무료 크레딧 (약 10개 비디오) · 신용카드 불필요 · 워터마크 있음",
+    "tags": [
+      "비디오 생성",
+      "AI 영상",
+      "무료 크레딧"
+    ],
+    "url": "https://hailuoai.com",
+    "source": "original",
+    "limit": "일일 크레딧",
+    "features": [
+      "텍스트-투-비디오 생성",
+      "이미지-투-비디오 변환",
+      "일일 무료 크레딧"
+    ]
   }
 ]
