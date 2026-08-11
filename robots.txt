@@ -1,9 +1,10 @@
-# robots.txt - Free AI (무료 AI 서비스 소개)
-# 모든 AI 크롤러 및 검색엔진 크롤러 허용 (GEO 인용 최대화)
+﻿# robots.txt - Free AI (臾대즺 AI ?쒕퉬???뚭컻)
+# 紐⑤뱺 AI ?щ·??諛?寃?됱뿏吏??щ·???덉슜 (GEO ?몄슜 理쒕???
 
 User-agent: *
 Allow: /
 
+Allow: /research/
 User-agent: GPTBot
 Allow: /
 
@@ -41,3 +42,4 @@ User-agent: Meta-ExternalAgent
 Allow: /
 
 Sitemap: https://freeaisite.pages.dev/sitemap.xml
+
