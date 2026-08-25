@@ -1,0 +1,9 @@
+# 무료 AI & 개발도구 모음 2026 - DevTools Platform
+
+> 무료 AI 서비스 총정리. ChatGPT, Claude, Gemini, Hugging Face, Groq, Langfuse 등 무료로 사용할 수 있는 AI 서비스를 카테고리별로 정리. 각 서비스의 무료 사용 제한량을 확인하세요.
+
+Canonical URL: https://freeaisite.pages.dev
+Language: ko
+
+## Pages
+- https://freeaisite.pages.dev/ : 무료 AI & 개발도구 모음 2026 - DevTools Platform
